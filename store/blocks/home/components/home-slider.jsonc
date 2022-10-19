@@ -1,73 +1,76 @@
 {
-    "slider-layout#home__slider--children": {
-        "title": "Slider con hijos declarados",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "mobile": 1
-          },
-          "infinite": true,
-          "blockClass": "home__slider",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHoover": true
-          }
-        },
-        "children": [
-          "image#home__slider--one",
-          "image#home__slider--two",
-          "image#home__slider--three"
-        ]
+  "slider-layout#home__slider--children": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
       },
-      "image#home__slider--one": {
-        "props": {
-          "src": "assets/img/rebajas.png"
-        }
-      },
-      "image#home__slider--two": {
-        "props": {
-          "src": "assets/img/nuevo_mexico.png"
-        }
-      },
-      "image#home__slider--three": {
-        "props": {
-          "src": "assets/img/morena.png"
-        }
-      },
-      "list-context.image-list#home__slider--list": {
-        "title":"Lista de imágenes",
-        "children": [
-          "slider-layout#home__slider--list"
-        ],
-        "props": {
-          "preload": true,
-          "images": [
-            {
-              "image": "assets/img/rebajas.png",
-              "description": "Slide 1"
-            },
-            {
-              "image": "assets/img/nuevo_mexico.png",
-              "description": "Slide 1"
-            },
-            {
-              "image": "assets/img/morena.png",
-              "description": "Slide 1"
-            }
-          ]
-        }
-      },
-      "slider-layout#home__slider--list":{
-        "title": "Slider con lista",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "mobile": 1
-          },
-          "infinite": true,
-          "blockClass": "home__slider"
-        }
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHoover": true
       }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/rebajas.png"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/nuevo_mexico.png"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/morena.png"
+    }
+  },
+  "list-context.image-list#home__slider--list": {
+    "title": "Lista de imágenes",
+    "children": ["slider-layout#home__slider--list"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/rebajas.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/nuevo_mexico.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/morena.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/botswana.png",
+          "description": "Slide 1"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "Slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider"
+      
+    }
+  }
 }

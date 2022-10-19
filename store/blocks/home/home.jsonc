@@ -7,93 +7,62 @@
       "link#home__link--boton",
       "link#home__link--info",
       "slider-layout#home__slider--children",
-      "list-context.image-list#home__slider--list",  */
+      "list-context.image-list#home__slider--list",  
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two"
+      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--desktop"*/
+      "list-context.image-list#home__slider--list",
+      "modal-trigger#home__modal--children",
+      "modal-trigger#home__modal--event"
     ]
   },
-  "flex-layout.row#home__section--one": {
-    "title": "Sección Uno",
-    "children": [
-      "flex-layout.col#section__one--image",
-      "flex-layout.col#section__one--text"
-    ],
-    "props": {
-      "blockClass": "home__section--one"
-    }
-  },
-  "flex-layout.col#section__one--image": {
-    "title": "Imagen de sección 1",
-    "children": [
-      "image#home__image"
-    ],
-    "props":{
-      "blockClass": "section__one--image",
-      "colSizing": "auto"
-    }
-  },
-  "flex-layout.col#section__one--text": {
-    "title": "Texto de sección 1",
-    "children": [
-      "rich-text#section__one--title",
-      "rich-text#section__one--paragraph"
-    ],
-    "props":{
-      "verticalAlign": "middle"
-    }
-  },
-  "rich-text#section__one--title": {
-    "props": {
-      "text": "# Bienvenidos"
-    }
-  },
-  "rich-text#section__one--paragraph": {
-    "props": {
-      "text": "VTEX IO is a low-code development platform that simplifies the delivery of headless commerce experiences. Learn how to develop web storefronts, custom admin apps and back-end integrations."
-    }
-  },
-  "flex-layout.row#home__section--two":{
-    "children": [
-      "flex-layout.col#section__two-1",
-      "flex-layout.col#section__two-2",
-      "flex-layout.col#section__two-3"
-    ],
-    "props":{
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#section__two-1":{
+  "modal-trigger#home__modal--children":{
     "children":[
-      "image#home__slider--one"
-    ],
-    "props":{
-      "width": "25%"
+      "rich-text#home__modal--trigger",
+      "modal-layout#home__modal--layout"
+    ]
+  },
+  "rich-text#home__modal--trigger":{
+    "props": {
+      "text": "Términos y condiciones"
     }
   },
-  "flex-layout.col#section__two-2":{
+  "modal-layout#home__modal--layout":{
     "children":[
-      "rich-text#test",
-      "link#home__link--boton"
-    ],
+      "rich-text#home__modal--content"
+    ]
+  },
+  "rich-text#home__modal--content":{
     "props":{
-      "blockClass": "section__two--item",
-      "width": "50%"
+      "text": "# Términos y condiciones \n NAF NAF dispone este sitio para dar un mejor servicio a sus clientes. Por favor lee las siguientes normas que gobiernan tu uso de nafnaf.com.co, el cual aceptas al acceder a él. Si no estás de acuerdo, por favor no lo uses. Nos reservamos el derecho a actualizar o cambiar los Términos y Condiciones en cualquier momento sin previo aviso, es por esto que te recomendamos leer esta sección cada vez que vayas a usar este sitio."
     }
   },
-  
-  "flex-layout.col#section__two-3":{
-    "children":[     
-      "image#home__slider--two",
-      "image#home__slider--three"
+  "modal-trigger#home__modal--event":{
+    "children":[
+      "modal-layout#home__modal--event"
     ],
     "props":{
-      "width": "25%"
+      "trigger": "event",
+      "custonPixelEventName": "pageView"
+    } 
+  },
+  "modal-layout#home__modal--event":{
+    "children":[
+      "modal-header#home__modal--event",
+      "rich-text#home__modal--event-content"
+    ]
+  },
+  "rich-text#home__modal--event-content":{
+    "props":{
+      "text": "Evento de DOM Loaded"
     }
   },
-  "rich-text#test":{
+  "modal-header#home__modal--event":{
     "props":{
-      "text": "Texto de prueba"
+      "showCloseButton": true
     }
   }
-  
 }
