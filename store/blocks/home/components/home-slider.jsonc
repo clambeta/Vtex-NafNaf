@@ -58,7 +58,7 @@
           ]
         }
       },
-      "slaider-layout__slider--list":{
+      "slider-layout#home__slider--list":{
         "title": "Slider con lista",
         "props": {
           "itemsPerPage": {

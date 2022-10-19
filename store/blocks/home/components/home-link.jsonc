@@ -15,7 +15,7 @@
     },
     "link#home__link--info":{
         "children":[
-            "flex-layout-row#home__link--info"
+            "flex-layout.row#home__link--info"
         ],
         "props":{
             "href":"/",
@@ -23,7 +23,7 @@
             "displayMode": "button"
         }
     },
-    "flex-layout-row#home__link--info":{
+    "flex-layout.row#home__link--info":{
         "children":[
             "icon#home__link--text",
             "rich-text#home__link--text",

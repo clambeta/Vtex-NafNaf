@@ -3,7 +3,6 @@
         "title": "Imagen de Home",
         "props":{
             "src": "assets/img/botswana.png",
-            "maxWidth": 600,
             "title": "B2B Commerce",
             "blockClass": "home__image",
             "link":{
