@@ -1,0 +1,16 @@
+{
+    "image#home__image": {
+        "title": "Imagen de Home",
+        "props":{
+            "src": "assets/img/botswana.png",
+            "title": "B2B Commerce",
+            "blockClass": "home__image",
+            "link":{
+                "url":"https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+
+        }
+    }
+}
