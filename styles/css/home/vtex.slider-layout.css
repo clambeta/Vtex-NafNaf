@@ -4,7 +4,31 @@
 }
 
 .slideChildrenContainer{
-   max-width: 100%;
-   max-height: 100%;
+   width: 100%;
+   height: auto;
    overflow: hidden;
+}
+
+
+.imageElement{
+   width: 100%;
+   max-height: auto;
+}
+
+
+.videoContainer--home__slider{
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+   border-width: 0;
+}
+
+.videoElement{
+   width: 100%;
+   max-height: auto;
+   border-width: 0;
+}
+
+.media__slider{
+   border-width: 0;
 }

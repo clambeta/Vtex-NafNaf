@@ -35,27 +35,37 @@
       "src": "assets/img/morena.png"
     }
   },
+
   "list-context.image-list#home__slider--list": {
     "title": "Lista de imágenes",
     "children": ["slider-layout#home__slider--list"],
     "props": {
+      "height": "720px",
       "preload": true,
       "images": [
         {
           "image": "assets/img/rebajas.png",
-          "description": "Slide 1"
+          "description": "Slide 1",
+          "height": "auto",
+          "max-height": "auto"
         },
         {
           "image": "assets/img/nuevo_mexico.png",
-          "description": "Slide 1"
+          "description": "Slide 1",
+          "height": "auto",
+          "max-height": "auto"
         },
         {
           "image": "assets/img/morena.png",
-          "description": "Slide 1"
+          "description": "Slide 1",
+          "height": "auto",
+          "max-height": "auto"
         },
         {
-          "image": "assets/img/botswana.png",
-          "description": "Slide 1"
+          "image": "assets/img/your yeans.png",
+          "description": "Slide 1",
+          "height": "auto",
+          "max-height": "auto"
         }
       ]
     }
@@ -70,7 +80,6 @@
       },
       "infinite": true,
       "blockClass": "home__slider"
-      
     }
   }
 }
