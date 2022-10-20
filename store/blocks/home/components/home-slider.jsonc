@@ -40,7 +40,7 @@
     "title": "Lista de imágenes",
     "children": ["slider-layout#home__slider--list"],
     "props": {
-      "height": "720px",
+      "height": 720,
       "preload": true,
       "images": [
         {

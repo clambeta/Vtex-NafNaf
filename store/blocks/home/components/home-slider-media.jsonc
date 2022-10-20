@@ -4,11 +4,6 @@
     "props": {
       "height": 800,
       "preload": true,
-      "autoPlay": true,
-      "slideTransition": { 
-        "speed": "400ms", 
-        "delay": "0", 
-        "timing": "" },
       "blockClass": "media__slider",
       "mediaList": [
         {
@@ -48,13 +43,13 @@
         "tablet": 1,
         "mobile": 1
       },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
       "showPaginationDots": "never",
       "height": 800,
-      "infinite": true,
-      "slideTransition": { 
-        "speed": "400", 
-        "delay": "0", 
-        "timing": "" },
       "showNavigationArrows": "desktopOnly",
       "blockClass": "home__slider"
     }

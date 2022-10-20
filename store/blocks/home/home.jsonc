@@ -14,9 +14,10 @@
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop#home__info--desktop"
-      "list-context.image-list#home__slider--list",*/
+      "list-context.image-list#home__slider--list",
+      */
       "list-context.media-list#home__slider--media",
-      "rich-text#home__container--title",
+      
       "modal-trigger#home__modal--children",
       "modal-trigger#home__modal--event"
     ]
@@ -42,24 +43,24 @@
       "text": "# Términos y condiciones \n NAF NAF dispone este sitio para dar un mejor servicio a sus clientes. Por favor lee las siguientes normas que gobiernan tu uso de nafnaf.com.co, el cual aceptas al acceder a él. Si no estás de acuerdo, por favor no lo uses. Nos reservamos el derecho a actualizar o cambiar los Términos y Condiciones en cualquier momento sin previo aviso, es por esto que te recomendamos leer esta sección cada vez que vayas a usar este sitio."
     }
   },
-  "modal-trigger#home__modal--event":{
-    "children":[
+  "modal-trigger#home__modal--event": {
+    "children": [
       "modal-layout#home__modal--event"
     ],
-    "props":{
-      "trigger": "event",
-      "custonPixelEventName": "pageView"
-    } 
+    "props": {
+      "trigger": "load",
+      "customPixelEventName": "pageView"
+    }
   },
-  "modal-layout#home__modal--event":{
-    "children":[
+  "modal-layout#home__modal--event": {
+    "children": [
       "modal-header#home__modal--event",
       "rich-text#home__modal--event-content"
     ]
   },
-  "rich-text#home__modal--event-content":{
-    "props":{
-      "text": "Evento de DOM Loaded"
+  "rich-text#home__modal--event-content": {
+    "props": {
+      "text": "Evento DOMLoaded"
     }
   },
   "modal-header#home__modal--event":{
@@ -68,3 +69,6 @@
     }
   }
 }
+
+
+ 
