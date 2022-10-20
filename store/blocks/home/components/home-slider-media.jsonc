@@ -1,0 +1,57 @@
+{
+  "list-context.media-list#home__slider--media": {
+    "children": ["slider-layout#demo-media"],
+    "props": {
+      "height": 800,
+      "preload": true,
+      "blockClass": "media__slider",
+      "mediaList": [
+        {
+          "image": "assets/img/rebajas.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "video": "assets/img/20221012_Shopping_SliderDesktop_1.mp4",
+          "height": 800,
+          "autoPlay": true,
+          "loop": true,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/nuevo_mexico.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/morena.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/your yeans.png",
+          "height": 800,
+          "description": "Slide 1"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-media": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "showPaginationDots": "never",
+      "height": 800,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__slider"
+    }
+  }
+}
