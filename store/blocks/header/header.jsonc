@@ -1,9 +1,43 @@
 {
   "header": {
+    "title": "header",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": ["header-row#header__top"]
+  },
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#header__top"
+    ]
+  },
+  "header-row#header__top": {
+    "children": [
+      "rich-text#test"
+    ],
+     "props":{
+      "blockClass": "header__top"
+     }
+  }
+}
+
+/* {
+  "header": {
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -76,4 +110,4 @@
   "drawer": {
     "children": []
   }
-}
+} */

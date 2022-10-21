@@ -12,7 +12,7 @@
           "description": "Slide 1"
         },
         {
-          "video": "assets/img/20221012_Shopping_SliderDesktop_1.mp4",
+          "video": "https://videosonline.gco.com.co/videos/naf-naf/landing/20221012_Shopping_SliderDesktop_1.mp4",
           "height": 800,
           "autoPlay": true,
           "loop": true,
