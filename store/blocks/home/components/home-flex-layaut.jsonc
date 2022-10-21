@@ -81,5 +81,10 @@
         "props":{
           "text": "Texto de prueba"
         }
+      },
+      "rich-text#test2":{
+        "props":{
+          "text": "Texto de prueba segunda parte"
+        }
       }
 }
