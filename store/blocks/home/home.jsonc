@@ -29,20 +29,58 @@
   "flex-layout.row#home__mid--banner-content":{
     "title": "Banner del medio",
     "children": [
-      "flex-layout.col#mid_banner--content-image"
+      "flex-layout.col#mid_banner--content-one",
+      "flex-layout.col#mid_banner--content-two"
+   
     ],
       "props": {
-        "blockClass": "home__mid--banner-content"
+        "blockClass": "home__mid--banner-content",
+        "preserveLayoutOnMobile": true
+        
       }
   },
-  "flex-layout.col#mid_banner--content-image": {
-    "title": "Primera imagen banner mid",
+  "flex-layout.col#mid_banner--content-one": {
+    "title": "Primera parte banner mid",
     "children": [
-      "image#home__image"
+      "image#home__mid--banner-one"
     ],
     "props":{
-      "blockClass": "mid--banner-content-image",
-      "colSizing": "auto"
+      "blockClass": "mid--banner-content-image"
+       
+        
+    }
+  },
+  "image#home__mid--banner-one":{
+    "props": {
+      "src": "assets/img/grilla1-1.png"
+     
+    }
+  },
+
+  "flex-layout.col#mid_banner--content-two":{
+    "title": "Segunda parte banner mid",
+    "children": [
+      "image#home__mid--banner-two",
+      "image#home__mid--banner-three"
+    ],
+    "props":{
+      "blockClass": "mid--banner-content-image2",
+      "src": "assets/img/grilla1-2.png",
+      "width": "50%"
+      
+    }
+  },
+  "image#home__mid--banner-two":{
+    "props": {
+      "src": "assets/img/grilla1-2.png",
+      "width": "100%"
+      
+    }
+  },
+  "image#home__mid--banner-three":{
+    "props": {
+      "src": "assets/img/grilla1-3.png",
+      "width": "100%"
     }
   }
 }
