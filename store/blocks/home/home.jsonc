@@ -22,30 +22,7 @@
       "rich-text#home__container--text",
       "slider-layout#home__slider--children",
       "flex-layout.row#home__mid--banner-content",
-      "flex-layout.row#home__section--two"
-  
+      "flex-layout.row#home__bottom--banner-content"
     ]
-  },
-  "flex-layout.row#home__mid--banner-content":{
-    "title": "Banner del medio",
-    "children": [
-      "flex-layout.col#mid_banner--content-image"
-    ],
-      "props": {
-        "blockClass": "home__mid--banner-content"
-      }
-  },
-  "flex-layout.col#mid_banner--content-image": {
-    "title": "Primera imagen banner mid",
-    "children": [
-      "image#home__image"
-    ],
-    "props":{
-      "blockClass": "mid--banner-content-image",
-      "colSizing": "auto"
-    }
   }
 }
-
-
- 
