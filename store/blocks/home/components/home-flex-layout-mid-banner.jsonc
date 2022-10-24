@@ -10,7 +10,8 @@
       "preserveLayoutOnMobile": true,
       "colGap": 2,
       "colSizing": "auto",
-      "fullWidth": true
+      "fullWidth": true,
+      "paddingTop":8
     }
   },
   "flex-layout.col#mid__banner--content-one": {
