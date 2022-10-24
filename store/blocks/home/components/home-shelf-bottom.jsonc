@@ -1,0 +1,98 @@
+{
+    "rich-text#home__container--text-dos": {
+      "props": {
+        "blockClass": "texto_dos",
+        "text": "DESCUBRE LA NUEVA COLECCIÓN",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "Roboto,sans-serif"
+      }
+    },
+    "slider-layout#home__slider--children-bottom": {
+      "title": "Slider primera vitrina",
+      "props": {
+        "blockClass": "home__slider3",
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 2,
+          "mobile": 2
+        },
+        "showPaginationDots": "never"
+      },
+      "children": [
+        "image#home__slider--one",
+        "image#home__slider--two",
+        "image#home__slider--three",
+        "image#home__slider--four",
+        "image#home__slider--five",
+        "image#home__slider--six",
+        "image#home__slider--seven",
+        "image#home__slider--eight",
+        "image#home__slider--nine",
+        "image#home__slider--ten",
+        "image#home__slider--eleven",
+        "image#home__slider--twelve"
+      ]
+    },
+    "image#home__slider--one": {
+      "props": {
+        "src": "assets/img/cool_orange.png"
+      }
+    },
+    "image#home__slider--two": {
+      "props": {
+        "src": "assets/img/cool_purple.png"
+      }
+    },
+    "image#home__slider--three": {
+      "props": {
+        "src": "assets/img/cool_yellow.png"
+      }
+    },
+    "image#home__slider--four": {
+      "props": {
+        "src": "assets/img/tejido-beige.png"
+      }
+    },
+    "image#home__slider--five": {
+      "props": {
+        "src": "assets/img/tejido-zigzag.png"
+      }
+    },
+    "image#home__slider--six": {
+      "props": {
+        "src": "assets/img/pantalon-parches.png"
+      }
+    },
+    "image#home__slider--seven": {
+      "props": {
+        "src": "assets/img/pantalon-amarillo.png"    
+      }
+    },
+    "image#home__slider--eight": {
+      "props": {
+        "src": "assets/img/vestido-amarillo.png"
+      }
+    },
+    "image#home__slider--nine": {
+      "props": {
+        "src": "assets/img/camiseta-amarilla.png"
+      }
+    },
+    "image#home__slider--ten": {
+      "props": {
+        "src": "assets/img/camiseta-cuello.png"
+      }
+    },
+    "image#home__slider--eleven": {
+      "props": {
+        "src": "assets/img/short-blanco.png"
+      }
+    },
+    "image#home__slider--twelve": {
+      "props": {
+        "src": "assets/img/enterizo-amarillo.png"
+      }
+    }
+  }
+  
