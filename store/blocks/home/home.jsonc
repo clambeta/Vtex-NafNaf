@@ -27,8 +27,8 @@
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom"
     ]
-  },
-  "flex-layout.row#home__mid--banner-slider-content":{
+  }
+  /* "flex-layout.row#home__mid--banner-slider-content":{
     "title": "Banner de imagen y slider",
     "children": [
       "flex-layout.col#mid--banner-slider-content-one",
@@ -122,5 +122,5 @@
       "blockClass": "home__banner--slider",
       "showPaginationDots": "never"
     }
-  }
+  } */
 }
