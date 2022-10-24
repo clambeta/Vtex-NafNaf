@@ -10,6 +10,7 @@
         "preserveLayoutOnMobile": true,
         "colGap": 2,
         "colSizing": "auto",
+        "paddingTop":2,
         "fullWidth": true
       }
     },
