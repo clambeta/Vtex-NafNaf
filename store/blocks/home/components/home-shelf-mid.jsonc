@@ -1,0 +1,100 @@
+{
+  "rich-text#home__container--text": {
+    "props": {
+      "blockClass": "texto_uno",
+      "text": "MÁS VENDIDOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "Roboto,sans-serif"
+    }
+  },
+  "slider-layout#home__slider--children": {
+    "title": "Slider primera vitrina",
+    "props": {
+      "blockClass": "home__slider2",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three",
+      "image#home__slider--four",
+      "image#home__slider--five",
+      "image#home__slider--six",
+      "image#home__slider--seven",
+      "image#home__slider--eight",
+      "image#home__slider--nine",
+      "image#home__slider--ten",
+      "image#home__slider--eleven",
+      "image#home__slider--twelve"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/body-escote.png"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/jean_flare.png"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/chaqueta_blazer.png"
+    }
+  },
+  "image#home__slider--four": {
+    "props": {
+      "src": "assets/img/chaqueta_capucha.png"
+    }
+  },
+  "image#home__slider--five": {
+    "props": {
+      "src": "assets/img/vestido_midi.png"
+    }
+  },
+  "image#home__slider--six": {
+    "props": {
+      "src": "assets/img/vestido_estampado.png"
+    }
+  },
+  "image#home__slider--seven": {
+    "props": {
+      "src": "assets/img/falda_animalprint.png",
+      "hoverImage": {
+        "src": "assets/img/falda_animalprint2.png"
+      }
+    }
+  },
+  "image#home__slider--eight": {
+    "props": {
+      "src": "assets/img/jean_pretina.png"
+    }
+  },
+  "image#home__slider--nine": {
+    "props": {
+      "src": "assets/img/chaqueta_jean-azul.png"
+    }
+  },
+  "image#home__slider--ten": {
+    "props": {
+      "src": "assets/img/jean_ajustado.png"
+    }
+  },
+  "image#home__slider--eleven": {
+    "props": {
+      "src": "assets/img/pantalon-prenses.png"
+    }
+  },
+  "image#home__slider--twelve": {
+    "props": {
+      "src": "assets/img/chaqueta_taches.png"
+    }
+  }
+}
