@@ -29,9 +29,9 @@
         "isFullModeStyle": true,
         "textPosition": "center",
         "imageUrl": "assets/img/grilla2-3.png",
-        "headline": "JEANS",
+        "headline": "CHAQUETAS",
         "callToActionText": "VER MÁS",
-        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/jeans",
+        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/chaquetas",
         "blockClass": "info-card-bottom--banner-one",
         "textAlignment": "center"
       }
@@ -53,10 +53,10 @@
         "id": "info-card--bottom__banner",
         "isFullModeStyle": true,
         "textPosition": "center",
-        "imageUrl": "assets/img/grilla2-2.png",
-        "headline": "VESTIDOS",
+        "imageUrl": "assets/img/grilla2-1.png",
+        "headline": "JEANS",
         "callToActionText": "VER MÁS",
-        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/vestidos",
+        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/jeans",
         "blockClass": "info-card-bottom--banner-two",
         "textAlignment": "center"
       }
@@ -66,10 +66,10 @@
         "id": "info-card--bottom__banner",
         "isFullModeStyle": true,
         "textPosition": "center",
-        "imageUrl": "assets/img/grilla2-1.png",
-        "headline": "CHAQUETAS",
+        "imageUrl": "assets/img/grilla2-2.png",
+        "headline": "VESTIDOS",
         "callToActionText": "VER MÁS",
-        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/chaquetas",
+        "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/vestidos",
         "blockClass": "info-card-bottom--banner-three",
         "textAlignment": "center"
       }
