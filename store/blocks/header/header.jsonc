@@ -18,12 +18,34 @@
   },
   "header-row#header__top": {
     "children": [
+      "logo#header__top--logo",
+      "header-spacer",
       "rich-text#test"
     ],
      "props":{
       "blockClass": "header__top"
      }
-  }
+  },
+  "logo#header__top--logo":{
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/logo-black-nafnaf.png",
+      "width": "100",
+      "height":  "auto"
+    }
+  }/*,
+  "header-row#header__middle":{
+    "children":[
+      "drawer#header__mobile--menu"
+    ],
+    "props":{
+      "blockClass": "header__middle"
+    }
+  } ,
+  "drawer#header__mobile--menu":{
+    "children":
+
+  } */
 }
 
 /* {
