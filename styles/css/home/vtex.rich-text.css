@@ -23,3 +23,22 @@
     text-transform: uppercase;
     margin: 0 auto 1.5rem;
 }
+
+
+.container--text-banner-slider-card{
+    height: 90%;
+}
+
+.link--text-banner-slider-card{
+    margin: .5rem 0 0;
+    font-size: 0.7rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.paragraph--text-banner-slider-card{
+    margin: 0;
+}
