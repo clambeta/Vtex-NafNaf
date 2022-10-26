@@ -1,6 +1,7 @@
 {
-  "store.home": {
-    "blocks": [
+  "responsive-layout.desktop":{
+    "title": "Home Desktop",
+    "children":[
       /* "rich-text#home__container--text",
       "image#home__container--image",
       "link#home__link--ancla",
@@ -28,8 +29,10 @@
       "flex-layout.row#home__bottom--banner-content",
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom"
+
     ]
   }
+}
   /* "flex-layout.row#home__mid--banner-slider-content":{
     "title": "Banner de imagen y slider",
     "children": [
@@ -125,4 +128,3 @@
       "showPaginationDots": "never"
     }
   } */
-}
