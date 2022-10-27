@@ -1,0 +1,145 @@
+{
+    "submenu.accordion#department__seven": {
+      "title": "Productos Mon Amour",
+      "children": ["menu#department__seven"]
+    },
+    "menu#department__seven": {
+      "title": "Menu productos nuevos",
+      "children": [
+        "menu-item#category__one",
+        "menu-item#category__two",
+        "menu-item#category__three",
+        "menu-item#category__four",
+        "menu-item#category__five",
+        "menu-item#category__six",
+        "menu-item#category__seven",
+        "menu-item#category__eight",
+        "menu-item#category__nine",
+        "menu-item#category__ten"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#category__one": {
+      "props": {
+        "id": "category-one",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/camisas",
+          "tagTitle": "Camisas",
+          "text": "Camisas"
+        }
+      }
+    },
+    "menu-item#category__two": {
+      "props": {
+        "id": "category-two",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/tejidos",
+          "tagTitle": "Prendas Tejidas",
+          "text": "Prendas Tejidas"
+        }
+      }
+    },
+    "menu-item#category__three": {
+      "props": {
+        "id": "category-three",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/pantalones",
+          "tagTitle": "Pantalones",
+          "text": "Pantalones"
+        }
+      }
+    },
+    "menu-item#category__four": {
+      "props": {
+        "id": "category-four",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/camisetas",
+          "tagTitle": "Camisetas",
+          "text": "Camisetas"
+        }
+      }
+    },
+    "menu-item#category__five": {
+      "props": {
+        "id": "category-five",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/jeans",
+          "tagTitle": "Jeans",
+          "text": "Jeans"
+        }
+      }
+    },
+    "menu-item#category__six": {
+      "props": {
+        "id": "category-six",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/chaquetas",
+          "tagTitle": "Chaquetas",
+          "text": "Chaquetas"
+        }
+      }
+    },
+    "menu-item#category__seven": {
+      "props": {
+        "id": "category-seven",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/vestidos",
+          "tagTitle": "Vestidos",
+          "text": "Vestidos"
+        }
+      }
+    },
+    "menu-item#category__eight": {
+      "props": {
+        "id": "category-eight",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/faldas",
+          "tagTitle": "Faldas",
+          "text": "Faldas"
+        }
+      }
+    },
+    "menu-item#category__nine": {
+      "props": {
+        "id": "category-nine",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/shorts",
+          "tagTitle": "Shorts",
+          "text": "Shorts"
+        }
+      }
+    },
+    "menu-item#category__ten": {
+      "props": {
+        "id": "category-ten",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.nafnaf.com.co/new-arrivals/enterizos",
+          "tagTitle": "Enterizos",
+          "text": "Enterizos"
+        }
+      }
+    }
+  }
+  
