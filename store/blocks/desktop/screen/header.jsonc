@@ -1,0 +1,32 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "header-row#header--desktop__top",
+      "header-row#header--desktop__buttom"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  },
+  "header-row#header--desktop__top": {
+    "title": "Slider desktop superior",
+    "children": ["slider-layout#header--desktop__top-slider"],
+    "props": {
+        "blockClass": "header__top",
+      "fullWidth": true
+    }
+  },
+  "header-row#header--desktop__buttom": {
+    "title": "Header desktop inferior",
+    "children": [
+      "logo#header__buttom--logo",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__buttom"
+    }
+  }
+}

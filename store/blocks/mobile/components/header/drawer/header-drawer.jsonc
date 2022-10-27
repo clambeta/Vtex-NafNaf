@@ -1,0 +1,125 @@
+{
+  "drawer#header--mobile__buttom-menu": {
+    "title": "Drawer mobile menu",
+    "children": ["menu#header__menu"]
+  },
+  "menu#header__menu": {
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five",
+      "menu-item#department__six",
+      "menu-item#department__seven",
+      "menu-item#department__eight"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /* "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "NEW",
+        "text": "NEW"
+      }
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /*  "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "ROPA",
+        "text": "ROPA"
+      }
+    },
+    "blocks": ["submenu.accordion#department__two"]
+  },
+  "menu-item#department__three": {
+    "props": {
+      "id": "department-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /*  "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "DENIM,",
+        "text": "DENIM"
+      }
+    },
+    "blocks": ["submenu.accordion#department__three"]
+  },
+  "menu-item#department__four": {
+    "props": {
+      "id": "department-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /* "href": "https://www.nafnaf.com.co/new-arrivals",*/
+        "tagTitle": "ORIGEN",
+        "text": "ORIGEN"
+      }
+    },
+    "blocks": ["submenu.accordion#department__four"]
+  },
+  "menu-item#department__five": {
+    "props": {
+      "id": "department-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /*  "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "COMPLEMENTOS",
+        "text": "COMPLEMENTOS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__five"]
+  },
+  "menu-item#department__six": {
+    "props": {
+      "id": "department-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /* "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "COLECCIONES",
+        "text": "COLECCIONES"
+      }
+    },
+    "blocks": ["submenu.accordion#department__six"]
+  },
+  "menu-item#department__seven": {
+    "props": {
+      "id": "department-seven",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /*  "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "MON AMOUR",
+        "text": "MON AMOUR"
+      }
+    },
+    "blocks": ["submenu.accordion#department__seven"]
+  },
+  "menu-item#department__eight": {
+    "props": {
+      "id": "department-eight",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        /* "href": "https://www.nafnaf.com.co/new-arrivals", */
+        "tagTitle": "REBAJAS",
+        "text": "REBAJAS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__eight"]
+  }
+}

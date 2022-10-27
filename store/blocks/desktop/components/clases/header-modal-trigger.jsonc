@@ -1,0 +1,43 @@
+{
+ /*  "header-layout.mobile":{
+    "title": "Header Mobile",
+    "children":[
+      "header-row#header__mobile-top",
+      "header-row#header--mobile__middle"
+    ],
+    "props":{
+      "blockClass": "header__mobile-top"
+    }
+  },
+    "header-row#header--mobile__top": {
+      "title": "Header inferior",
+      "children": [
+       "drawer#header--mobile__top-menu", 
+         "logo#header__buttom--logo", 
+       /"header-spacer", 
+        "search-bar", 
+       "login",  
+        "modal-trigger#header--mobile__top--login"
+        "minicart.v2" 
+      ],
+      "props": {
+        "blockClass": "header__top"
+      }
+},
+    "modal-trigger#header--mobile__top--login":{
+        "children":[
+          "rich-text#header--mobile__top--login",
+          "modal-layout#header--mobile__top--login"
+        ]
+      },
+      "rich-text#header--mobile__top--login":{
+        "props":{
+          "text": "login"
+        }
+      },
+      "modal-layout#header--mobile__top--login":{
+        "children":[
+          "login-content"
+        ]
+      }  */
+}

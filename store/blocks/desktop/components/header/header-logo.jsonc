@@ -1,0 +1,10 @@
+{
+  "logo#header__buttom--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/logo-black-nafnaf.png",
+      "width": "150",
+      "href": "/"
+    }
+  }
+}
