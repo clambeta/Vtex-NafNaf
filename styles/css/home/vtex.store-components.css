@@ -1,21 +1,19 @@
-
-
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-three*/
+/* ---------home-flex-layout-mid-banner.jsonc*/
 .infoCardContainer--info-card-mid--banner-one {
     height: calc(44vw + 4px);
     max-height: 854px;
 }
-
 .infoCardContainer--info-card-mid--banner-two {
     height: calc(22vw);
     max-height: 425px;
 }
-
 .infoCardContainer--info-card-mid--banner-three {
     height: calc(22vw);
     max-height: 425px;
 }
-
- .infoCardHeadline {
+.infoCardHeadline {
     justify-content: center;
     width: 100%;
     font-family: Roboto,sans-serif;
@@ -28,8 +26,7 @@
     display: flex;
     margin: 0 auto;
 }
-
- .infoCardCallActionContainer :global(.vtex-button) {
+.infoCardCallActionContainer :global(.vtex-button) {
     width: 250px;
     height: 45px;
     background-color: transparent;
@@ -67,11 +64,15 @@
     transition: all .3s ease-in-out;
   }
 
-  .infoCardContainer--info-card-bottom--banner-one {
+
+  
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-five*/
+/* --------------------- home-flex-layout-bottom-banner.jsonc*/
+.infoCardContainer--info-card-bottom--banner-one {
     height: calc(44vw + 4px);
     max-height: 854px;
 }
-
 .infoCardContainer--info-card-bottom--banner-two {
     height: calc(22vw);
     max-height: 425px;
@@ -80,12 +81,10 @@
     height: calc(22vw);
     max-height: 425px;
 }
-
 .infoCardContainer--info-card--home__slider--media {
     height: 100%;
     width: 100%;
 }
-
 .infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button){
     position: absolute;
     border: none;
@@ -115,8 +114,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
-
-  .infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button):hover  {
+.infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button):hover  {
     position: absolute;
     border: none;
     border-radius: 5%;

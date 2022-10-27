@@ -16,7 +16,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-content-one": {
-    "title": "Primera parte banner-slider",
+    "title": "Imagen del banner-slider",
     "children": ["image#home__mid--banner-slider"],
     "props": {
       "width": "25%",
@@ -33,7 +33,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-content-two": {
-    "title": "Segunda parte banner-slider",
+    "title": "Slider del banner-slider",
     "children": ["slider-layout#mid--banner-slider-content-two"],
     "props": {
       "preload": true,
