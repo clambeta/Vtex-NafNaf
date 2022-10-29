@@ -21,12 +21,32 @@
     "title": "Header desktop inferior",
     "children": [
       "logo#header__buttom--logo",
-      "search-bar",
+      "search-bar#header__desktop--search", 
       "login",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__buttom"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+},
+  "search-bar#header__desktop--search":{
+    "title": "Search header desktop",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+      
+    }
+  },
+  "minicart.v2":{
+    "title": "Header minicart",
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "variation": "popup",
+      "itemCountMode":"total",
+      "quantityDisplay": "always"
     }
   }
 }
