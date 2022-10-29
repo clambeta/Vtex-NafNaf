@@ -1,0 +1,139 @@
+{
+  "slider-layout#home__slider--media": {
+    "title": "Slider Section one",
+    "children": [
+      "image#home__slider--media-one",
+      "video#home__slider--media-two",
+      "info-card#home__slider--media-three",
+      "info-card#home__slider--media-four",
+      "image#home__slider--media-five"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "showPaginationDots": "never",
+      "height": 800,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__slider"
+    }
+  },
+  "image#home__slider--media-one": {
+    "props": {
+      "src": "assets/img/rebajas.png",
+      "link": {
+        "url": "https://www.nafnaf.com.co/rebajas"
+      }
+    }
+  },
+  "video#home__slider--media-two": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://videosonline.gco.com.co/videos/naf-naf/landing/20221012_Shopping_SliderDesktop_1.mp4",
+      "blockClass": "videoEl"
+    }
+  },
+  "info-card#home__slider--media-three": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/nuevo_mexico.png",
+      "headline": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/colecciones/estelar",
+      "blockClass": "info-card--home__slider--media",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__slider--media-four": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/morena.png",
+      "headline": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/colecciones/botswana",
+      "blockClass": "info-card--home__slider--media",
+      "textAlignment": "center"
+    }
+  },
+  "image#home__slider--media-five": {
+    "props": {
+      "src": "assets/img/your jeans.png",
+      "link": {
+        "url": "https://www.nafnaf.com.co/ropa-mujer/jeans"
+      }
+    }
+  } 
+}
+
+/* 
+{
+  "list-context.media-list#home__slider--media": {
+    "children": ["slider-layout#demo-media"],
+    "props": {
+      "height": 800,
+      "preload": true,
+      "blockClass": "media__slider",
+      "mediaList": [
+        {
+          "image": "assets/img/rebajas.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "video": "https://videosonline.gco.com.co/videos/naf-naf/landing/20221012_Shopping_SliderDesktop_1.mp4",
+          "height": 800,
+          "autoPlay": true,
+          "loop": true,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/nuevo_mexico.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/morena.png",
+          "height": 800,
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/your jeans.png",
+          "height": 800,
+          "description": "Slide 1"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-media": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "showPaginationDots": "never",
+      "height": 800,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__slider"
+    }
+  }
+}
+ */

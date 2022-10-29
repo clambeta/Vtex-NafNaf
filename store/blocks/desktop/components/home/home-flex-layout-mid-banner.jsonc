@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#home__mid--banner-content": {
+    "title": "Banner del medio",
+    "children": [
+      "flex-layout.col#mid__banner--content-one",
+      "flex-layout.col#mid__banner--content-two"
+    ],
+    "props": {
+      "blockClass": "home__mid--banner-content",
+      "preserveLayoutOnMobile": true,
+      "colGap": 2,
+      "colSizing": "auto",
+      "fullWidth": true,
+      "paddingTop":8
+    }
+  },
+  "flex-layout.col#mid__banner--content-one": {
+    "title": "Primera parte banner mid",
+    "children": ["info-card#home__mid--banner-one"],
+    "props": {
+      "width": "65%",
+      "rowGap": 2,
+      "blockClass": "mid--banner-content-image"
+    }
+  },
+  "info-card#home__mid--banner-one": {
+    "props": {
+      "id": "info-card--mid__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla1-1.png",
+      "headline": "TEJIDOS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/tejidos",
+      "blockClass": "info-card-mid--banner-one",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.col#mid__banner--content-two": {
+    "title": "Segunda parte banner mid",
+    "children": [
+      "info-card#home__mid--banner-two",
+      "info-card#home__mid--banner-three"
+    ],
+    "props": {
+      "blockClass": "mid--banner-content-image2",
+      "width": "grow"
+    }
+  },
+  "info-card#home__mid--banner-two": {
+    "props": {
+      "id": "info-card--mid__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla1-2.png",
+      "headline": "CAMISAS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/camisas",
+      "blockClass": "info-card-mid--banner-two",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__mid--banner-three": {
+    "props": {
+      "id": "info-card--mid__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla1-3.png",
+      "headline": "VESTIDOS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/vestidos",
+      "blockClass": "info-card-mid--banner-three",
+      "textAlignment": "center"
+    }
+  }
+}

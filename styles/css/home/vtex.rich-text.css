@@ -1,0 +1,55 @@
+/* ---------------------------------------- desktop */
+/* -----------------------------clase Christian */
+.paragraph--section__one--title {
+    color: white;
+}
+
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-two*/
+/* ----------------home-shelf-mid.jsonc*/
+.wrapper--texto_uno{
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: .28rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: #575756;
+    text-transform: uppercase;
+    margin: 0 auto 1.5rem;
+}
+
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-six*/
+/* ----------------home-shelf-bottom.jsonc*/
+.wrapper--texto_dos{
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: .28rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: #575756;
+    text-transform: uppercase;
+    margin: 0 auto 1.5rem;
+}
+
+
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-four*/
+/* ------home-flex-layaut-banner-slider.jsonc*/
+
+.container--text-banner-slider-card{
+    height: 90%;
+}
+.link--text-banner-slider-card{
+    margin: .5rem 0 0;
+    font-size: 0.7rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.paragraph--text-banner-slider-card{
+    margin: 0;
+}

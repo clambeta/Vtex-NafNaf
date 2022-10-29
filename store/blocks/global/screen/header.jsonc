@@ -1,0 +1,15 @@
+{
+  "header": {
+    "title": "header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props": {
+      "blockClass": "header-full"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+/* ---------------------------------------- desktop */
+/* -------------------------------clase Christian */
+.paginationDotsContainer--home__slider{
+   transform: translateY(30px);  
+}
+
+
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-one*/
+/* ----------------home-slider-media.jsonc*/
+.slideChildrenContainer{
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+}
+.imageElement{
+   width: 100%;
+   max-height: auto;
+}
+.videoContainer--home__slider{
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+   border-width: 0;
+}
+.videoElement{
+   width: 100%;
+   max-height: auto;
+   border-width: 0;
+}
+.media__slider{
+   border-width: 0;
+}
+.sliderArrows {
+   background-color: #000!important;
+   padding: 12px 14px;
+   border-radius: 50%;
+   transform: translateY(-50%);
+}
+.caretIcon{
+   color: #fff;
+}
+.sliderArrows--home__slider {
+   background-color:transparent!important;
+   padding: 12px 14px;
+   border-radius: 50%;
+   transform: translateY(-50%);
+}
+.caretIcon--home__slider{
+   color: black;
+}
+
+
+

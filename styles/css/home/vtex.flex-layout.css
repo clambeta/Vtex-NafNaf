@@ -1,0 +1,24 @@
+/* ---------------------------------------- desktop */
+/* ------------------------------clase Christian */
+.flexColChild--section__one--image {
+    max-width: 600px;
+}
+.flexCol--section__two--item 
+:global(.vtex-store-link-0-x-buttonLink){
+    background-color: aqua;
+}
+
+
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-four*/
+/* ------home-flex-layaut-banner-slider.jsonc*/
+.flexCol--mid--banner-slider-card{
+    width: 98.7%;
+    height: auto
+}
+/* 
+.flexCol--mid--banner-slider-card{
+    width: auto;
+    height: auto
+}
+  */                 

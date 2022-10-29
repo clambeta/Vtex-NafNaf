@@ -1,0 +1,145 @@
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-three*/
+/* ---------home-flex-layout-mid-banner.jsonc*/
+.infoCardContainer--info-card-mid--banner-one {
+    height: calc(44vw + 4px);
+    max-height: 854px;
+}
+.infoCardContainer--info-card-mid--banner-two {
+    height: calc(22vw);
+    max-height: 425px;
+}
+.infoCardContainer--info-card-mid--banner-three {
+    height: calc(22vw);
+    max-height: 425px;
+}
+.infoCardHeadline {
+    justify-content: center;
+    width: 100%;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: .2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.infoCardCallActionContainer :global(.vtex-button) {
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    transition: all .3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: .1em!important;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .75rem;
+    letter-spacing: .6rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+  }
+
+  .infoCardCallActionContainer :global(.vtex-button):hover {
+    width: 250px;
+    height: 45px;
+    color: #000;
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 0;
+    transition: all .3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: .1em!important;
+    font-family: Roboto,sans-serif;
+    font-size: .75rem;
+    letter-spacing: .6rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+  }
+
+
+  
+/* ---------------------------------------- desktop */
+/* ------------------------------- section-five*/
+/* --------------------- home-flex-layout-bottom-banner.jsonc*/
+.infoCardContainer--info-card-bottom--banner-one {
+    height: calc(44vw + 4px);
+    max-height: 854px;
+}
+.infoCardContainer--info-card-bottom--banner-two {
+    height: calc(22vw);
+    max-height: 425px;
+}
+.infoCardContainer--info-card-bottom--banner-three {
+    height: calc(22vw);
+    max-height: 425px;
+}
+.infoCardContainer--info-card--home__slider--media {
+    height: 100%;
+    width: 100%;
+}
+.infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button){
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    padding: 0.7% 2%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    cursor: pointer;
+    background-color: rgb(190, 236, 106);
+    bottom: 30%;
+    left: 45%;
+    width: 150px;
+    height: 20px;
+    transition: all .3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: .1em!important;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+.infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button):hover  {
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    padding: 0.7% 2%;
+    cursor: pointer;
+    bottom: 30%;
+    left: 45%;
+    width: 150px;
+    height: 20px;
+    transition: all .3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: .1em!important;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 16px 0px, rgba(0, 0, 0, 0.19) 0px 17px 50px 0px;
+    background-color: rgb(166, 206, 92);
+  }
