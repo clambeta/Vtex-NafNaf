@@ -1,5 +1,6 @@
 {
   "slider-layout#home__slider--media": {
+    "title": "Slider Section one",
     "children": [
       "image#home__slider--media-one",
       "video#home__slider--media-two",

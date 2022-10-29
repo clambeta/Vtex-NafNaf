@@ -1,5 +1,5 @@
 {
-  "login": {    
+  "login": {  
     "props": {      
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -11,3 +11,4 @@
     }
   }
 }
+

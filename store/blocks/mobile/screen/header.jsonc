@@ -21,14 +21,33 @@
     "children": [
       "drawer#header--mobile__buttom-menu",
       "logo#header__buttom--logo",
-      "header-spacer",
-      /* "search-bar", */
+      "search-bar#header__mobile--search", 
       "login",
       /* "modal-trigger#header--mobile__buttom--login", */
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__buttom"
+    }
+  },
+    "autocomplete-result-list.v2": {
+      "blocks": ["product-summary"]
+  },
+  "search-bar#header__mobile--search":{
+    "title": "Search header mobile",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "minicart.v2":{
+    "title": "Header minicart",
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "variation": "popup", 
+      "itemCountMode":"total",
+      "quantityDisplay": "always",
+      "blockClass": "header-minicart"
     }
   }
 }
