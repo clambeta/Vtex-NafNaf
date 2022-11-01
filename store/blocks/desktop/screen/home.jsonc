@@ -28,11 +28,73 @@
       "flex-layout.row#home__mid--banner-slider-content",
       "flex-layout.row#home__bottom--banner-content",
       "rich-text#home__container--text-dos",
-      "slider-layout#home__slider--children-bottom"
+      "slider-layout#home__slider--children-bottom",
+
+      "search-result-layout.customQuery#home__search"
 
     ]
-  }
-}
+  },
+  "search-result-layout.customQuery#home__search":{    
+    "props":{
+      "querySchema":{
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks":[
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop":{
+    "children":[
+     /*  "rich-text#test" */
+      "flex-layout.row#home__results-desktop"
+    ]
+  },"flex-layout.row#home__results-desktop":{
+    "children":[
+      
+    "flex-layout.col#home__results--search-desktop"
+    ]
+  },
+    "flex-layout.col#home__results--search-desktop":{
+      "children":[
+        "search-content#home__results--search-desktop"
+      ]
+    },
+    "search-content#home__results--search-desktop":{
+      "blocks":["gallery#desktop", "not-found"]
+    },
+    "gallery#desktop":{
+      "blocks": ["product-summary.shelf"]
+    },
+      "search-result-layout.mobile#home__search--mobile":{
+        "children":[
+          "flex-layout.row#home__results-mobile"
+        ]
+      },
+      "flex-layout.row#home__results-mobile":{
+        "children":[
+          
+        "flex-layout.col#home__results--search-mobile"
+        ]
+      },
+        "flex-layout.col#home__results--search-mobile":{
+          "children":[
+            "search-content#home__results--search-mobile"
+          ]
+        },
+        "search-content#home__results--search-mobile":{
+          "blocks":["gallery#mobile", "not-found"]
+        },
+        "gallery#mobile":{
+          "blocks": ["product-summary.shelf"]
+        }
+    }
+
+
+
   /* "flex-layout.row#home__mid--banner-slider-content":{
     "title": "Banner de imagen y slider",
     "children": [
