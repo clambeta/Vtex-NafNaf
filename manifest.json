@@ -53,7 +53,9 @@
     "vtex.store-media": "0.x",
     "vtex.store-video": "1.x",
     "vtex.storefront-permissions": "1.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.product-list": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
