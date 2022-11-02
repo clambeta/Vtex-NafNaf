@@ -13,7 +13,7 @@
     letter-spacing: .28rem;
     font-family: Roboto,sans-serif;
     font-weight: 400;
-    color: #575756;
+    color: var(--primary-title-text);
     text-transform: uppercase;
     margin: 0 auto 1.5rem;
 }
@@ -27,7 +27,7 @@
     letter-spacing: .28rem;
     font-family: Roboto,sans-serif;
     font-weight: 400;
-    color: #575756;
+    color:  var(--primary-title-text);
     text-transform: uppercase;
     margin: 0 auto 1.5rem;
 }
@@ -48,7 +48,7 @@
     line-height: 1.5rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: var(--primary-link-text);
 }
 .paragraph--text-banner-slider-card{
     margin: 0;

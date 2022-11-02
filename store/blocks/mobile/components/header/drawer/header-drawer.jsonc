@@ -4,6 +4,7 @@
     "children": ["menu#header__menu"]
   },
   "menu#header__menu": {
+    "title": "Departamentos del Drawer mobile menu",
     "children": [
       "menu-item#department__one",
       "menu-item#department__two",

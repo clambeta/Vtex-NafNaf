@@ -6,6 +6,18 @@
   --card-descriptions: #c47373;
   --promotion-flags  : #525252;
 
+  --primary-title-text: #575756;
+  --primary-text-infoCard: #fff;
+  --primary-button-infoCard: #fff;
+  --secondary-button-infoCard: #fff;
+  --primary-slider-button: rgb(190, 236, 106);
+  --secondary-slider-button: rgb(166, 206, 92);
+  --text-slider-button: #000;
+  --primary-background: #000;
+  --primary-link-text: #000;
+  --media-arrow: #000;
+ 
+
   --primary-color     : #0c2340;
   --primary-color-rgba: rgba(12, 35, 64, 0.502);
   --secondary-color   : #e56a54;
