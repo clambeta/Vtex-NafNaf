@@ -2,7 +2,8 @@
   "footer-layout.desktop": {
     "title": "Footer desktop",
     "children": [
-      "flex-layout.row#footer__menu--desktop-container"
+      "flex-layout.row#footer__menu--desktop-container",
+      "flex-layout.row#footer__menu--desktop-container-bottom"
     ],
     "props": {
       "blockClass": "footer-desktop",
@@ -43,5 +44,19 @@
     "props": {
       "fullWidth": false
     }
+  },
+  "flex-layout.row#footer__menu--desktop-container-bottom": {
+    "title": "Footer banner inferior",
+    "children": [
+      "flex-layout.row#footer__menu--desktop-container-bottom-left",
+      "flex-layout.row#footer__menu--desktop-container-bottom-right"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-container-bottom",
+      "fullWidth": true,
+      "marginBottom": 0,
+      "colSizing":"equal"
+    }
+
   }
 }
