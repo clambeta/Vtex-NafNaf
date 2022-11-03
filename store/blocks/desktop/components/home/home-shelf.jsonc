@@ -1,0 +1,55 @@
+{
+  "search-result-layout.customQuery#home__search": {
+    "props": {
+      "blockClass": "home__search-result",
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "title": "Search result del home desktop",
+    "children": [
+      /*  "rich-text#test" */
+      "flex-layout.row#home__results-desktop"
+    ]
+  },
+  "flex-layout.row#home__results-desktop": {
+    "title": "Fila del result del home desktop",
+    "children": ["flex-layout.col#home__results--search-desktop"]
+  },
+  "flex-layout.col#home__results--search-desktop": {
+    "title": "Columna del result del home desktop",
+    "children": ["search-content#home__results--search-desktop"]
+  },
+  "search-content#home__results--search-desktop": {
+    "blocks": ["gallery#desktop", "not-found"]
+  },
+  "gallery#desktop": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "title": "Search result del home mobile",
+    "children": ["flex-layout.row#home__results-mobile"]
+  },
+  "flex-layout.row#home__results-mobile": {
+    "title": "Fila del result del home mobile",
+    "children": ["flex-layout.col#home__results--search-mobile"]
+  },
+  "flex-layout.col#home__results--search-mobile": {
+    "title": "Columna del result del home mobile",
+    "children": ["search-content#home__results--search-mobile"]
+  },
+  "search-content#home__results--search-mobile": {
+    "blocks": ["gallery#mobile", "not-found"]
+  },
+  "gallery#mobile": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

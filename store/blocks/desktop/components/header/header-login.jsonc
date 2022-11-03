@@ -1,6 +1,7 @@
 {
   "login": {  
-    "props": {      
+    "props": {     
+      "blockClass": "login-desktop", 
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",

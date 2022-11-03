@@ -1,5 +1,5 @@
 /* ---------------------------------------- desktop */
 /*header top*/
-.slideChildrenContainer--header__slider{
-    background-color: black;
+.slideChildrenContainer--header-desktop-top{
+    background-color: var(--primary-background);
 }

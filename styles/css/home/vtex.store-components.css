@@ -20,7 +20,7 @@
     font-weight: 500;
     font-size: 46px;
     letter-spacing: .2rem;
-    color: #fff;
+    color: var(--primary-text-infoCard);
     text-transform: uppercase;
     text-align: center;
     display: flex;
@@ -30,7 +30,7 @@
     width: 250px;
     height: 45px;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid var(--primary-button-infoCard);
     border-radius: 0;
     transition: all .3s ease-in-out; 
     justify-content: center;
@@ -48,9 +48,9 @@
   .infoCardCallActionContainer :global(.vtex-button):hover {
     width: 250px;
     height: 45px;
-    color: #000;
-    background-color: white;
-    border: 1px solid #fff;
+    color: var( --text-slider-button);
+    background-color: var(--secondary-button-infoCard);
+    border: 1px solid var(--secondary-button-infoCard);
     border-radius: 0;
     transition: all .3s ease-in-out; 
     justify-content: center;
@@ -92,7 +92,7 @@
     padding: 0.7% 2%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
     cursor: pointer;
-    background-color: rgb(190, 236, 106);
+    background-color: var(--primary-slider-button);
     bottom: 30%;
     left: 45%;
     width: 150px;
@@ -141,5 +141,5 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 16px 0px, rgba(0, 0, 0, 0.19) 0px 17px 50px 0px;
-    background-color: rgb(166, 206, 92);
+    background-color: var(--secondary-slider-button);
   }

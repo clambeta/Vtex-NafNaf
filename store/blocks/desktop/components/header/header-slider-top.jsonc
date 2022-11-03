@@ -21,11 +21,12 @@
         "stopOnHover": true
       },
       "height": "35px",
-      "blockClass": "header__slider"
+      "blockClass": "header-desktop-top"
     }
   },
   "image#header--desktop__top-slider-one": {
     "props": {
+      "blockClass": "header-desktop-top-slider",
       "src": "assets/img/banner_rebaja1.png",
       "link": {
         "url": "https://www.nafnaf.com.co/cyber-days"
@@ -35,6 +36,7 @@
   },
   "image#header--desktop__top-slider-two": {
     "props": {
+      "blockClass": "header-desktop-top-slider",
       "src": "assets/img/banner_rebaja2.png",
       "link": {
         "url": "https://www.nafnaf.com.co/cyber-days"
@@ -43,6 +45,7 @@
   },
   "image#header--desktop__top-slider-three": {
     "props": {
+      "blockClass": "header-desktop-top-slider",
       "src": "assets/img/banner_rebaja3.png",
       "link": {
         "url": "https://www.nafnaf.com.co/cyber-days"
@@ -51,6 +54,7 @@
   },
   "image#header--desktop__top-slider-four": {
     "props": {
+      "blockClass": "header-desktop-top-slider",
       "src": "assets/img/banner_rebaja4.png",
       "link": {
         "url": "https://www.nafnaf.com.co/cyber-days"
