@@ -1,0 +1,188 @@
+{
+  "flex-layout.row#footer__menu--desktop-container-right": {
+    "title": "Contenedor derecho",
+    "children": ["flex-layout.col#menu--desktop-container"],
+    "props": {
+      "blockClass": "footer-desktop-container-right",
+      "marginTop": 2,
+      "marginBottom": 2
+    }
+  },
+  "flex-layout.col#menu--desktop-container": {
+    "title": "Columna del contenedor derecho",
+    "children": [
+      "flex-layout.row#menu--desktop-container-right-sup",
+      "flex-layout.row#menu--desktop-container-right-inf"
+    ],
+    "props": {
+      "blockClass": "footer-contacto",
+      "verticalAlign": "top",
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#menu--desktop-container-right-sup": {
+    "title": "Container botones contacto",
+    "children": [
+      "flex-layout.col#menu-botones-left",
+      "flex-layout.col#menu-botones-right"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-botones",
+      "marginTop": 2,
+      "marginBottom": 2,
+      "colGap": 4
+    }
+  },
+
+
+  "flex-layout.col#menu-botones-left": {
+    "title": "Botones left",
+    "children": ["rich-text#menu-botones-left-sup",
+                    "rich-text#menu-botones-left-inf"],
+                    "props": {
+                        "blockClass": "footer-col-boton",
+                        "verticalAlign": "top",
+                        "rowGap": 4,
+                        "preventVerticalStretch": true
+                      }
+  },
+  "flex-layout.col#menu-botones-right": {
+    "title": "Botones right",
+    "children": ["rich-text#menu-botones-right-sup",
+                    "rich-text#menu-botones-right-inf"],
+                    "props": {
+                        "blockClass": "footer-col-boton",
+                        "verticalAlign": "top",
+                        "rowGap": 4,
+                        "preventVerticalStretch": true
+                      }
+  },
+
+"rich-text#menu-botones-left-sup": {
+    "title": "Botón de Llámanos",
+    "props": {
+      "text": "[![Phone Icon](assets/img/footer-icon-customer-phone.svg)  Llámanos: 01-8000-187-009](tel:018000187009)",
+      "blockClass": "rich-text__boton"
+    }
+  },
+"rich-text#menu-botones-left-inf": {
+    "title": "Botón de Cambios y devoluciones",
+    "props": {
+      "text": "[![Cambios Icon](assets/img/footer-icon-customer-cambios.svg)  ¡Cambios y devoluciones fáciles!](https://ncv.microsoft.com/cSXkntJG9w)",
+      "blockClass": "rich-text__boton"
+    }
+  },
+"rich-text#menu-botones-right-sup": {
+    "title": "Botón de Encuentra tu tienda",
+    "props": {
+      "text": "[![Marker Icon](assets/img/footer-icon-customer-location.svg)  Encuentra tu tienda](https://www.nafnaf.com.co/localizar-tiendas)",
+      "blockClass": "rich-text__boton"
+    }
+  },
+"rich-text#menu-botones-right-inf": {
+    "title": "Botón de Comprar por WhatsApp",
+    "props": {
+      "text": "[![Whatsapp Icon](assets/img/footer-icon-customer-whatsapp.svg)  Comprar por WhatsApp](https://api.whatsapp.com/send?phone=573225186245&text=%C2%A1Hola!%20estoy%20interesada%20en%20las%20siguientes%20prendas%20por%20whatsApp)",
+      "blockClass": "rich-text__boton"
+    }
+  },
+/*   Redes Sociales */
+  "flex-layout.row#menu--desktop-container-right-inf": {
+    "title": "Redes sociales",
+    "children": [
+        "rich-text#socialnetworks", 
+        "flex-layout.row#socialnetworks"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-botones",
+      "marginTop": 2,
+      "marginBottom": 2,
+      "horizontalAlign":"center",
+      "colGap": 4,
+      "preventVerticalStretch": false
+    }
+  },
+  "rich-text#socialnetworks": {
+    "title": "",
+    "props": {
+        "text": "¡Síguenos en nuestras\nREDES SOCIALES!",
+        "blockClass": "rich-text__text-redes",
+        
+        "textPosition": "RIGHT"
+      }
+  }, 
+  "flex-layout.row#socialnetworks": {
+    "title": "",
+    "children": [
+        "rich-text#socialnetwork-facebook",
+        "rich-text#socialnetwork-pinterest",
+        "rich-text#socialnetwork-youtube",
+        "rich-text#socialnetwork-instagram"
+        ],
+    "props": {
+        "blockClass": "footer-desktop-botones",
+        "marginTop": 2,
+        "marginBottom": 2,
+        "colGap": 1,
+        "horizontalAlign": "left",
+        "colSizing": "auto"
+        
+    }
+  },
+  "rich-text#socialnetwork-facebook": {
+    "title": "Botón de Encuentra tu tienda",
+    "props": {
+      "text": "[![Facebook](assets/img/icon-social-facebook.svg)](https://www.facebook.com/nafnaflatam)",
+      "blockClass": "rich-text__boton_social"
+    }
+  },
+    "rich-text#socialnetwork-pinterest": {
+    "title": "Botón de Encuentra tu tienda",
+    "props": {
+      "text": "[![Pinterest](assets/img/icon-social-pinterest.svg)](http://pinterest.com/nafnaflatam)",
+      "blockClass": "rich-text__boton_social"
+    }
+  },
+    "rich-text#socialnetwork-youtube": {
+    "title": "Botón de Encuentra tu tienda",
+    "props": {
+      "text": "[![YouTube](assets/img/icon-social-youtube.svg)](http://www.youtube.com/user/NAFNAFCOLOMBIA)",
+      "blockClass": "rich-text__boton_social"
+    }
+  },
+    "rich-text#socialnetwork-instagram": {
+    "title": "Botón de Encuentra tu tienda",
+    "props": {
+      "text": "[![Instagram](assets/img/icon-social-instagram.svg)](http://instagram.com/nafnafcol)",
+      "blockClass": "rich-text__boton_social"
+    }
+  }
+}
+
+
+
+
+/* 
+"social-networks": {
+    "props": {
+      "blockClass": "social-networks-nafnaf",
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/nafnaflatam",
+          "name": "Facebook"
+        },
+        {
+          "url": "http://pinterest.com/nafnaflatam",
+          "name": "Pinterest"
+        },
+        {
+          "url": "http://www.youtube.com/user/NAFNAFCOLOMBIA",
+          "name": "Youtube"
+        },
+        {
+          "url": "http://instagram.com/nafnafcol",
+          "name": "Instagram"
+        }
+      ]
+    }
+  } */

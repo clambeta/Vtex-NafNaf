@@ -16,9 +16,15 @@
   --primary-background: #000;
   --primary-link-text: #000;
   --media-arrow: #000;
- 
+  --primary-button-contact-border: #bfbfbf;
+  --primary-button-contact-text: #000;
+  --secondary-button-contact-text: #fff;
+  --primary-button-contact-background: #fff;
+  --secondary-button-contact-background: #000;
 
   --primary-color     : #0c2340;
   --primary-color-rgba: rgba(12, 35, 64, 0.502);
   --secondary-color   : #e56a54;
+
+
 }

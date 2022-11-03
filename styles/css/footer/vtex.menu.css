@@ -49,6 +49,8 @@
     cursor: pointer;
     text-align: left;
     line-height: 1.5;
+    height: 20px;
+    width: 90%;
 
 }
 

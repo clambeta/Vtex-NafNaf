@@ -6,7 +6,8 @@
     ],
     "props": {
       "blockClass": "footer-desktop",
-      "colSizing":"equal"
+      "colSizing":"equal",
+      "marginTop": 50
     }
   },
   /* footer container left */
@@ -18,7 +19,8 @@
   ],
   "props": {
     "blockClass": "footer-desktop-container-left",
-    "fullWidth": false
+    "fullWidth": false,
+    "marginBottom": 5
   }
 },
   /* footer container left */
@@ -37,7 +39,7 @@
   /* footer container right */
   "flex-layout.col#footer__menu--desktop-container-right": {
     "title": "Contenedor para menús superior e inferior derecho",
-    "children": ["flex-layout.row#footer__menu--desktop-container-left-sup"],
+    "children": ["flex-layout.row#footer__menu--desktop-container-right"],
     "props": {
       "fullWidth": false
     }

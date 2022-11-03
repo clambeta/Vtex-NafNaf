@@ -1,0 +1,360 @@
+{
+  /* Menú footer desktop */
+  "flex-layout.row#footer__menu--desktop-container-left-sup": {
+    "title": "Contenedor menú superior izquierdo",
+    "children": [
+      "flex-layout.col#menu--desktop-container-left-sup-ayuda",
+      "flex-layout.col#menu--desktop-container-left-sup-terminos",
+      "flex-layout.col#menu--desktop-container-left-sup-marca"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-container-left-sup",
+      "colSizing":"equal",
+      "marginTop": 2,
+      "marginBottom": 2
+    }
+  },
+  "flex-layout.row#footer__menu--desktop-container-left-inf": {
+    "title": "Contenedor menú inferior izquierdo",
+    "children": [
+      "flex-layout.row#menu--desktop-container-left-inf-legales",
+      "flex-layout.row#menu--desktop-container-left-inf-pago",
+      "flex-layout.row#menu--desktop-container-left-inf-adicional"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-container-left-inf",
+      "colSizing":"equal",
+      "marginTop": 2,
+      "marginBottom": 2
+    }
+  },
+
+  /* footer containers left */
+  "flex-layout.col#menu--desktop-container-left-sup-ayuda": {
+    "title": "Container izquierdo superior ayuda",
+    "children": ["flex-layout.col#footer__container-ayuda"],
+    "props": {
+      "blockClass": "container-left-sup"
+    }
+  },
+  "flex-layout.col#menu--desktop-container-left-sup-terminos": {
+    "title": "Container izquierdo superior terminos",
+    "children": ["flex-layout.col#footer__container-terminos"],
+    "props": {
+      "blockClass": "container-left-sup"
+    }
+  },
+  "flex-layout.col#menu--desktop-container-left-sup-marca": {
+    "title": "Container izquierdo superior marca",
+    "children": ["flex-layout.col#footer__container-marca"],
+    "props": {
+      "blockClass": "container-left-sup"
+    }
+  },
+  "flex-layout.row#menu--desktop-container-left-inf-legales": {
+    "title": "Container izquierdo inferior legales",
+    "children": ["flex-layout.col#footer__container-legal"],
+    "props": {
+      "blockClass": "container-left-inf"
+    }
+  },
+  "flex-layout.row#menu--desktop-container-left-inf-pago": {
+    "title": "Container izquierdo inferior pago",
+    "children": ["flex-layout.col#footer__container-pago"],
+    "props": {
+      "blockClass": "container-left-inf"
+    }
+  },
+  "flex-layout.row#menu--desktop-container-left-inf-adicional": {
+    "title": "Container izquierdo inferior adicional-esp",
+    "children": [],
+    "props": {
+      "blockClass": "container-left-inf"
+    }
+  },
+
+  /* menus left */
+  /* Ayuda*/
+  "flex-layout.col#footer__container-ayuda": {
+    "children": [
+      "rich-text#title-ayuda",
+      "flex-layout.col#footer__container-submenu-ayuda"
+    ],
+    "props": {
+      "blockClass": "footer-menu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+
+  "rich-text#title-ayuda": {
+    "title": "Texto necesitas ayuda",
+    "props": {
+      "text": "¿NECESITAS AYUDA?",
+      "blockClass": "title-menu"
+    }
+  },
+  "flex-layout.col#footer__container-submenu-ayuda": {
+    "title": "Submenú ayuda",
+    "children": ["rich-text#ayuda-desk",
+                "rich-text#preguntas-desk",
+                "rich-text#peticiones-desk"],
+    "props": {
+      "blockClass": "container-submenu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+
+  "rich-text#ayuda-desk": {
+    "title": "Text de ayuda",
+    "props": {
+      "text": "[Ayuda](https://www.nafnaf.com.co/ayuda)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#preguntas-desk": {
+    "title": "Text de preguntas",
+    "props": {
+      "text": "[Preguntas frecuentes](https://www.nafnaf.com.co/ayuda)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#peticiones-desk": {
+    "title": "Text de peticiones",
+    "props": {
+      "text": "[Peticiones quejas y reclamos](https://www.nafnaf.com.co/pqrs)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+
+ /* Términos y condiciones */
+  "flex-layout.col#footer__container-terminos": {
+    "children": [
+      "rich-text#title-terminos",
+      "flex-layout.col#footer__container-submenu-terminos"
+    ],
+    "props": {
+      "blockClass": "footer-menu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+  "rich-text#title-terminos": {
+    "title": "Texto términos y condiciones",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES",
+      "blockClass": "title-menu"
+    }
+  },
+  "flex-layout.col#footer__container-submenu-terminos": {
+    "title": "Submenú terminos",
+    "children": ["rich-text#terminos-desk",
+                "rich-text#politica-desk",
+                "rich-text#comprar-desk",
+                "rich-text#privacidad-desk",
+                "rich-text#tratamiento-desk",
+                "rich-text#cookies-desk"],
+    "props": {
+      "blockClass": "container-submenu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+  "rich-text#terminos-desk": {
+    "title": "Text de terminos",
+    "props": {
+      "text": "[Términos y condiciones](https://www.nafnaf.com.co/terminos-condiciones)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#politica-desk": {
+    "title": "Text de politica",
+    "props": {
+      "text": "[Política de cambio, garantía, retracto y reversión](https://www.nafnaf.com.co/servicios/entrega-devoluciones)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#comprar-desk": {
+    "title": "Text de comprar",
+    "props": {
+      "text": "[¿Cómo comprar?](https://www.nafnaf.com.co/ayuda/como-comprar)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#privacidad-desk": {
+    "title": "Text de privacidad",
+    "props": {
+      "text": "[Política de privacidad](https://www.nafnaf.com.co/politica-privacidad)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#tratamiento-desk": {
+    "title": "Text de tratamiento",
+    "props": {
+      "text": "[Tratamiento de datos](https://www.nafnaf.com.co/tratamiento-datos)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#cookies-desk": {
+    "title": "Text de cookies",
+    "props": {
+      "text": "[Política de cookies](https://www.nafnaf.com.co/politica-cookies)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+
+ /* Nuestra marca*/
+  "flex-layout.col#footer__container-marca": {
+    "children": [
+      "rich-text#title-marca",
+      "flex-layout.col#footer__container-submenu-marca"
+    ],
+    "props": {
+      "blockClass": "footer-menu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+  "rich-text#title-marca": {
+    "title": "Texto nuestra marca",
+    "props": {
+      "text": "NUESTRA MARCA",
+      "blockClass": "title-menu"
+    }
+  },
+  "flex-layout.col#footer__container-submenu-marca": {
+    "title": "Submenú marca",
+    "children": ["rich-text#monamour-desk",
+                "rich-text#sostenibilidad-desk",
+                "rich-text#origen-desk"],
+    "props": {
+      "blockClass": "container-submenu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+  "rich-text#monamour-desk": {
+    "title": "Text de monamour",
+    "props": {
+      "text": "[Mon Amour](https://www.nafnaf.com.co/vistas/mon-amour)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#sostenibilidad-desk": {
+    "title": "Text de sostenibilidad",
+    "props": {
+      "text": "[Sostenibilidad](https://www.nafnaf.com.co/vistas/sostenibilidad)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#origen-desk": {
+    "title": "Text de origen",
+    "props": {
+      "text": "[Origen](https://www.nafnaf.com.co/catalogos/origen)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+
+
+
+ /* Términos legales*/
+ "flex-layout.col#footer__container-legal": {
+  "children": [
+    "rich-text#title-legal",
+    "flex-layout.col#footer__container-submenu-legal"
+  ],
+  "props": {
+    "blockClass": "footer-menu",
+    "verticalAlign": "top",
+    "rowGap": 1
+  }
+},
+
+"rich-text#title-legal": {
+  "title": "Texto legal",
+  "props": {
+    "text": "¿NECESITAS AYUDA?",
+    "blockClass": "title-menu"
+  }
+},
+"flex-layout.col#footer__container-submenu-legal": {
+  "title": "Submenú legal",
+  "children": ["rich-text#promociones-desk",
+              "rich-text#dia-sin-iva-desk"],
+  "props": {
+    "blockClass": "container-submenu",
+    "verticalAlign": "top",
+    "rowGap": 1
+  }
+},
+
+"rich-text#promociones-desk": {
+  "title": "Text de promociones",
+  "props": {
+    "text": "[Promociones](https://www.nafnaf.com.co/servicios/promociones)",
+    "blockClass": "rich-text__submenu"
+  }
+},
+"rich-text#dia-sin-iva-desk": {
+  "title": "Text de Día sin Iva",
+  "props": {
+    "text": "[Día sin Iva](https://www.nafnaf.com.co/servicios/dia-sin-iva)",
+    "blockClass": "rich-text__submenu"
+  }
+},
+ 
+  /* Métodos de pago*/
+  "flex-layout.col#footer__container-pago": {
+    "children": [
+      "rich-text#title-pago",
+      "flex-layout.col#footer__container-submenu-pago"
+    ],
+    "props": {
+      "blockClass": "footer-menu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+
+  "rich-text#title-pago": {
+    "title": "Texto necesitas ayuda",
+    "props": {
+      "text": "¿NECESITAS AYUDA?",
+      "blockClass": "title-menu"
+    }
+  },
+  "flex-layout.col#footer__container-submenu-pago": {
+    "title": "Submenú ayuda",
+    "children": ["rich-text#tarjeta-credito-desk",
+                "rich-text#su+pay-desk",
+                "rich-text#contra-entrega-desk"],
+    "props": {
+      "blockClass": "container-submenu",
+      "verticalAlign": "top",
+      "rowGap": 1
+    }
+  },
+
+  "rich-text#tarjeta-credito-desk": {
+    "title": "Text de Tarjeta de crédito",
+    "props": {
+      "text": "[Tarjeta de crédito](https://www.nafnaf.com.co/vistas/tarjeta-credito)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#su+pay-desk": {
+    "title": "Text de Su+ Pay",
+    "props": {
+      "text": "[Su+ Pay](https://www.nafnaf.com.co/sumas-pay)",
+      "blockClass": "rich-text__submenu"
+    }
+  },
+  "rich-text#contra-entrega-desk": {
+    "title": "Text de Pago contra entrega",
+    "props": {
+      "text": "[Pago contra entrega](https://www.nafnaf.com.co/servicios/pago-contraentrega)",
+      "blockClass": "rich-text__submenu"
+    }
+  }
+}
