@@ -30,5 +30,26 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
 
+.flexRowContent--footer-desktop-botones {
+    text-align: right;
+    justify-content: flex-start;
+}
+
+
+.flexRow--footer-desktop-container-bottom{
+    background-color: #000;
+}
+
+.flexRowContent--footer-bottom-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flexRow--footer-bottom-left{
+    padding-right: 3rem;
 }

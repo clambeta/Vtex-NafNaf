@@ -1,0 +1,147 @@
+{
+    "flex-layout.row#footer__menu--desktop-container-bottom-left":{
+        "title": "Footer inferior izquierdo",
+        "children": [
+            "image#footer--desktop__bottom-left-01",
+            "image#footer--desktop__bottom-left-02",
+            "image#footer--desktop__bottom-left-03",
+            "image#footer--desktop__bottom-left-04",
+            "image#footer--desktop__bottom-left-05",
+            "image#footer--desktop__bottom-left-06",
+            "image#footer--desktop__bottom-left-07",
+            "image#footer--desktop__bottom-left-08",
+            "image#footer--desktop__bottom-left-09",
+            "image#footer--desktop__bottom-left-10",
+            "image#footer--desktop__bottom-left-11"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "right",
+            "colSizing": "auto",
+            "colGap": 8,
+            "blockClass": "footer-bottom-left"
+        }
+
+    },
+    "image#footer--desktop__bottom-left-01": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-01.svg",
+          "maxWidth": "38px",
+          "maxHeight": "28px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-02": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-02.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-03": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-03.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-04": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-04.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-05": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-05.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-06": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-06.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-07": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-07.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-08": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-08.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-09": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-09.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-10": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-10.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+    "image#footer--desktop__bottom-left-11": {
+        "props": {
+          "blockClass": "img-footer-bottom",
+          "alt": "",
+          "src": "assets/img/footer-credit-icon-11.svg",
+          "maxWidth": "28px",
+          "maxHeight": "18px"          
+        }
+    },
+
+
+      "flex-layout.row#footer__menu--desktop-container-bottom-right":{
+        "title": "Footer inferior derecho",
+        "children": [
+            "rich-text#footer-bottom-right"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "colSizing": "auto",
+            "blockClass": "container-rich-text__bottom"
+        }
+    },
+    "rich-text#footer-bottom-right": {
+            "title": "Botón de Comprar por WhatsApp",
+            "props": {
+              "text": "Todos los derechos reservados NAF NAF © 2022",
+              "blockClass": "rich-text__bottom"
+            }
+        }
+
+}
