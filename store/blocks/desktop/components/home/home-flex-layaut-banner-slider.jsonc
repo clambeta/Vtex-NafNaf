@@ -36,6 +36,7 @@
     "title": "Slider del banner-slider",
     "children": ["slider-layout#mid--banner-slider-content-two"],
     "props": {
+      "blockClass": "mid--banner-slider-content-image",
       "preload": true,
       "width": "75%",
       "colGap": 2
@@ -64,6 +65,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-one": {
+    "title": "Columna slider one",
     "children": [
       "image#home__mid--banner-slider-one",
       "rich-text#home__mid--banner-slider-card-one"
@@ -76,6 +78,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-two": {
+    "title": "Columna slider two",
     "children": [
       "image#home__mid--banner-slider-two",
       "rich-text#home__mid--banner-slider-card-two"
@@ -87,6 +90,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-three": {
+    "title": "Columna slider three",
     "children": [
       "image#home__mid--banner-slider-three",
       "rich-text#home__mid--banner-slider-card-three"
@@ -98,6 +102,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-four": {
+    "title": "Columna slider four",
     "children": [
       "image#home__mid--banner-slider-four",
       "rich-text#home__mid--banner-slider-card-four"
@@ -109,6 +114,7 @@
     }
   },
   "flex-layout.col#mid--banner-slider-five": {
+    "title": "Columna slider five",
     "children": [
       "image#home__mid--banner-slider-five",
       "rich-text#home__mid--banner-slider-card-five"

@@ -61,19 +61,19 @@
       },
       "product-list#minicart": {
         "title": "Contenido lista productos",
-        "blocks": ["product-list-content-desktop"],
+        "blocks": ["product-list-content-mobile"],
         "props": {
           "blockClass": "minicart__product-list"
         }
       },
-      "product-list-content-desktop": {
-        "title": "Lista productos desktop",
-        "children": ["flex-layout.row#minicart__row--desktop"],
+      "product-list-content-mobile": {
+        "title": "Lista productos mobile",
+        "children": ["flex-layout.row#minicart__row--mobile"],
         "props": {
           "blockClass": "minicart__product-list--content"
         }
       },
-      "flex-layout.row#minicart__row--desktop": {
+      "flex-layout.row#minicart__row--mobile": {
         "title": "Fila MiniCart",
         "children": [
           "flex-layout.col#minicart__col--image",

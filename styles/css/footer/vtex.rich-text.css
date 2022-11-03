@@ -1,0 +1,53 @@
+.wrapper--title-menu{
+    display: block;;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: center;
+    color: #3f3f40;
+}
+
+.paragraph--title-menu{
+    margin: .75rem 0;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    letter-spacing: .2rem;
+    font-size: .75rem;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.link--rich-text__submenu {
+    color: #000;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: .75rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+    line-height: 1.5;
+    text-justify: auto
+}
+
+.link--rich-text__submenu:hover {
+    text-decoration:underline
+}
+
+.paragraph--rich-text__submenu{
+    margin: 0;
+}
