@@ -1,0 +1,19 @@
+{
+  "footer-layout.mobile": {
+    "title": "Footer mobile",
+    "children": ["disclosure-layout-group#footer__menu--group"],
+    "props": { "blockClass": "footer-mobile" }
+  },
+  "disclosure-layout-group#footer__menu--group": {
+    "title": "Footer fila menu group mobile",
+    "children": ["flex-layout.row#footer__menu--mobile-container"]
+  },
+  "flex-layout.row#footer__menu--mobile-container": {
+    "title": "Footer contenedor menu group mobile",
+    "children": ["flex-layout.col#footer__menu--mobile-container"]
+  },
+  "flex-layout.col#footer__menu--mobile-container": {
+    "title": "Footer columna menu group mobile",
+    "children": ["menu#footer__menu"]
+  }
+}

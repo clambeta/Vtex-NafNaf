@@ -1,0 +1,86 @@
+{
+  "menu#footer__menu": {
+    "title": "Menú del footer",
+    "children": [
+      "menu-item#ayuda",
+      "menu-item#terminos",
+      "menu-item#marca",
+      "menu-item#legal",
+      "menu-item#pago"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-item-footer"
+    }
+  },
+  "menu-item#ayuda": {
+    "title": "Menú de ayuda",
+    "props": {
+      "id": "item-ayuda",
+      "type": "custom",
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "¿NECESITAS AYUDA?",
+        "text": "¿NECESITAS AYUDA?"
+      }
+    },
+    "blocks": ["submenu.accordion#footer__ayuda"]
+  },
+  "menu-item#terminos": {
+    "title": "Menú de términos y condiciones",
+    "props": {
+      "id": "item-terminos",
+      "type": "custom",
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "TÉRMINOS Y CONDICIONES",
+        "text": "TÉRMINOS Y CONDICIONES"
+      }
+    },
+    "blocks": ["submenu.accordion#footer__terminos"]
+  },
+  "menu-item#marca": {
+    "title": "Menú de nuestra marca",
+    "props": {
+      "id": "item-marca",
+      "type": "custom",
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "NUESTRA MARCA",
+        "text": "NUESTRA MARCA"
+      }
+    },
+    "blocks": ["submenu.accordion#footer__marca"]
+  },
+  "menu-item#legal": {
+    "title": "Menú de términos legales",
+    "props": {
+      "id": "item-legal",
+      "type": "custom",
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "TÉRMINOS LEGALES",
+        "text": "TÉRMINOS LEGALES"
+      }
+    },
+    "blocks": ["submenu.accordion#footer__legal"]
+  },
+  "menu-item#pago": {
+    "title": "Menú de métodos de pago",
+    "props": {
+      "id": "item-pago",
+      "type": "custom",
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "MÉTODOS DE PAGO",
+        "text": "MÉTODOS DE PAGO"
+      }
+    },
+    "blocks": ["submenu.accordion#footer__pago"]
+  }
+}
