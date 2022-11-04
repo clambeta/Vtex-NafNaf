@@ -81,7 +81,7 @@
       "base": "#ffffff",
       "base--inverted": "#03044e",
 
-      "action-primary": "#000",
+      "action-primary": "transparent",
 
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
@@ -232,7 +232,9 @@
 
       
       "base--inverted": "#ffffff",
-      "action-primary": "#ffffff",
+
+      "action-primary": "#000",
+
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",
       "disabled": "#979899",
