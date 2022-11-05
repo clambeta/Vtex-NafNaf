@@ -1,6 +1,7 @@
 {
   "login#header--mobile": {
     "props": {
+      "blockClass":"login-header-mobile",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
@@ -11,3 +12,4 @@
     }
   }
 }
+ 

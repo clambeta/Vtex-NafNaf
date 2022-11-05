@@ -1,26 +1,62 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
+    "title": "Footer desktop",
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.row#footer__menu--desktop-container",
+      "flex-layout.row#footer__menu--desktop-container-bottom"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "footer-desktop",
+      "colSizing":"equal",
+      "marginTop": 50
     }
+  },
+  /* footer container left */
+  "flex-layout.row#footer__menu--desktop-container": {
+  "title": "Contenedor para menús superior e inferior izquierdo",
+  "children": [
+    "flex-layout.col#footer__menu--desktop-container-left",
+      "flex-layout.col#footer__menu--desktop-container-right"
+  ],
+  "props": {
+    "blockClass": "footer-desktop-container-left",
+    "fullWidth": false,
+    "marginBottom": 5
+  }
+},
+  /* footer container left */
+  "flex-layout.col#footer__menu--desktop-container-left": {
+    "title": "Contenedor para menús superior e inferior izquierdo",
+    "children": [
+      "flex-layout.row#footer__menu--desktop-container-left-sup",
+      "flex-layout.row#footer__menu--desktop-container-left-inf"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-container-left",
+      "fullWidth": false
+    }
+  },
+
+  /* footer container right */
+  "flex-layout.col#footer__menu--desktop-container-right": {
+    "title": "Contenedor para menús superior e inferior derecho",
+    "children": ["flex-layout.row#footer__menu--desktop-container-right"],
+    "props": {
+      "fullWidth": false
+    }
+  },
+  "flex-layout.row#footer__menu--desktop-container-bottom": {
+    "title": "Footer banner inferior",
+    "children": [
+      "flex-layout.row#footer__menu--desktop-container-bottom-left",
+      "flex-layout.row#footer__menu--desktop-container-bottom-right"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-container-bottom",
+      "fullWidth": true,
+      "marginBottom": 0,
+      "colSizing":"equal"
+    }
+
   }
 }

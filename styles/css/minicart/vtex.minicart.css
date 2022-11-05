@@ -1,0 +1,36 @@
+.minicartQuantityBadge--header-minicart{
+    background-color: black;
+}
+
+.minicartQuantityBadgeDefault{
+    background-color: black;
+}
+
+.minicartTitle--minicart__content{
+    color: white;
+    content: "MI BOLSA";
+}
+
+.drawerContent--minicart{
+    background-color: black;
+}
+.closeIconButton--minicart{
+    color: white;
+}
+.wrapper--minicart__empty--text{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+
+.paragraph--minicart__empty--text{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+
+.inputContainer {
+    color: #fff;
+}
