@@ -1,0 +1,24 @@
+
+.brandName {
+    color: #000;
+    font-size: .8125rem;
+    line-height: 120%;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+
+.nameContainer {
+    padding: 0px;
+}
+
+.priceConteiner--product-summary-price {
+    padding: 0;
+}
+
+.sellingPriceConteiner {
+    padding: 0px;
+}
