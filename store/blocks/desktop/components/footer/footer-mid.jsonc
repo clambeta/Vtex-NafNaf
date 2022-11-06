@@ -1,0 +1,111 @@
+{
+    "flex-layout.col#footer__menu--desktop-container-mid-left":{
+        "title": "Contenedor del newsletter parte izquierda",
+        "children": [
+            "image#footer--desktop_mid",
+            "flex-layout.col#footer__desktop-container-mid-left-text"
+        ],
+        "props": {
+            "blockClass": "footer-container-mid-left"
+        }
+      },
+      "image#footer--desktop_mid":{
+        "props": {
+            "blockClass": "img-footer-mid",
+            "alt": "",
+            "src": "assets/img/nafnaf-footer-mon-amour.svg"          
+          }
+
+      },
+      "flex-layout.col#footer__desktop-container-mid-left-text":{
+        "title": "Contenedor de los textos de newsletter",
+        "children": [
+            "rich-text#footer-mid-left-01"
+           
+        ],
+        "props": {
+            "blockClass": "container-mid-left-text"
+        }
+      },
+
+      "rich-text#footer-mid-left-01":{
+        "title": "Texto Regístrate",
+        "props": {
+            "blockClass": "text-mid-left-01",
+            "text": "Regístrate y obtén un 25% de descuento\n**EN TU PRIMERA COMPRA**\n"
+        }
+
+      },
+
+      "modal-trigger#footer__modal--desktop-mid-right":{
+        "title": "Modal del boton de suscribirse",
+        "children": [
+            "rich-text#footer__modal---mid-right-trigger",
+            "modal-layout#footer__modal---mid-right-layout" 
+        ],
+        "props": {
+            "blockClass": "footer-modal-mid-right"
+        }
+      },
+      "rich-text#footer__modal---mid-right-trigger":{
+        "title": "Texto del botón del footer mid",
+        "props": {
+            "blockClass": "footer-mid-button-text",
+            "text": "Suscribirse"
+        }
+      },
+      "modal-layout#footer__modal---mid-right-layout":{
+        "title": "Modal layout del modal del footer mid",
+        "children":[
+            "modal-header#home__modal--event",
+            "flex-layout.row#footer__modal--newsletter-modal-content"
+        ],
+        "props": {
+            "blockClass": "newsletter-modal-layout"
+        }
+      },
+      "flex-layout.row#footer__modal--newsletter-modal-content":{
+        "title": "Contenedor del modal del footer mid",
+        "children": [
+            "image#footer--modal_mid",
+            "flex-layout.col#modal--newsletter-modal-content"
+        ],
+        "props": {
+            "blockClass":  "newsletter-modal-content"
+        }
+      },
+      "image#footer--modal_mid":{
+        "title": "Foto del modal",
+        "props": {
+            "blockClass": "img-modal-footer-mid",
+            "alt": "",
+            "src": "assets/img/FOTO_form.png"          
+          }
+      },
+      "flex-layout.col#modal--newsletter-modal-content":{
+        "title": "Contenedor en columna  del modal",
+        "children": [
+            "image#newsletter-modal",
+            "image#newsletter-modal-02"
+        ],
+        "props": {
+            "blockClass": "col-newsletter-modal-content"
+        }
+      },
+      "image#newsletter-modal":{
+        "title": "Imagen de la columna del modal",
+        "props": {
+            "blockClass": "img-col-modal-footer-mid",
+            "alt": "",
+            "src": "assets/img/form-dcto.png"          
+          }
+      },
+      "image#newsletter-modal-02":{
+        "title": "Imagen del formulario de columna del modal",
+        "props": {
+            "blockClass": "img-02-col-modal-footer-mid",
+            "alt": "",
+            "src": "assets/img/form.png"          
+          }
+      }
+}

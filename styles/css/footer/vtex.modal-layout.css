@@ -1,0 +1,50 @@
+.container--newsletter-modal-layout{
+    max-width: 60%;
+    width: auto;
+    height: 70%;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    overflow-y: auto;
+    position: relative;
+    justify-content: center;
+}
+
+
+.backdrop--newsletter-modal-layout{
+    text-align: center;
+
+}
+
+.contentContainer--newsletter-modal-layout{
+    max-width: 60%;
+    width: auto;
+    height: 70%;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    overflow-y: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.closeIcon--header-modal--even-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    border-radius: 0;
+    width: 1rem;
+    height: 1rem;
+    min-height: unset;
+    background-color: transparent;
+    padding: 0;
+}
+
+.closeButton--modal-close-newsletter{
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+}
