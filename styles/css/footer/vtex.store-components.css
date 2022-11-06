@@ -32,4 +32,8 @@
     max-height: 100%;
 }
 
+.imageElement--footer-top__image{
+    max-height: 57px;
+    max-width: 100%;
+}
 

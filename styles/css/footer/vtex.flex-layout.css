@@ -81,3 +81,11 @@
 .flexCol--footer-container-mid-left{
     width: 100%;
 }
+
+.flexRowContent--top-icon-text-footer-container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: #bfbfbf;
+}
+

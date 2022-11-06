@@ -2,6 +2,7 @@
   "footer-layout.desktop": {
     "title": "Footer desktop",
     "children": [
+      "flex-layout.row#footer__menu--desktop-container-top",
       "flex-layout.row#footer__menu--desktop-container-mid",
       "flex-layout.row#footer__menu--desktop-container",
       "flex-layout.row#footer__menu--desktop-container-bottom"
@@ -12,7 +13,24 @@
       "marginTop": 50
     }
   },
-
+  /* footer container top */
+  "flex-layout.row#footer__menu--desktop-container-top":{
+    "title": "Contenedor de icon-text",
+    "children": [
+      "flex-layout.row#footer--top-icon-text-footer-container-01",
+      "flex-layout.row#footer--top-icon-text-footer-container-02",
+      "flex-layout.row#footer--top-icon-text-footer-container-03",
+      "flex-layout.row#footer--top-icon-text-footer-container-04"
+    ],
+    "props": {
+        "blockClass": "footer--desktop-container-top",
+        "fullWidth": false,
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 10
+    }
+ },
+ 
 /* footer container mid */
   "flex-layout.row#footer__menu--desktop-container-mid": {
     "title": "Contenedor de newsletter",
@@ -23,7 +41,8 @@
     "props": {
       "blockClass": "menu--desktop-container-mid",
       "fullWidth": false,
-      "marginBottom": 5
+      "marginBottom": 10,
+      "marginTop": 10
     }
   },
 
