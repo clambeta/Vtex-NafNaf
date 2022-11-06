@@ -1,5 +1,5 @@
 {
-  "drawer#header--mobile__buttom-menu": {
+  "drawer#header--mobile__bottom-menu": {
     "title": "Drawer mobile menu",
     "children": ["menu#header__menu"]
   },

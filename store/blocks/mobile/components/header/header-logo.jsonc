@@ -1,5 +1,5 @@
 {
-  "logo#header--mobile__buttom--logo": {
+  "logo#header--mobile__bottom--logo": {
     "title": "Logo",
     "props": {
       "blockClass":"logo-header-mobile",
@@ -8,11 +8,11 @@
       "href": "/"
     }
   },
-  "modal-trigger#header--mobile__buttom--login": {
+  "modal-trigger#header--mobile__bottom--login": {
     "title": "Modal trigger del botón del login",
-    "children": ["modal-layout#header--mobile__buttom--login"]
+    "children": ["modal-layout#header--mobile__bottom--login"]
   },
-  "modal-layout#header--mobile__buttom--login": {
+  "modal-layout#header--mobile__bottom--login": {
     "title": "Modal layout del botón del login",
     "children": ["login-content"]
   }

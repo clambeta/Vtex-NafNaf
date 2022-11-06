@@ -1,0 +1,194 @@
+{
+    "flex-layout.row#footer--top-icon-text-footer-container-01":{
+        "title": "Contenedor del ícono y el texto 01",
+        "children": [
+            "flex-layout.col#footer--top-icon-text-footer-icon-01",
+            "flex-layout.col#footer--top-icon-text-footer-text-01"
+        ],
+        "props": {
+            "blockClass":"top-icon-text-footer-container",
+            "colSizing":"auto",
+            "horizontalAlign": "center",
+            "colGap": 6,
+            "border":"right"
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-icon-01":{
+        "title": "Contenedor del ícono 01",
+        "children": [
+            "image#footer--top__image-icon-01"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-icon"
+        }
+    },
+    "image#footer--top__image-icon-01":{
+        "title": "Imagen de icono 1",
+        "props":{
+            "src": "assets/img/icon-cycle.svg",
+            "blockClass": "footer-top__image",
+            "link":{
+                "url":"https://www.nafnaf.com.co/servicios/entrega-devoluciones"
+            }
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-text-01":{
+        "title": "Contenedor del texto 01",
+        "children": [
+            "rich-text#footer--top-text-01"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-text"
+        }
+    },
+    "rich-text#footer--top-text-01":{
+        "title": "Texto de cambios y devoluciones",
+        "props": {
+          "text": "[**CAMBIOS Y**\n**DEVOLUCIONES**](https://www.nafnaf.com.co/servicios/entrega-devoluciones)",
+          "blockClass": "rich-text__boton-top-link",
+          "textColor": "c-on-base"
+        }
+    },
+
+    "flex-layout.row#footer--top-icon-text-footer-container-02":{
+        "title": "Contenedor del ícono y el texto 02",
+        "children": [
+            "flex-layout.col#footer--top-icon-text-footer-icon-02",
+            "flex-layout.col#footer--top-icon-text-footer-text-02"
+        ],
+        "props": {
+            "blockClass":"top-icon-text-footer-container",
+            "colSizing":"auto",
+            "horizontalAlign": "center",
+            "colGap": 6,
+            "border":"right"
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-icon-02":{
+        "title": "Contenedor del ícono 02",
+        "children": [
+            "image#footer--top__image-icon-02"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-icon"
+        }
+    },
+    "image#footer--top__image-icon-02":{
+        "title": "Imagen de icono 2",
+        "props":{
+            "src": "assets/img/icon_truck.svg",
+            "blockClass": "footer-top__image",
+            "link":{
+                "url":"https://www.nafnaf.com.co/ayuda"
+            }
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-text-02":{
+        "title": "Contenedor del texto 02",
+        "children": [
+            "rich-text#footer--top-text-02"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-text"
+        }
+    },
+    "rich-text#footer--top-text-02":{
+        "title": "Texto de información de envío",
+        "props": {
+          "text": "[**INFORMACIÓN**\n**DE ENVIO**](https://www.nafnaf.com.co/ayuda)",
+          "blockClass": "rich-text__boton-top-link",
+          "textColor": "c-on-base"
+        }
+    },
+    "flex-layout.row#footer--top-icon-text-footer-container-03":{
+        "title": "Contenedor del ícono y el texto 03",
+        "children": [
+            "flex-layout.col#footer--top-icon-text-footer-icon-03",
+            "flex-layout.col#footer--top-icon-text-footer-text-03"
+        ],
+        "props": {
+            "blockClass":"top-icon-text-footer-container",
+            "colSizing":"auto",
+            "horizontalAlign": "center",
+            "colGap": 6,
+            "border":"right"
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-icon-03":{
+        "title": "Contenedor del ícono 03",
+        "children": [
+            "image#footer--top__image-icon-03"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-icon"
+        }
+    },
+    "image#footer--top__image-icon-03":{
+        "title": "Imagen de icono 3",
+        "props":{
+            "src": "assets/img/icon-ruler.svg",
+            "blockClass": "footer-top__image"
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-text-03":{
+        "title": "Contenedor del texto 03",
+        "children": [
+            "rich-text#footer--top-text-03"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-text"
+        }
+    },
+    "rich-text#footer--top-text-03":{
+        "title": "Texto de guía de tallas",
+        "props": {
+          "text": "**GUÍA DE**\n**TALLAS**",
+          "blockClass": "rich-text__boton-top"
+        }
+    },
+    "flex-layout.row#footer--top-icon-text-footer-container-04":{
+        "title": "Contenedor del ícono y el texto 04",
+        "children": [
+            "flex-layout.col#footer--top-icon-text-footer-icon-04",
+            "flex-layout.col#footer--top-icon-text-footer-text-04"
+        ],
+        "props": {
+            "blockClass":"top-icon-text-footer-container",
+            "colSizing":"auto",
+            "horizontalAlign": "center",
+            "colGap": 6
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-icon-04":{
+        "title": "Contenedor del ícono 04",
+        "children": [
+            "image#footer--top__image-icon-04"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-icon"
+        }
+    },
+    "image#footer--top__image-icon-04":{
+        "title": "Imagen de icono 4",
+        "props":{
+            "src": "assets/img/icon-shield.svg",
+            "blockClass": "footer-top__image"
+        }
+    },
+    "flex-layout.col#footer--top-icon-text-footer-text-04":{
+        "title": "Contenedor del texto 04",
+        "children": [
+            "rich-text#footer--top-text-04"
+        ],
+        "props": {
+            "blockClass": "icon-text-footer-text"
+        }
+    },
+    "rich-text#footer--top-text-04":{
+        "title": "Texto de compra online",
+        "props": {
+          "text": "**COMPRA ONLINE**\n100% Segura",
+          "blockClass": "rich-text__boton-top"
+        }
+    }
+}

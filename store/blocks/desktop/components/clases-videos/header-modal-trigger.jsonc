@@ -13,7 +13,7 @@
       "title": "Header inferior",
       "children": [
        "drawer#header--mobile__top-menu", 
-         "logo#header__buttom--logo", 
+         "logo#header__bottom--logo", 
        /"header-spacer", 
         "search-bar", 
        "login",  
