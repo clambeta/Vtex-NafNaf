@@ -1,5 +1,5 @@
 {
-  "logo#header__buttom--logo": {
+  "logo#header__bottom--logo": {
     "title": "Logo",
     "props": {
       "blockClass": "logo-header",

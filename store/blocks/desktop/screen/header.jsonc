@@ -3,7 +3,7 @@
     "title": "Header Desktop",
     "children": [
       "header-row#header--desktop__top",
-      "header-row#header--desktop__buttom"
+      "header-row#header--desktop__bottom"
     ],
     "props": {
       "blockClass": "header__desktop"
@@ -17,16 +17,16 @@
       "fullWidth": true
     }
   },
-  "header-row#header--desktop__buttom": {
+  "header-row#header--desktop__bottom": {
     "title": "Header desktop inferior",
     "children": [
-      "logo#header__buttom--logo",
+      "logo#header__bottom--logo",
       "search-bar#header__desktop--search",
       "login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "header__buttom",
+      "blockClass": "header__bottom",
       "fullWidth": true
     }
   },

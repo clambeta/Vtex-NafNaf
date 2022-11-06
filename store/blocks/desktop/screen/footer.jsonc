@@ -2,6 +2,7 @@
   "footer-layout.desktop": {
     "title": "Footer desktop",
     "children": [
+      "flex-layout.row#footer__menu--desktop-container-mid",
       "flex-layout.row#footer__menu--desktop-container",
       "flex-layout.row#footer__menu--desktop-container-bottom"
     ],
@@ -11,6 +12,21 @@
       "marginTop": 50
     }
   },
+
+/* footer container mid */
+  "flex-layout.row#footer__menu--desktop-container-mid": {
+    "title": "Contenedor de newsletter",
+    "children": [
+      "flex-layout.col#footer__menu--desktop-container-mid-left",
+      "modal-trigger#footer__modal--desktop-mid-right"
+    ],
+    "props": {
+      "blockClass": "menu--desktop-container-mid",
+      "fullWidth": false,
+      "marginBottom": 5
+    }
+  },
+
   /* footer container left */
   "flex-layout.row#footer__menu--desktop-container": {
   "title": "Contenedor para menús superior e inferior izquierdo",

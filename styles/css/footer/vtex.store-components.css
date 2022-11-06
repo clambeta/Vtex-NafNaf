@@ -5,6 +5,31 @@
     margin: 0 0.5rem;
     border-style: none;
 
-    
-
 }
+
+/* footer mid */
+
+.imageElement--img-footer-mid {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+.imageElement--img-modal-footer-mid {
+    max-height: 100%;
+    
+}
+
+
+
+.imageElement--img-col-modal-footer-mid{
+    max-height: 100%;
+}
+
+.imageElement--img-02-col-modal-footer-mid{
+    max-height: 100%;
+}
+
+
