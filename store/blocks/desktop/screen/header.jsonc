@@ -21,7 +21,8 @@
     "title": "Header desktop inferior",
     "children": [
       "logo#header__bottom--logo",
-      "search-bar#header__desktop--search",
+      "menu#desktop"/* ,
+      "search-bar#header__desktop--search"*/, 
       "login",
       "minicart.v2"
     ],

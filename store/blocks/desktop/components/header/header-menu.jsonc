@@ -1,0 +1,227 @@
+{
+    "menu#desktop":{
+        "title": "Menú desktop",
+        "children":[
+            "menu-item#new"
+            /* "menu-item#ropa",
+            "menu-item#denim",
+            "menu-item#origin",
+            "menu-item#complementos",
+            "menu-item#colecciones",
+            "menu-item#monamour" */
+        ],
+        "props":{
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#new":{
+        "title": "Menú de item New",
+        "props": {
+            "blockClass": "menu-item-desktop",
+            "id": "menu-item-new",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+             /*  "href": "https://www.nafnaf.com.co/ver-todo", */
+              "noFollow": false,
+              "tagTitle": "NEW",
+              "text": "NEW"
+            }
+        },
+        "blocks": [
+            "submenu#desktop-new"] 
+
+    },
+    "submenu#desktop-new":{
+            "title": "Submenú de new",
+            "children": [
+                "flex-layout.row#submenu-card-container"],
+            "props": {
+                "blockClass": "submenu-desktop"
+            }    
+    },
+    "flex-layout.row#submenu-card-container":{
+        "title": "Contenedor del submenú de new",
+        "children": [
+            "flex-layout.row#submenu-text-container",
+            "flex-layout.col#submenu-text-container"
+        ],
+        "props":{
+            "blockClass": "primary-container-submenu",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#submenu-text-container":{ 
+        "title": "Contenedor del submenú de los ítems",
+        "children": [
+            "flex-layout.col#submenu-container-items-text"
+        ],
+        "props": {
+            "blockClass": "container-items-text",
+            "fullWidth": true,
+            "colGap": 8,
+            "colJustify": "between",
+            "colSizing": "auto"
+        }
+       
+    },
+    "flex-layout.col#submenu-container-items-text":{ 
+            "children": [    
+                "flex-layout.col#submenu-container-items",
+                "flex-layout.col#submenu-container-ver-todo"       
+            ],
+            "props": {
+                "blockClass": "container-submenu-text"
+            } 
+    },
+    "flex-layout.col#submenu-container-items":{
+        "title": "Contenedor de los ítems",
+            "children": [
+                "menu-item#desktop-category-camisas",
+                "menu-item#desktop-category-prendas-tejidas",
+                "menu-item#desktop-category-pantalones",
+                "menu-item#desktop-category-camisetas",
+                "menu-item#desktop-category-jeans",
+                "menu-item#desktop-category-chaquetas",
+                "menu-item#desktop-category-vestidos",
+                "menu-item#desktop-category-faldas",
+                "menu-item#desktop-category-shorts",
+                "menu-item#desktop-category-enterizos"
+               ],
+            "props": {
+                "blockClass": "container-items"
+            } 
+    },
+    "flex-layout.col#submenu-container-ver-todo":{
+        "title": "Contenedor de Ver Todo",
+        "children": [
+            "menu-item#desktop-category-ver-todo"
+        ],
+        "props": {
+            "blockClass": "container--items"
+        } 
+    },
+    "flex-layout.col#submenu-text-container":{
+        "title": "Contenedor de la info card del submenú",
+        "children":[
+            "flex-layout.col#submenu-container-info-card-col"
+        ],
+        "props":{
+        "blockClass": "container-submenu-info-card"
+        }
+    },
+    "flex-layout.col#submenu-container-info-card-col":{ 
+        "children": [
+            "image#submenu-container-info-card-img",
+            "rich-text#submenu-container-info-card-text"
+        ],
+        "props": {
+            "blockClass": "container-info-card-col"
+        }
+    },
+   /*  "flex-layout.row#submenu-container-info-card":{
+        "title": "Contenedor de la imagen Info card del submenú",
+        "children": [
+            "image#submenu-container-info-card-img"
+        ],
+        "props": {
+            "blockClass": "container-info-card"
+        }
+    }, */
+
+    "image#submenu-container-info-card-img": {
+        "title": "Imagen de info card",
+        "props":{
+            "src": "assets/img/submenu-new.png",
+            "blockClass": "img-card-submenu",
+            "link":{
+                "url":"https://www.nafnaf.com.co/new-arrivals",
+                "newTab": true
+            }
+        }
+    }, 
+
+ /*   "info-card#submenu-container-info-card":{
+        "title": "Info card del submenú",
+        "props": {
+            "id": "info-card--submenu",
+            "textPosition": "center",
+            "textAlignment": "center",
+            "imageUrl": "assets/img/submenu-new.png",
+            "imageActionUrl": "https://www.nafnaf.com.co/new-arrivals", 
+            "blockClass": "info-card-submenu",
+            "width":"100%"
+          } 
+    }, 
+    "flex-layout.col#submenu-container-info-card":{
+        "title": "",
+        "children": [
+            "rich-text#submenu-container-info-card-text"
+        ],
+        "props": {
+            "blockClass": "container-info-card-text"
+        }  
+    },*/
+    "rich-text#submenu-container-info-card-text":{
+        "title": "Texto de ver todo lo nuevo",
+        "props": {
+          "text": "[VER TODO LO NUEVO](https://www.nafnaf.com.co/new-arrivals)",
+          "blockClass": "text-info-card-submenu"
+        }
+    }
+}
+
+    
+    
+
+    /* ,
+    "menu-item#ropa":{
+        "title": "Menú de item Ropa",
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    },
+    "menu-item#denim":{
+        "title": "Menú de item Denim",
+        
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    },
+    "menu-item#origin":{
+        "title": "Menú de item Origin",
+        
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    },
+    "menu-item#complementos":{
+        "title": "Menú de item Complementos",
+       
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    },
+    "menu-item#colecciones":{
+        "title": "Menú de item Colecciones",
+       
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    },
+    "menu-item#monamour":{
+        "title": "Menú de item Mon Amour",
+       
+        "props": {
+            "blockClass": "menu-item-desktop"
+        }
+
+    } */
+
+

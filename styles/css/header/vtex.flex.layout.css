@@ -1,0 +1,17 @@
+/* .flexCol--container-submenu-text {
+    width: 80vW;
+} 
+ */
+.flexRowContent--container-items-text{
+    width: 200px;
+}
+
+.flexRow--primary-container-submenu {
+    width: 100%;
+    background-color: blue;
+}
+
+.flexRowContent--primary-container-submenu {
+    width: 100%;
+    background-color: blue;
+}

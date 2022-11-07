@@ -1,6 +1,6 @@
 {
     "flex-layout.row#home__bottom--banner-content": {
-      "title": "Banner del medio",
+      "title": "Banner de abajo",
       "children": [
         "flex-layout.col#bottom__banner--content-two",
         "flex-layout.col#bottom__banner--content-one"

@@ -43,6 +43,7 @@
     letter-spacing: .6rem;
     text-decoration: none;
     transition: all .3s ease-in-out;
+    color: white;
   }
 
   .infoCardCallActionContainer :global(.vtex-button):hover {
@@ -103,7 +104,7 @@
     padding: 0;
     padding-bottom: .1em!important;
     font-family: Roboto,sans-serif;
-    color: #000;
+    color:white !important;
     font-weight: 700;
     font-size: .75rem;
     letter-spacing: .2rem;
@@ -112,8 +113,39 @@
     font-family: Roboto, sans-serif;
     text-align: center;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    
   }
+
+  .infoCardCallActionContainer--info-card-mid--banner :global(.vtex-button){
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    padding: 0.7% 2%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    cursor: pointer;
+    background-color: var(--primary-slider-button);
+    bottom: 30%;
+    left: 45%;
+    width: 150px;
+    height: 20px;
+    transition: all .3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: .1em!important;
+    font-family: Roboto,sans-serif;
+    color:white !important;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
 .infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button):hover  {
     position: absolute;
     border: none;
