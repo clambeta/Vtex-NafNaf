@@ -41,5 +41,20 @@
       "blockClass": "header__desktop--search",
       "openAutocompleteOnFocus": true
     }
-  }
+  },
+  "menu#desktop":{
+    "title": "Menú desktop",
+    "children":[
+        "menu-item#new",
+        "menu-item#ropa",
+        "menu-item#denim",
+        "menu-item#origen",       
+        "menu-item#complementos",
+        "menu-item#colecciones",
+        "menu-item#monamour" 
+    ],
+    "props":{
+        "blockClass": "menu-desktop"
+    }
+}
 }

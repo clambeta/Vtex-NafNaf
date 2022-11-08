@@ -1,0 +1,54 @@
+{
+    "menu-item#desktop-category-jeans":{
+        "props": {
+            "id": "category-jeans",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/jeans",
+              "tagTitle": "Jeans",
+              "text": "Jeans"
+            }
+          }
+    },
+    "menu-item#desktop-category-chaquetas":{
+        "props": {
+            "id": "category-chaquetas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/ropa-mujer/chaquetas",
+              "tagTitle": "Chaquetas",
+              "text": "Chaquetas"
+            }
+          } 
+    },
+    "menu-item#desktop-category-shorts":{
+        "props": {
+            "id": "category-shorts",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/shorts",
+              "tagTitle": "Shorts",
+              "text": "Shorts"
+            }
+          }  
+    }, 
+    "menu-item#desktop-category-faldas":{
+        "props": {
+            "id": "category-faldas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/faldas",
+              "tagTitle": "Faldas",
+              "text": "Faldas"
+            }
+          }
+    }   
+}

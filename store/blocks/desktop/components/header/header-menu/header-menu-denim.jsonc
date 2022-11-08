@@ -1,0 +1,104 @@
+{
+    "menu-item#denim": {
+      "title": "Menú de item Denim",
+      "props": {
+        "blockClass": "menu-item-desktop",
+        "id": "menu-item-denim",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          /*  "href": "https://www.nafnaf.com.co/ver-todo", */
+          "noFollow": false,
+          "tagTitle": "DENIM",
+          "text": "DENIM"
+        }
+      },
+      "blocks": ["submenu#desktop-denim"]
+    },
+    "submenu#desktop-denim": {
+      "title": "Submenú de new",
+      "children": ["flex-layout.row#submenu-card-container-denim"],
+      "props": {
+        "blockClass": "submenu-desktop"
+      }
+    },
+    "flex-layout.row#submenu-card-container-denim": {
+      "title": "Contenedor del submenú de new",
+      "children": [
+        "flex-layout.row#submenu-text-container-denim",
+        "flex-layout.col#submenu-text-container-denim"
+      ],
+      "props": {
+        "blockClass": "primary-container-submenu",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.row#submenu-text-container-denim": {
+      "title": "Contenedor del submenú de los ítems",
+      "children": ["flex-layout.col#submenu-container-items-text-denim"],
+      "props": {
+        "blockClass": "container-items-text",
+        "fullWidth": true,
+        "colGap": 8,
+        "colJustify": "between",
+        "colSizing": "auto"
+      }
+    },
+    "flex-layout.col#submenu-container-items-text-denim": {
+      "children": [
+        "flex-layout.col#submenu-container-items-denim",
+        "flex-layout.col#submenu-container-ver-todo"
+      ],
+      "props": {
+        "blockClass": "container-submenu-text"
+      }
+    },
+    "flex-layout.col#submenu-container-items-denim": {
+      "title": "Contenedor de los ítems",
+      "children": [
+        "menu-item#desktop-category-jeans",
+        "menu-item#desktop-category-chaquetas",
+        "menu-item#desktop-category-shorts",
+        "menu-item#desktop-category-faldas"
+      ],
+      "props": {
+        "blockClass": "container-items"
+      }
+    },
+    "flex-layout.col#submenu-container-ver-todo": {
+      "title": "Contenedor de Ver Todo",
+      "children": ["menu-item#desktop-category-ver-todo"],
+      "props": {
+        "blockClass": "container--items"
+      }
+    },
+    "flex-layout.col#submenu-text-container-denim": {
+      "title": "Contenedor de la info card del submenú",
+      "children": ["image#submenu-container-info-card-img-denim",
+      "rich-text#submenu-container-info-card-text-denim"],
+      "props": {
+        "blockClass": "container-submenu-info-card"
+      }
+    },
+    "image#submenu-container-info-card-img-denim": {
+      "title": "Imagen de info card",
+      "props": {
+        "src": "assets/img/submenu-jeans.png",
+        "blockClass": "img-card-submenu",
+        "maxHeight": "540px",
+        "link": {
+          "url": "https://www.nafnaf.com.co/new-arrivals/jeans",
+          "newTab": true
+        }
+      }
+    },
+    "rich-text#submenu-container-info-card-text-denim": {
+      "title": "Texto de ver todo denim",
+      "props": {
+        "text": "[VER TODO DENIM](https://www.nafnaf.com.co/new-arrivals/jeans)",
+        "blockClass": "text-info-card-submenu"
+      }
+    }
+  }
+  

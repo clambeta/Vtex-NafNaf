@@ -1,0 +1,20 @@
+{
+    "menu-item#monamour": {
+      "title": "Menú de item Monamour",
+      "props": {
+        "blockClass": "menu-item-desktop",
+        "id": "menu-item-monamour",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://www.nafnaf.com.co/vistas/mon-amour", 
+          "noFollow": false,
+          "tagTitle": "MONAMOUR",
+          "text": "MONAMOUR"
+        }
+      }
+    }
+   
+  }
+  
