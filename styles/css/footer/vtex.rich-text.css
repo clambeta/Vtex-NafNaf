@@ -224,7 +224,7 @@
 }
 
 .link--rich-text__boton-top-link :global(.vtex-rich-text-0-x-link){
-    color: #1d1d1b !important;
+    color:#1c1b1d !important;
     text-decoration: none;
     line-height: 1.5;
 }

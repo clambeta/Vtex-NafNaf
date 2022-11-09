@@ -1,3 +1,20 @@
 .headerRowContainer--header__bottom {
     justify-content: space-between;
+    background-color: transparent;
+    
 }
+
+.headerStickyRow--header__bottom {
+    background-color:transparent;
+    color: black;
+    
+}
+
+.headerRowContentContainer--header__bottom {
+    background-color: transparent;
+}
+
+.headerRowBackground--header__bottom {
+    background-color: transparent;
+}
+

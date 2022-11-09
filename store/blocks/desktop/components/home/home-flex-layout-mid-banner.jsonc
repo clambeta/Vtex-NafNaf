@@ -24,6 +24,7 @@
     }
   },
   "info-card#home__mid--banner-one": {
+    "title": "Info card del banner mid parte one",
     "props": {
       "id": "info-card--mid__banner",
       "isFullModeStyle": true,
@@ -49,6 +50,7 @@
     }
   },
   "info-card#home__mid--banner-two": {
+    "title": "Info card del banner mid parte two",
     "props": {
       "id": "info-card--mid__banner",
       "isFullModeStyle": true,
@@ -62,6 +64,7 @@
     }
   },
   "info-card#home__mid--banner-three": {
+    "title": "Info card del banner mid parte three",
     "props": {
       "id": "info-card--mid__banner",
       "isFullModeStyle": true,
