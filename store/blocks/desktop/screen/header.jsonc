@@ -14,7 +14,8 @@
     "children": ["slider-layout#header--desktop__top-slider"],
     "props": {
       "blockClass": "header__top",
-      "fullWidth": true
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
   "header-row#header--desktop__bottom": {
@@ -28,7 +29,8 @@
     ],
     "props": {
       "blockClass": "header__bottom",
-      "fullWidth": true
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
   "autocomplete-result-list.v2": {
@@ -39,7 +41,7 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "header__desktop--search",
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": "true"
     }
   },
   "menu#desktop":{

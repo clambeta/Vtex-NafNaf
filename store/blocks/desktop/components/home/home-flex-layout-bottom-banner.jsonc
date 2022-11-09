@@ -24,6 +24,7 @@
       }
     },
     "info-card#home__bottom--banner-one": {
+      "title": "Info card del banner bottom parte one",
       "props": {
         "id": "info-card--bottom__banner",
         "isFullModeStyle": true,
@@ -49,6 +50,7 @@
       }
     },
     "info-card#home__bottom--banner-two": {
+      "title": "Info card del banner bottom parte two",
       "props": {
         "id": "info-card--bottom__banner",
         "isFullModeStyle": true,
@@ -62,6 +64,7 @@
       }
     },
     "info-card#home__bottom--banner-three": {
+      "title": "Info card del banner bottom parte three",
       "props": {
         "id": "info-card--bottom__banner",
         "isFullModeStyle": true,

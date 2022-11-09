@@ -5,12 +5,12 @@
       "slider-layout#home__slider--media",
         "rich-text#home__container--text",
         "slider-layout#home__slider--children",
-        "flex-layout.row#home__mid--banner-content",
-        "flex-layout.row#home__mid--banner-slider-content",
-        "flex-layout.row#home__bottom--banner-content",
+        "flex-layout.row#mobile__home--mid-banner-content",
+        "flex-layout.row#mobile__home--mid-banner-slider-content",
+        "flex-layout.row#mobile__home--bottom-banner-content",
         "rich-text#home__container--text-dos",
         "slider-layout#home__slider--children-bottom",
-        "search-result-layout.customQuery#home__search" 
+        "search-result-layout.customQuery#home__search"
   
       ]
     }

@@ -53,3 +53,35 @@
 .paragraph--text-banner-slider-card{
     margin: 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .wrapper--texto_uno{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+    }
+    .wrapper--texto_dos{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        margin-bottom: .5rem;       
+    }
+ 
+    .link--mobile-text-banner-slider-card{
+        margin: .5rem 0 0;
+        font-size: .625rem;
+        font-family: Roboto,sans-serif;
+        font-weight: 600;
+        line-height: 1.5rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--primary-link-text);
+    }
+    .paragraph--mobile-text-banner-slider-card{
+        margin: .375rem 0 0;
+        font-size: .625rem;
+    }
+
+}

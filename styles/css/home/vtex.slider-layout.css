@@ -50,5 +50,14 @@
    color: black;
 }
 
+@media only screen and (max-width: 600px) {
+.sliderArrows {
+   background-color:var(--media-arrow)!important;
+   padding: 12px 14px;
+   border-radius: 50%;
+   transform: translateY(-50%);
+}
+}
+
 
 

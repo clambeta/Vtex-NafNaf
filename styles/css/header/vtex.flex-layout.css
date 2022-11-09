@@ -12,6 +12,7 @@
 
  .flexRow--container-items-text{
     width: 100% !important;
+
  }
 
 
@@ -26,13 +27,7 @@
     margin: auto 0;
     height: 70%;
     top: 25%;
-
-
-
-
-
     border-right: 1px solid rgb(168, 168, 168);
-    
 }
 
 
