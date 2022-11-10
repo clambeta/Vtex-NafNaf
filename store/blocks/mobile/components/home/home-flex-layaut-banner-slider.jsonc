@@ -37,7 +37,7 @@
       "title": "Imagen del banner-slider mobile",
       "props": {
         "blockClass": "mobile-banner-slider-img",
-        "src": "assets/img/neutral-vibes.png",
+        "src": "assets/img/neutral-vibes-mobile.png",
         "link": {
           "url": "https://www.nafnaf.com.co/new-arrivals"
         }

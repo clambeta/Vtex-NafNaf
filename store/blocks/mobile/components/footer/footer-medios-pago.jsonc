@@ -1,28 +1,45 @@
 {
-  "flex-layout.row#footer__menu--desktop-container-bottom-left": {
-    "title": "Footer inferior izquierdo",
+  "flex-layout.row#footer__menu--mobile-container-bottom": {
+    "children": ["flex-layout.col#footer__menu--mobile-container-col-bottom"],
+    "props": {
+      "blockClass": "mobile-container-bottom-left"
+    }
+  },
+  "flex-layout.col#footer__menu--mobile-container-col-bottom": {
+    "title": "Contenedor de medios de pago y términos",
     "children": [
-      "image#footer--desktop__bottom-left-01",
-      "image#footer--desktop__bottom-left-02",
-      "image#footer--desktop__bottom-left-03",
-      "image#footer--desktop__bottom-left-04",
-      "image#footer--desktop__bottom-left-05",
-      "image#footer--desktop__bottom-left-06",
-      "image#footer--desktop__bottom-left-07",
-      "image#footer--desktop__bottom-left-08",
-      "image#footer--desktop__bottom-left-09",
-      "image#footer--desktop__bottom-left-10",
-      "image#footer--desktop__bottom-left-11"
+      "flex-layout.row#footer__menu--mobile-container-bottom-01",
+      "flex-layout.col#footer__menu--mobile-container-bottom-02"
+    ],
+    "props": {
+      "blockClass": "footer__menu--mobile-container-col-bottom"
+    }
+  },
+
+  "flex-layout.row#footer__menu--mobile-container-bottom-01": {
+    "title": "Footer inferior",
+    "children": [
+      "image#footer--mobile__bottom-left-01",
+      "image#footer--mobile__bottom-left-02",
+      "image#footer--mobile__bottom-left-03",
+      "image#footer--mobile__bottom-left-04",
+      "image#footer--mobile__bottom-left-05",
+      "image#footer--mobile__bottom-left-06",
+      "image#footer--mobile__bottom-left-07",
+      "image#footer--mobile__bottom-left-08",
+      "image#footer--mobile__bottom-left-09",
+      "image#footer--mobile__bottom-left-10",
+      "image#footer--mobile__bottom-left-11"
     ],
     "props": {
       "fullWidth": false,
-      "horizontalAlign": "right",
+      "horizontalAlign": "center",
       "colSizing": "auto",
-      "colGap": 0,
-      "blockClass": "footer-bottom-left"
+      "blockClass": "mobile-footer-bottom-left",
+      "colGap": 8
     }
   },
-  "image#footer--desktop__bottom-left-01": {
+  "image#footer--mobile__bottom-left-01": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -31,7 +48,7 @@
       "maxHeight": "18px"
     }
   },
-  "image#footer--desktop__bottom-left-02": {
+  "image#footer--mobile__bottom-left-02": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -40,7 +57,7 @@
       "maxHeight": "14px"
     }
   },
-  "image#footer--desktop__bottom-left-03": {
+  "image#footer--mobile__bottom-left-03": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -49,7 +66,7 @@
       "maxHeight": "18px"
     }
   },
-  "image#footer--desktop__bottom-left-04": {
+  "image#footer--mobile__bottom-left-04": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -58,7 +75,7 @@
       "maxHeight": "13px"
     }
   },
-  "image#footer--desktop__bottom-left-05": {
+  "image#footer--mobile__bottom-left-05": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -67,7 +84,7 @@
       "maxHeight": "20px"
     }
   },
-  "image#footer--desktop__bottom-left-06": {
+  "image#footer--mobile__bottom-left-06": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -76,7 +93,7 @@
       "maxHeight": "16px"
     }
   },
-  "image#footer--desktop__bottom-left-07": {
+  "image#footer--mobile__bottom-left-07": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -85,7 +102,7 @@
       "maxHeight": "17px"
     }
   },
-  "image#footer--desktop__bottom-left-08": {
+  "image#footer--mobile__bottom-left-08": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -94,7 +111,7 @@
       "maxHeight": "17px"
     }
   },
-  "image#footer--desktop__bottom-left-09": {
+  "image#footer--mobile__bottom-left-09": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -103,7 +120,7 @@
       "maxHeight": "17px"
     }
   },
-  "image#footer--desktop__bottom-left-10": {
+  "image#footer--mobile__bottom-left-10": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -112,7 +129,7 @@
       "maxHeight": "22px"
     }
   },
-  "image#footer--desktop__bottom-left-11": {
+  "image#footer--mobile__bottom-left-11": {
     "props": {
       "blockClass": "img-footer-bottom",
       "alt": "",
@@ -122,7 +139,7 @@
     }
   },
 
-  "flex-layout.row#footer__menu--desktop-container-bottom-right": {
+  "flex-layout.col#footer__menu--mobile-container-bottom-02": {
     "title": "Footer inferior derecho",
     "children": ["rich-text#footer-bottom-right"],
     "props": {

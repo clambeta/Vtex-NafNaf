@@ -260,6 +260,8 @@
       max-height: 200px;
       height: auto;
       margin: 0 auto;
+      object-fit: cover;
+      object-position: 0 0;
     }
     .imageElementLink--mobile-banner-slider-img {
       text-align: center;
