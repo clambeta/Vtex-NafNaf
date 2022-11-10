@@ -1,0 +1,148 @@
+{
+    "menu-item#desktop-category-camisas":{
+        "props": {
+            "id": "category-camisas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/camisas",
+              "tagTitle": "Camisas",
+              "text": "Camisas"
+            }
+          }
+    },
+    "menu-item#desktop-category-prendas-tejidas":{
+        "props": {
+            "id": "category-prendas-tejidas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/tejidos",
+              "tagTitle": "Prendas Tejidas",
+              "text": "Prendas Tejidas"
+            }
+          }
+    },
+    "menu-item#desktop-category-pantalones":{
+        "props": {
+            "id": "category-pantalones",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/pantalones",
+              "tagTitle": "Pantalones",
+              "text": "Pantalones"
+            }
+          } 
+    },
+    "menu-item#desktop-category-camisetas":{
+        "props": {
+            "id": "category-camisetas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/camisetas",
+              "tagTitle": "Camisetas",
+              "text": "Camisetas"
+            }
+          }  
+    },
+    "menu-item#desktop-category-jeans":{
+        "props": {
+            "id": "category-jeans",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/jeans",
+              "tagTitle": "Jeans",
+              "text": "Jeans"
+            }
+          }
+    },
+    "menu-item#desktop-category-chaquetas":{
+        "props": {
+            "id": "category-chaquetas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/ropa-mujer/chaquetas",
+              "tagTitle": "Chaquetas",
+              "text": "Chaquetas"
+            }
+          } 
+    },
+    "menu-item#desktop-category-vestidos":{
+        "props": {
+            "id": "category-vestidos",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/vestidos",
+              "tagTitle": "Vestidos",
+              "text": "Vestidos"
+            }
+          }
+    },
+    "menu-item#desktop-category-faldas":{
+        "props": {
+            "id": "category-faldas",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/faldas",
+              "tagTitle": "Faldas",
+              "text": "Faldas"
+            }
+          }
+    },            
+    "menu-item#desktop-category-shorts":{
+        "props": {
+            "id": "category-shorts",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/shorts",
+              "tagTitle": "Shorts",
+              "text": "Shorts"
+            }
+          }  
+    },           
+    "menu-item#desktop-category-enterizos":{
+        "props": {
+            "id": "category-enterizos",
+            "type": "custom",
+            "blockClass": "category-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals/enterizos",
+              "tagTitle": "Enterizos",
+              "text": "Enterizos"
+            }
+          }
+    },           
+    "menu-item#desktop-category-ver-todo":{
+        "props": {
+            "id": "category-ver-todo",
+            "type": "custom",
+            "blockClass": "category-item-ver-todo",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://www.nafnaf.com.co/new-arrivals",
+              "tagTitle": "Ver Todo",
+              "text": "Ver Todo"
+            }
+          } 
+    }            
+                
+                
+                
+}

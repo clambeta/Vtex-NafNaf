@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#mobile__home--bottom-banner-content": {
+    "title": "Banner del medio mobile",
+    "children": ["flex-layout.col#mobile__home--bottom-banner-content"],
+    "props": {
+      "blockClass": "mobile-home__bottom--banner-content",
+      "preserveLayoutOnMobile": true,
+      "colGap": 2,
+      "colSizing": "auto",
+      "fullWidth": true,
+      "paddingTop":8
+    }
+    },
+  "flex-layout.col#mobile__home--bottom-banner-content":{
+    "title": "Contenedor del banner bottom mobile",
+    "children":[
+      "info-card#mobile-home__bottom--banner-one",
+      "flex-layout.row#mobile-bottom__banner--content-two-three"
+    ],
+    "props": {
+      "width": "100%",
+      "rowGap": 3,
+      "blockClass": "mobile-bottom--banner-content-col"
+    }
+  },
+  "info-card#mobile-home__bottom--banner-one": {
+    "title": "Info card del banner bottom mobile 1",
+    "props": {
+      "id": "info-card--bottom__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla2-3.png",
+      "headline": "CHAQUETAS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/chaquetas",
+      "blockClass": "mobile-info-card-bottom--banner-one",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#mobile-bottom__banner--content-two-three":{
+    "title": "Contenedor del banner bottom mobile sección 2 y 3",
+    "children": [
+      "info-card#mobile-home__bottom--banner-two",
+      "info-card#mobile-home__bottom--banner-three"
+    ],
+    "props": {
+      "blockClass": "mobile-bottom--banner-content-two-three",
+      "fullWidth": true,
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile":true,
+      "colGap": 4
+    }
+  }, 
+
+  "info-card#mobile-home__bottom--banner-two": {
+    "title": "Info card del banner bottom mobile 2",
+    "props": {
+      "id": "info-card--bottom__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla2-1.png",
+      "headline": "JEANS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/jeans",
+      "blockClass": "mobile-info-card-bottom--banner-two",
+      "textAlignment": "center"
+     
+    }
+  },
+
+  "info-card#mobile-home__bottom--banner-three": {
+    "title": "Info card del banner bottom mobile 3",
+    "props": {
+      "id": "info-card--bottom__banner",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/grilla2-2.png",
+      "headline": "VESTIDOS",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "https://www.nafnaf.com.co/ropa-mujer/vestidos",
+      "blockClass": "mobile-info-card-bottom--banner-three",
+      "textAlignment": "center"
+     
+    }
+  }
+}
+  

@@ -1,0 +1,21 @@
+.paragraph--text-info-card-submenu{
+    margin-bottom: 0;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.link--text-info-card-submenu{
+    color: #000;
+    text-decoration: none;
+}
+
+.container--text-info-card-submenu{
+    align-items: center !important;
+    justify-content: center;
+}
+

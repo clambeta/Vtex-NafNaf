@@ -14,20 +14,23 @@
     "children": ["slider-layout#header--desktop__top-slider"],
     "props": {
       "blockClass": "header__top",
-      "fullWidth": true
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
   "header-row#header--desktop__bottom": {
     "title": "Header desktop inferior",
     "children": [
       "logo#header__bottom--logo",
-      "search-bar#header__desktop--search",
+      "menu#desktop"/* ,
+      "search-bar#header__desktop--search"*/, 
       "login",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__bottom",
-      "fullWidth": true
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
   "autocomplete-result-list.v2": {
@@ -38,7 +41,22 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "header__desktop--search",
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": "true"
     }
-  }
+  },
+  "menu#desktop":{
+    "title": "Menú desktop",
+    "children":[
+        "menu-item#new",
+        "menu-item#ropa",
+        "menu-item#denim",
+        "menu-item#origen",       
+        "menu-item#complementos",
+        "menu-item#colecciones",
+        "menu-item#monamour" 
+    ],
+    "props":{
+        "blockClass": "menu-desktop"
+    }
+}
 }

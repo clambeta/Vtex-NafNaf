@@ -10,10 +10,24 @@
   },
   "flex-layout.row#footer__menu--mobile-container": {
     "title": "Footer contenedor menu group mobile",
-    "children": ["flex-layout.col#footer__menu--mobile-container"]
+    "children": ["flex-layout.col#footer__menu--mobile-container"],
+    "props": {
+      "blockClass": "menu--mobile-container-row"
+    }
   },
   "flex-layout.col#footer__menu--mobile-container": {
     "title": "Footer columna menu group mobile",
-    "children": ["menu#footer__menu"]
+    "children": [
+      "menu#mobile__footer--menu",
+      "rich-text#menu-botones-left-sup",
+      "rich-text#menu-botones-left-inf",
+      "rich-text#menu-botones-right-sup",
+      "rich-text#menu-botones-right-inf",
+      "flex-layout.row#footer__menu--mobile-container-bottom"
+    ], 
+    "props": {
+      "blockClass": "footer__menu--mobile-container",
+      "rowGap": 6
+    }
   }
 }

@@ -1,0 +1,13 @@
+.imageElement--img-card-submenu{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-color: #e3e4e6;
+    position: relative;
+  
+}
+
+.imageElementLink--img-card-submenu{
+    align-items: center !important;
+    justify-content: center;
+}

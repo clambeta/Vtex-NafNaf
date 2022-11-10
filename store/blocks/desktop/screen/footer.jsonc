@@ -5,7 +5,7 @@
       "flex-layout.row#footer__menu--desktop-container-top",
       "flex-layout.row#footer__menu--desktop-container-mid",
       "flex-layout.row#footer__menu--desktop-container",
-      "flex-layout.row#footer__menu--desktop-container-bottom"
+      "flex-layout.row#footer__menu--desktop-container-bottom" 
     ],
     "props": {
       "blockClass": "footer-desktop",

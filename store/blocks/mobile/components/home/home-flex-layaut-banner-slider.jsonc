@@ -1,0 +1,232 @@
+{
+  "flex-layout.row#mobile__home--mid-banner-slider-content": {
+    "title": "Banner de imagen y slider",
+    "children": ["flex-layout.col#mobile__mid--banner-slider-content"],
+    "props": {
+      "blockClass": "mobile-mid--banner-slider-content",
+      "preserveLayoutOnMobile": true,
+      "colGap": 2,
+      "colSizing": "auto",
+      "paddingTop": 4,
+      "paddingBottom": 8,
+      "fullWidth": true
+    }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-content": {
+      "title": "Contenedor del banner-slider",
+      "children": [
+        "flex-layout.col#mobile__mid--banner-slider-content-one",
+        "flex-layout.row#mobile__mid--banner-slider-content-two"
+      ],
+      "props": {
+        "width": "100%",
+        "rowGap": 3,
+        "blockClass": "mobile-bottom--banner-slider-content-col"
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-content-one":{
+      "title": "Imagen del banner-slider",
+      "children": ["image#mobile__home__mid--banner-slider"],
+      "props": {
+        "width": "25%",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-content-image"
+      }
+    },
+    "image#mobile__home__mid--banner-slider": {
+      "title": "Imagen del banner-slider mobile",
+      "props": {
+        "blockClass": "mobile-banner-slider-img",
+        "src": "assets/img/neutral-vibes-mobile.png",
+        "link": {
+          "url": "https://www.nafnaf.com.co/new-arrivals"
+        }
+      }
+    },
+    "flex-layout.row#mobile__mid--banner-slider-content-two": {
+      "title": "Contenedor del slider de la sección banner-slider",
+      "children": ["slider-layout#mobile__mid--banner-slider-content-two"],
+      "props": {
+        "blockClass": "mobile-banner-slider-col",
+        "preload": true,
+        "width": "75%",
+        "colGap": 2
+      }
+      }
+    ,
+    "slider-layout#mobile__mid--banner-slider-content-two": {
+      "title": "Card con imagen y texto del slider",
+      "children": [
+        "flex-layout.col#mobile__mid--banner-slider-one",
+        "flex-layout.col#mobile__mid--banner-slider-two",
+        "flex-layout.col#mobile__mid--banner-slider-three",
+        "flex-layout.col#mobile__mid--banner-slider-four",
+        "flex-layout.col#mobile__mid--banner-slider-five"
+      ],
+      "props": {
+        "blockClass": "mobile-mid--banner-slider-content-card",
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "centerMode": "center",
+        "arrowSize": 10,
+        "centerModeSlidesGap": 5
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-one": {
+      "title": "Columna slider one",
+      "children": [
+        "image#mobile__home__mid--banner-slider-one",
+        "rich-text#mobile__home__mid--banner-slider-card-one"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "horizontalAlign": "center",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-card"
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-two": {
+      "title": "Columna slider two",
+      "children": [
+        "image#mobile__home__mid--banner-slider-two",
+        "rich-text#mobile__home__mid--banner-slider-card-two"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-card"
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-three": {
+      "title": "Columna slider three",
+      "children": [
+        "image#mobile__home__mid--banner-slider-three",
+        "rich-text#mobile__home__mid--banner-slider-card-three"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-card"
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-four": {
+      "title": "Columna slider four",
+      "children": [
+        "image#mobile__home__mid--banner-slider-four",
+        "rich-text#mobile__home__mid--banner-slider-card-four"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-card"
+      }
+    },
+    "flex-layout.col#mobile__mid--banner-slider-five": {
+      "title": "Columna slider five",
+      "children": [
+        "image#mobile__home__mid--banner-slider-five",
+        "rich-text#mobile__home__mid--banner-slider-card-five"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "rowGap": 2,
+        "blockClass": "mobile-mid--banner-slider-card"
+      }
+    },
+    "image#mobile__home__mid--banner-slider-one": {
+      "props": {
+        "src": "assets/img/chaquetas.png",
+        "description": "Slide 1",
+        "height": "600",
+        "maxheight": "600",
+        "maxWidth": "auto",
+        "blockClass": "mobile-image--home__mid--banner-slider"
+      }
+    },
+    "image#mobile__home__mid--banner-slider-two": {
+      "props": {
+        "src": "assets/img/jeans.png",
+        "description": "Slide 1",
+        "height": "auto",
+        "maxheight": "auto",
+        "maxWidth": "auto",
+        "blockClass": "mobile-image--home__mid--banner-slider"
+      }
+    },
+    "image#mobile__home__mid--banner-slider-three": {
+      "props": {
+        "src": "assets/img/camisetas.png",
+        "description": "Slide 1",
+        "height": "auto",
+        "maxheight": "auto",
+        "maxWidth": "auto",
+        "blockClass": "mobile-image--home__mid--banner-slider"
+      }
+    },
+    "image#mobile__home__mid--banner-slider-four": {
+      "props": {
+        "src": "assets/img/tejidos.png",
+        "description": "Slide 1",
+        "height": "auto",
+        "maxheight": "auto",
+        "maxWidth": "auto",
+        "blockClass": "mobile-image--home__mid--banner-slider"
+      }
+    },
+    "image#mobile__home__mid--banner-slider-five": {
+      "props": {
+        "src": "assets/img/faldas.png",
+        "description": "Slide 1",
+        "height": "auto",
+        "maxheight": "auto",
+        "maxWidth": "auto",
+        "blockClass": "mobile-image--home__mid--banner-slider"
+      }
+    },
+    "rich-text#mobile__home__mid--banner-slider-card-one": {
+      "props": {
+        "text": "[CHAQUETAS](https://www.nafnaf.com.co/new-arrivals/chaquetas)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "Roboto,sans-serif",
+        "blockClass": "mobile-text-banner-slider-card"
+      }
+    },
+    "rich-text#mobile__home__mid--banner-slider-card-two": {
+      "props": {
+        "text": "[JEANS](https://www.nafnaf.com.co/new-arrivals/jeans)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "mobile-text-banner-slider-card"
+      }
+    },
+    "rich-text#mobile__home__mid--banner-slider-card-three": {
+      "props": {
+        "text": "[CAMISETAS](https://www.nafnaf.com.co/new-arrivals/camisetas)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "mobile-text-banner-slider-card"
+      }
+    },
+    "rich-text#mobile__home__mid--banner-slider-card-four": {
+      "props": {
+        "text": "[TEJIDOS](https://www.nafnaf.com.co/new-arrivals/tejidos)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "mobile-text-banner-slider-card"
+      }
+    },
+    "rich-text#mobile__home__mid--banner-slider-card-five": {
+      "props": {
+        "text": "[FALDAS](https://www.nafnaf.com.co/new-arrivals/faldas)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "mobile-text-banner-slider-card"
+      }
+    }
+  }

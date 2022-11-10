@@ -162,27 +162,3 @@
 
 
 
-/* 
-"social-networks": {
-    "props": {
-      "blockClass": "social-networks-nafnaf",
-      "socialNetworks": [
-        {
-          "url": "https://www.facebook.com/nafnaflatam",
-          "name": "Facebook"
-        },
-        {
-          "url": "http://pinterest.com/nafnaflatam",
-          "name": "Pinterest"
-        },
-        {
-          "url": "http://www.youtube.com/user/NAFNAFCOLOMBIA",
-          "name": "Youtube"
-        },
-        {
-          "url": "http://instagram.com/nafnafcol",
-          "name": "Instagram"
-        }
-      ]
-    }
-  } */

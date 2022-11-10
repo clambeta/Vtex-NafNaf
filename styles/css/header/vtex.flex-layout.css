@@ -1,0 +1,43 @@
+ 
+ 
+ .flexCol--container-info-card-col{
+   
+    align-items: center !important;
+ }
+ .flexColChild--container-submenu-info-card{
+    
+    text-align: center;
+    
+ }
+
+ .flexRow--container-items-text{
+    width: 100% !important;
+
+ }
+
+
+.flexRowContent--container-items-text{
+    width: 100% !important;
+    height: 100%;
+    top: 0;
+}
+.flexRowContent--container-items-text::after{
+    content: "";
+    display: block;
+    margin: auto 0;
+    height: 70%;
+    top: 25%;
+    border-right: 1px solid rgb(168, 168, 168);
+}
+
+
+.flexRow--primary-container-submenu {
+    width: 100% !important;
+    
+}
+
+.flexRowContent--primary-container-submenu {
+    width: 100% !important;
+    
+}
+

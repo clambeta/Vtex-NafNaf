@@ -19,7 +19,7 @@
     "props": {
       "id": "category-ayuda",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/ayuda",
@@ -32,7 +32,7 @@
     "props": {
       "id": "category-preguntas",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/ayuda",
@@ -45,7 +45,7 @@
     "props": {
       "id": "category-peticiones",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/pqrs",
@@ -77,7 +77,7 @@
     "props": {
       "id": "category-terminos",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/terminos-condiciones",
@@ -90,7 +90,7 @@
     "props": {
       "id": "category-terminos",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/servicios/entrega-devoluciones",
@@ -103,7 +103,7 @@
     "props": {
       "id": "category-comprar",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/ayuda/como-comprar",
@@ -116,7 +116,7 @@
     "props": {
       "id": "category-privacidad",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/politica-privacidad",
@@ -129,7 +129,7 @@
     "props": {
       "id": "category-tratamiento",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/tratamiento-datos",
@@ -142,7 +142,7 @@
     "props": {
       "id": "category-cookies",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/politica-cookies",
@@ -171,7 +171,7 @@
     "props": {
       "id": "category-monamour",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/vistas/mon-amour",
@@ -184,7 +184,7 @@
     "props": {
       "id": "category-sostenibilidad",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/vistas/sostenibilidad",
@@ -197,7 +197,7 @@
     "props": {
       "id": "item-origen",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/catalogos/origen",
@@ -225,7 +225,7 @@
     "props": {
       "id": "category-promociones",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/servicios/promociones",
@@ -238,7 +238,7 @@
     "props": {
       "id": "category-ia-sin-iva",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/servicios/dia-sin-iva",
@@ -267,7 +267,7 @@
     "props": {
       "id": "item-tarjeta-credito",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/vistas/tarjeta-credito",
@@ -280,7 +280,7 @@
     "props": {
       "id": "item-su+pay",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/sumas-pay",
@@ -293,7 +293,7 @@
     "props": {
       "id": "item-pago-contra-entrega",
       "type": "custom",
-      "blockClass": "category-item",
+      "blockClass": "mobile-category-item",
       "itemProps": {
         "type": "internal",
         "href": "https://www.nafnaf.com.co/servicios/pago-contraentrega",

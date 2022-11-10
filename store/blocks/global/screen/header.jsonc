@@ -10,6 +10,8 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"],
     "props": {
       "blockClass": "header-full"
+      
+    
     }
   }
 }
