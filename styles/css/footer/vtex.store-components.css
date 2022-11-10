@@ -37,3 +37,10 @@
     max-width: 100%;
 }
 
+@media (max-width: 600px){ 
+
+ /*    .imageElement--img-footer-bottom {
+        margin: 0 4px;
+      
+    } */
+}

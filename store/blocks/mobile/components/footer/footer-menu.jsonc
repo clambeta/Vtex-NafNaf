@@ -1,5 +1,5 @@
 {
-  "menu#footer__menu": {
+  "menu#mobile__footer--menu": {
     "title": "Menú del footer",
     "children": [
       "menu-item#ayuda",
@@ -10,7 +10,7 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu-item-footer"
+      "blockClass": "mobile-menu-item-footer"
     }
   },
   "menu-item#ayuda": {
@@ -18,7 +18,7 @@
     "props": {
       "id": "item-ayuda",
       "type": "custom",
-      "blockClass": "menu-item",
+      "blockClass": "mobile-menu-item",
       "itemProps": {
         "type": "internal",
         "tagTitle": "¿NECESITAS AYUDA?",
@@ -27,12 +27,13 @@
     },
     "blocks": ["submenu.accordion#footer__ayuda"]
   },
+
   "menu-item#terminos": {
     "title": "Menú de términos y condiciones",
     "props": {
       "id": "item-terminos",
       "type": "custom",
-      "blockClass": "menu-item",
+      "blockClass": "mobile-menu-item-style",
       "itemProps": {
         "type": "internal",
         "tagTitle": "TÉRMINOS Y CONDICIONES",
@@ -46,7 +47,7 @@
     "props": {
       "id": "item-marca",
       "type": "custom",
-      "blockClass": "menu-item",
+      "blockClass": "mobile-menu-item-style",
       "itemProps": {
         "type": "internal",
         "tagTitle": "NUESTRA MARCA",
@@ -60,7 +61,7 @@
     "props": {
       "id": "item-legal",
       "type": "custom",
-      "blockClass": "menu-item",
+      "blockClass": "mobile-menu-item-style",
       "itemProps": {
         "type": "internal",
         "tagTitle": "TÉRMINOS LEGALES",
@@ -74,7 +75,7 @@
     "props": {
       "id": "item-pago",
       "type": "custom",
-      "blockClass": "menu-item",
+      "blockClass": "mobile-menu-item-style",
       "itemProps": {
         "type": "internal",
         "tagTitle": "MÉTODOS DE PAGO",
