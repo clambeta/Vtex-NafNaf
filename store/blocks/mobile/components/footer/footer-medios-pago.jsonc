@@ -35,7 +35,7 @@
       "fullWidth": false,
       "horizontalAlign": "center",
       "colSizing": "auto",
-      "blockClass": "footer-bottom-left",
+      "blockClass": "mobile-footer-bottom-left",
       "colGap": 8
     }
   },
