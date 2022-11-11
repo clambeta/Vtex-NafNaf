@@ -1,0 +1,11 @@
+
+.summaryItemLabel {
+    color: white
+}
+.price{
+    color: white
+}
+.summarySmallDisclaimer {
+    content: "";
+    font-size: 0;
+}

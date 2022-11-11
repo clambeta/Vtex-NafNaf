@@ -118,3 +118,28 @@
 }
 
 
+.menuContainer--store-links-menu{
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.menuContainerNav--store-links-menu{
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.wrapper--header-menu-container-desktop-home .menuItem--menu-item-account{
+    max-width: fit-content;
+    line-break: strict;
+}
+
+.styledLinkContainer--header-menu-link-button .wrapper--header-menu-container-desktop-home{
+    margin: 0;
+    padding: 0 40px;
+}

@@ -1,6 +1,8 @@
 .headerRowContainer--header__bottom {
-    justify-content: space-between;
+  justify-content: space-between; 
     background-color: transparent;
+    margin: 0 auto;
+    max-width: 88vw;
     
 }
 
@@ -17,4 +19,18 @@
 .headerRowBackground--header__bottom {
     background-color: transparent;
 }
+
+.headerRow--header__bottom{
+   
+    height: auto;
+    display: block;
+    padding: .75rem 0;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 88vw;
+}
+
 
