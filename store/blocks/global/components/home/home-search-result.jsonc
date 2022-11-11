@@ -48,7 +48,8 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "product-summary-sku-selector"
     ],
     "props": {
       "blockClass": "products__list--shelf"

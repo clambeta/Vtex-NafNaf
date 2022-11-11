@@ -96,7 +96,7 @@
         "title": "Columna de Información del Producto",
         "children": [
           "vtex.product-list:product-name",
-          "quantity-selector#minicart",
+          /* "quantity-selector#minicart", */
           "price"
         ],
         "props": {
