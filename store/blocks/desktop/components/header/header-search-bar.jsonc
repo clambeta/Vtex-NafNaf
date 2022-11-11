@@ -1,0 +1,75 @@
+{
+    "menu#store-links-menu":{
+        "title":"Menú del search, login y cart",
+        "children": [
+            "modal-trigger#search-box-modal", 
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass":"store-links-menu",
+            "verticalAlign": "middle",
+            "orientation": "horizontal",
+            "additionalDef": "none",
+            "textType": "t-body"
+        }
+    },
+    "modal-trigger#search-box-modal":{
+        "title": "Search Modal",
+        "children":[
+            "image#searchIcon",
+            "modal-layout#searchModal"
+        ],
+        "props": {
+            "blockClass":"search-box-modal"
+        }
+    },
+    "image#searchIcon":{
+        "title": "Imagen lupa",
+        "props": {
+            "blockClass": "searchIcon",
+            "src": "assets/img/icon-search.svg",
+            "maxHeight": 17,
+            "maxWidth": 17
+        }
+    },
+    "modal-layout#searchModal":{
+        "title": "Modal layout",
+        "children":[
+            "modal-content#search"
+        ],
+        "props": {
+            "blockClass": "header-search-modal"
+        }
+
+    },
+    "modal-content#search":{
+        "title":"Modal content search",
+        "children":[
+            "search-bar"
+        ],
+        "props":{
+            "blockClass": "modal-content-search"
+        }
+    },
+    "search-bar": {
+        "title": "Search header desktop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "blockClass": "header__desktop--search",
+          "displayMode": "search-button",
+          "openAutocompleteOnFocus": true
+        }
+      },
+      "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"],
+        "props": {
+          "displayMode": "search-button",
+          "maxSuggestedProducts": 3,
+          "maxSuggestedTerms": 2,
+          "HorizontalProductSummary": "product-summary.shelf#products__list--shelf"
+          
+        }
+      }
+
+}

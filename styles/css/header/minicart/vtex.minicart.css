@@ -1,0 +1,105 @@
+.minicartQuantityBadge--header-minicart{
+   /*  background-color: black;*/
+   background-color: black;
+} 
+
+
+.minicartQuantityBadgeDefault{
+    background-color: black;
+}
+
+.minicartTitle--minicart__content{
+    color: white;
+    font-size: 0;
+}
+
+.drawerContent--minicart{
+    background-color: black;
+}
+.closeIconButton--minicart{
+    color: white;
+}
+.wrapper--minicart__empty--text{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+
+.paragraph--minicart__empty--text{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+
+.inputContainer {
+    color: #fff;
+}
+
+.openIconContainer--minicart{
+    padding: 0px;
+}
+
+.closeIconContainer--minicart {
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+.closeIconContainer--minicart::before {
+    content: "MI BOLSA";
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.closeIconButton--minicart {
+    padding: 0;
+}
+
+.minicartCheckoutButton {
+    padding: 0%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    height: 50px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+}
+.minicartCheckoutButton :hover {
+    padding: 0%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    height: 50px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.minicartCheckoutButton::before {
+    content: "Ver Carrito";
+    font-family: Roboto,sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: none;
+    transition: all .3s ease-in-out;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button) {
+    display: none;
+}
+
