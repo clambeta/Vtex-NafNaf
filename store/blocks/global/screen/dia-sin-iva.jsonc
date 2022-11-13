@@ -1,0 +1,13 @@
+{
+  "store.custom#dia-sin-iva": { 
+    "blocks": [
+      "flex-layout.row#dia-sin-iva-breadcrumb",
+      "rich-text#title-dia-sin-iva",
+      "flex-layout.row#dia-sin-iva-disclosure-group-row"
+    ],
+    "props": {
+      "blockClass": "dia-sin-iva-wrapper"
+      
+    }
+  }
+}

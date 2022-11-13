@@ -1,0 +1,638 @@
+  {
+    "flex-layout.row#dia-sin-iva-breadcrumb": {
+      "title": "Contenedor título Home y día sin Iva",
+      "children": [
+        "flex-layout.col#customBreadcrumbContent",
+        "rich-text#dia-sin-iva-custom-breadcrumb"
+      ],
+      "props": {
+        "blockClass": "custom-breadcrumb-container",
+        "fullWidth": true,
+        "preserveLayoutOnMobile": true,
+        "colSizing": "auto"
+      }
+    },
+    "flex-layout.col#customBreadcrumbContent": {
+      "title": "Contenedor del título Home",
+      "children": ["rich-text#customHomeLink"],
+      "props": { 
+        "blockClass": "custom-breadcrumb-content",
+        "fullWidth": true
+      }
+    },
+    "rich-text#customHomeLink": {
+      "title": "Texto Home",
+      "props": {
+        "blockClass": "custom-breadcrumb-path",
+        "text": "[Home](/)![Breadcrumb arrow](assets/img/breadcrum-arrow-right.svg)"
+      }
+    },
+    "rich-text#dia-sin-iva-custom-breadcrumb": {
+      "title": "Texto día sin iva",
+      "props": { 
+        "blockClass": "custom-breadcrumb-term", 
+        "text": "Dia Sin IVA" }
+    },
+    "flex-layout.row#dia-sin-iva-disclosure-group-row": {
+      "title": "Contenedor de los disclusures",
+      "children": ["flex-layout.col#dia-sin-iva-disclosure-group-col"],
+      "props": { "blockClass": "disclosure-group-row",
+      "fullWidth": true
+     }
+    },
+    "flex-layout.col#dia-sin-iva-disclosure-group-col": {
+      "title": "Contenedor de los disclusures día sin iva",
+      "children": ["disclosure-layout-group#dia-sin-iva-group"],
+      "props": { 
+        "blockClass": "disclosure-group-col" 
+      }
+    },
+    "disclosure-layout-group#dia-sin-iva-group": {
+      "title": "Grupo de disclusures del día sin iva",
+      "children": [
+        "disclosure-layout#dia-sin-iva-disclosure-01",
+        "disclosure-layout#dia-sin-iva-disclosure-02",
+        "disclosure-layout#dia-sin-iva-disclosure-03",
+        "disclosure-layout#dia-sin-iva-disclosure-04",
+        "disclosure-layout#dia-sin-iva-disclosure-05",
+        "disclosure-layout#dia-sin-iva-disclosure-06",
+        "disclosure-layout#dia-sin-iva-disclosure-07",
+        "disclosure-layout#dia-sin-iva-disclosure-08",
+        "disclosure-layout#dia-sin-iva-disclosure-09"
+      ]
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-01": {
+      "title": "Disclosure 01",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-01"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-01": {
+      "title": "Contenedor del disclosure 01",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-01"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-01": {
+      "title": "Contenedor del  disclosure 01 trigger y content 01",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-01",
+        "disclosure-content#dia-sin-iva-disclosure-01"
+      ],
+      "props": { 
+        "blockClass": "col-dia-sin-iva-disclosure-01" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-01": {
+      "title": "Disclosure-content 01",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-01"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-01": {
+      "title": "Texto del contenido de qué es el día sin iva",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "De acuerdo con el Decreto No. 290 del 28 de febrero de 2022 expedido por el Ministerio de Hacienda y Crédito Público y la Circular Externa N°006 expedida por la Superintendencia de Industria y Comercio, el “Día sin IVA” es una fecha en que el Estado colombiano otorga un beneficio económico a los consumidores, consistente en la exención del valor del impuesto sobre las ventas -IVA al precio de venta sobre determinados productos (IVA $0 pesos).**"
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-01": {
+      "title": "Disclosure-trigger 01",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-01"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-01": {
+      "title": "Trigger row 01",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-01",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-01"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+       }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-01": {
+      "title": "Disclosure-state 01",
+      "props": {
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "image#chevron-hide-terms-disclosure": {
+      "props": {
+        "blockClass": "chevron-down",
+        "maxHeight": 53,
+        "maxWidth": 53,
+        "src": "assets/img/icon-disclosure-chevron-hide.svg"
+      }
+    },
+    "image#chevron-show-terms-disclosure": {
+      "props": {
+        "blockClass": ["chevron-up"],
+        "maxHeight": 53,
+        "maxWidth": 53,
+        "src": "assets/img/icon-disclosure-chevron-show.svg"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-01": {
+      "title": "Texto primera pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 1. ¿Qué es el día sin IVA?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-02": {
+      "title": "Disclosure 02",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-02"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-02": {
+      "title": "Contenedor del disclosure 02",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-02"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-02": {
+      "title": "Contenedor del  disclosure 01 trigger y content 02",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-02",
+        "disclosure-content#dia-sin-iva-disclosure-02"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-02" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-02": {
+      "title": "Disclosure-content 02",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-02"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-02": {
+      "title": "Texto del contenido de productos exención",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "Este beneficio aplica para las prendas de vestir y complementos de vestuario (los morrales, maletines, bolsos de mano, carteras, gafas de sol, paraguas, pañoletas y bisutería) comercializados cuyo valor sea igual o inferior a $760.080 sin IVA (20 UVT). Por lo tanto, los productos exentos de IVA no son elegidos por NAF NAF sino, los establecidos en la Ley 2155 del 14 de septiembre de 2021"
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-02": {
+      "title": "Disclosure-trigger 02",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-02"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-02": {
+      "title": "Disclosure-trigger 02",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-02",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-02"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+       }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-02": {
+      "title": "Disclosure-state 02",
+      "props": {
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-02": {
+      "title": "Texto segunda pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 2. ¿A qué productos le aplica la exención del Día sin IVA?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-03": {
+      "title": "Disclosure 03",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-03"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-03": {
+      "title": "Contenedor del disclosure 03",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-03"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": true
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-03": {
+      "title": "Contenedor del  disclosure 01 trigger y content 03",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-03",
+        "disclosure-content#dia-sin-iva-disclosure-03"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-03" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-03": {
+      "title": "Disclosure-content 03",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-03"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-03": {
+      "title": "Texto del contenido fechas día sin iva",
+      "props": {
+        "blockClass": "rich-text-answer", 
+        "text": "Por medio del Decreto No. 290 del 28 de febrero de 2022, el Gobierno estableció las fechas en las que regirá la exención del IVA para el año 2022 son las siguientes: 11 de marzo, 17 de junio y 02 de diciembre. Así las cosas, te invitamos a estar muy pendiente de estas fechas para realizar tus compras en nuestras tiendas físicas NAF NAF, canal de WhatsApp NAF NAF y tienda online.\n\nEste 11 de marzo de 2022, en la primera jornada del día sin IVA, te informamos que nuestra tienda online estará activa desde las 00:00 hasta las 11:59 pm, nuestras tiendas físicas estarán disponibles desde del horario de apertura hasta el cierre de tienda establecido para este día según los lineamientos dispuestos por cada centro comercial. Así mismo, nuestro canal de WhatsApp atenderá a nuestros consumidores dentro del horario informado por este medio."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-03": {
+      "title": "Disclosure-trigger 03",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-03"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-03": {
+      "title": "Disclosure-trigger 03",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-03",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-03"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true  
+      }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-03": {
+      "title": "Disclosure-state 03",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-03": {
+      "title": "Texto tercera pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 3. ¿Cuáles son las fechas del día sin IVA en Colombia para el año 2022?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-04": {
+      "title": "Disclosure 04",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-04"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-04": {
+      "title": "Contenedor del disclosure 04",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-04"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-04": {
+      "title": "Contenedor del  disclosure 01 trigger y content 04",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-04",
+        "disclosure-content#dia-sin-iva-disclosure-04"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-04" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-04": {
+      "title": "Disclosure-content 04",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-04"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-04": {
+      "title": "Texto del contenido de cuántas prendas",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "El consumidor podrá adquirir máximo 3 unidades de la misma categoría del bien, independientemente del canal por donde se realice la compra (Ej: 3 jeans, 3 camisas, 3 camisetas, etc). Se tendrán en cuenta el máximo de productos adquiridos por categoría, de acuerdo con las compras realizadas durante el mismo día en todos nuestros canales de venta."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-04": {
+      "title": "Disclosure-trigger 04",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-04"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-04": {
+      "title": "Disclosure-trigger 04",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-04",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-04"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true  
+      }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-04": {
+      "title": "Disclosure-state 04",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-04": {
+      "title": "Texto cuarta pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 4. ¿Cuántas prendas podrá adquirir el consumidor durante cada Día sin IVA?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-05": {
+      "title": "Disclosure 05",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-05"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-05": {
+      "title": "Contenedor del disclosure 05",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-05"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-05": {
+      "title": "Contenedor del  disclosure 01 trigger y content 05",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-05",
+        "disclosure-content#dia-sin-iva-disclosure-05"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-05" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-05": {
+      "title": "Disclosure-content 05",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-05"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-05": {
+      "title": "Texto del contenido de medios de pago",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "La exención del IVA en tienda online https://www.nafnaf.com.co/ y en canal de WhatsApp aplicará para los consumidores que paguen la totalidad de su compra por medios electrónicos, como PSE (Tarjeta de Débito) o Tarjetas de Crédito.\n\nEn **tiendas físicas NAF NAF** aplicará para los consumidores que paguen la totalidad de su compra por medios electrónicos, como PSE (Tarjeta de Dé9bito), Tarjetas de Cré9dito o efectivo.\n\n**No aplica pagando con**: medio de pago contra entrega, crédito SU Pay, Baloto, Efecty, gift card, saldos a favor, bonos de Big Pass o Sodexo."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-05": {
+      "title": "Disclosure-trigger 05",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-05"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-05": {
+      "title": "Disclosure-trigger 05",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-05",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-05"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+      }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-05": {
+      "title": "Disclosure-state 05",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-05": {
+      "title": "Texto quinta pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 5. ¿Con cuales medio de pago puedo adquirir los productos durante el Día sin IVA?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-06": {
+      "title": "Disclosure 06",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-06"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-06": {
+      "title": "Contenedor del disclosure 06",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-06"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-06": {
+      "title": "Contenedor del  disclosure 01 trigger y content 06",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-06",
+        "disclosure-content#dia-sin-iva-disclosure-06"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-06" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-06": {
+      "title": "Disclosure-content 06",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-06"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-06": {
+      "title": "Texto del contenido quiénes pueden comprar",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "El comprador deberáser una persona natural y entregar sus datos personales para la facturación."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-06": {
+      "title": "Disclosure-trigger 06",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-06"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-06": {
+      "title": "Disclosure-trigger 06",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-06",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-06"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+        }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-06": {
+      "title": "Disclosure-state 06",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-06": {
+      "title": "Texto sexta pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 6. ¿Quiénes pueden comprar?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-07": {
+      "title": "Disclosure 07",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-07"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-07": {
+      "title": "Contenedor del disclosure 07",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-07"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-07": {
+      "title": "Contenedor del  disclosure 01 trigger y content 07",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-07",
+        "disclosure-content#dia-sin-iva-disclosure-07"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-07" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-07": {
+      "title": "Disclosure-content 07",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-07"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-07": {
+      "title": "Texto del contenido de cómo aplica exención",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "En **tienda online** https://www.nafnaf.com.co/ el precio final que estará visible en la vitrina (exhibición de todos los productos) tendrá aplicado los siguientes ítems: **i)** la exención del IVA del 19% establecida en la Ley 2155 del 14 de septiembre de 2021 y/o **ii)** el descuento comercial que otorgue la marca.\n\nEn **tienda física** y en **canal de WhatsApp NAF NAF** el precio final se evidenciará en la caja al momento del pago, donde se le informará el precio aplicado teniendo en cuenta los siguientes ítems: **i)** la exención del IVA del 19% establecida en la Ley 2155 del 14 de septiembre de 2021 y/o **ii)** el descuento comercial que otorgue la marca."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-07": {
+      "title": "Disclosure-trigger 07",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-07"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-07": {
+      "title": "Disclosure-trigger 07",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-07",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-07"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+        }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-07": {
+      "title": "Disclosure-state 07",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-07": {
+      "title": "Texto séptima pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 7. ¿Cómo aplica la exención del Día sin IVA en mi compra?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-08": {
+      "title": "Disclosure 08",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-08"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-08": {
+      "title": "Contenedor del disclosure 08",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-08"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-08": {
+      "title": "Contenedor del  disclosure 01 trigger y content 08",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-08",
+        "disclosure-content#dia-sin-iva-disclosure-08"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-08" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-08": {
+      "title": "Disclosure-content 08",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-08"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-08": {
+      "title": "Texto del contenido cambios",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "Los productos comercializados durante la jornada del Día sin IVA, se rigen por la política de cambios y garantías publicadas por NAF NAF.\n\nTener en cuenta:\n\n1. En caso de cambio o garantía (dentro del plazo establecido en la respectiva política), al consumidor se le reconoceráel valor pagado por el producto. Si cambia el producto adquirido por talla y/o color en una fecha posterior al día sin IVA, no tendrá que asumir un costo adicional; por el contrario, si lo que desea es el reembolso del dinero (para los casos de garantía), deberá asumir el cobro del IVA de la nueva factura.\n2. Si un consumidor adquiere una prenda en uno de los tres dís sin IVA y desea realizar el cambio de la prenda, dentro del término de la política de cambios, en otra de las fechas establecidas del día sin IVA, ésta podrá cambiarse sin la causación del IVA.\n3. Si el consumidor adquiere un producto días antes del día sin IVA, y desea realizar un cambio durante la jornada de exención del IVA, la marca le reconocerá el valor pagado, le generará un saldo a favor y la nueva factura que se expida causará IVA que deberá ser asumido por el consumidor, por cuanto esto no es un medio de pago autorizado por el Gobierno Nacional para la exención del IVA.\nRecuerde que los productos adquiridos en tienda online y WhatsApp pueden ser cambiados en las tiendas físicas de la marca."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-08": {
+      "title": "Disclosure-trigger 08",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-08"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-08": {
+      "title": "Disclosure-trigger 08",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-08",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-08"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+        }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-08": {
+      "title": "Disclosure-state 08",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-08": {
+      "title": "Texto octava pregunta",
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 8. ¿Cómo funcionarán los cambios, devoluciones y garantía de los productos que adquiera el Día sin IVA?"
+      }
+    },
+    "disclosure-layout#dia-sin-iva-disclosure-09": {
+      "title": "Disclosure 09",
+      "children": ["flex-layout.row#row-dia-sin-iva-disclosure-09"]
+    },
+    "flex-layout.row#row-dia-sin-iva-disclosure-09": {
+      "title": "Contenedor del disclosure 09",
+      "children": ["flex-layout.col#col-dia-sin-iva-disclosure-09"],
+      "props": {
+        "blockClass": "row-disclosure-button",
+        "preserveLayoutOnMobile": false
+      }
+    },
+    "flex-layout.col#col-dia-sin-iva-disclosure-09": {
+      "title": "Contenedor del  disclosure 01 trigger y content 09",
+      "children": [
+        "disclosure-trigger#dia-sin-iva-disclosure-09",
+        "disclosure-content#dia-sin-iva-disclosure-09"
+      ],
+      "props": { "blockClass": "col-dia-sin-iva-disclosure-09" }
+    },
+    "disclosure-content#dia-sin-iva-disclosure-09": {
+      "title": "Disclosure-content 09",
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-09"]
+    },
+    "rich-text#answer-dia-sin-iva-disclosure-09": {
+      "title": "Texto del contenido de cuándo recibiré",
+      "props": {
+        "blockClass": "rich-text-answer",
+        "text": "La entrega de productos que no sean puestos a disposición del consumidor de forma inmediata (tienda física), se deberá realizar a más tarde dentro de las dos (2) semanas siguientes a la emisión de la factura. En caso de incumplimiento en la entrega de los productos adquiridos, el consumidor podrrá solicitar la reversión del pago acorde con el artículo 51 del Estatuto del Consumidor, siempre que las compras se hayan realizado mediante la tienda online y/o WhatsApp.\n\nPara compras realizadas en cualquier momento a través de la línea WhatsApp de NAF NAF o tienda online, el consumidor tiene derecho a retractarse de la compra dentro de los cinco (5) días hábiles siguiente al momento de recibir el producto (devolver la prenda y solicitar la devolución del dinero), conforme lo dispuesto en el artículo 47 del Estatuto del Consumidor, siempre que las compras se hayan realizado mediante la tienda online y/o WhatsApp."
+      }
+    },
+    "disclosure-trigger#dia-sin-iva-disclosure-09": {
+      "title": "Disclosure-trigger 09",
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-09"]
+    },
+    "flex-layout.row#trigger-row-dia-sin-iva-disclosure-09": {
+      "title": "Disclosure-trigger 09",
+      "children": [
+        "rich-text#question-dia-sin-iva-disclosure-09",
+        "disclosure-state-indicator#dia-sin-iva-disclosure-09"
+      ],
+      "props": { 
+        "blockClass": "trigger-row",
+        "preventHorizontalStretch": true
+        }
+    },
+    "disclosure-state-indicator#dia-sin-iva-disclosure-09": {
+      "title": "Disclosure-state 09",
+      "props": {
+        "blockClass": "state-indicator",
+        "Hide": "image#chevron-hide-terms-disclosure",
+        "Show": "image#chevron-show-terms-disclosure"
+      }
+    },
+    "rich-text#question-dia-sin-iva-disclosure-09": {
+      "props": {
+        "blockClass": "rich-text-question",
+        "text": "### 9. ¿Cuándo recibiré los productos de Día sin IVA adquiridos?"
+      }
+    },
+    "rich-text#title-dia-sin-iva": {
+      "props": {
+        "textColor": "black",
+        "text": "# TÉRMINOS Y CONDICIONES NAF NAF DIA SIN IVA",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": ["title-terms-conditions",  "title-terms-conditions"]
+        }
+    }
+  }
+
+  
