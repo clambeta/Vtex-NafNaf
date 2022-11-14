@@ -1,7 +1,7 @@
 {
-  "login#header--mobile": {
-    "props": {
-      "blockClass":"login-header-mobile",
+  "login": {  
+    "props": {     
+      "blockClass": "login-desktop", 
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",

@@ -1,3 +1,8 @@
+.logoImage--logo-header {
+    min-width: 145px;
+    max-width: 245px;
+}
+
 .imageElement--img-card-submenu{
     width: auto;
     height: auto;

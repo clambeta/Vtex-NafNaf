@@ -13,7 +13,9 @@
     "title": "Slider mobile superior",
     "children": ["slider-layout#header--mobile__top-slider"],
     "props": {
-      "fullWidth": true
+      "blockClass": "header__top",
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
   "header-row#header--mobile__bottom": {
@@ -21,23 +23,15 @@
     "children": [
       "drawer#header--mobile__bottom-menu",
       "logo#header__bottom--logo",
-      "search-bar#header__mobile--search", 
-      "login",
-      /* "modal-trigger#header--mobile__bottom--login", */
-      "minicart.v2"
+      "menu#store-links-menu"
     ],
     "props": {
-      "blockClass": "header__bottom"
+      "blockClass": "header__bottom",
+      "fullWidth": "true",
+      "sticky": "true"
     }
   },
     "autocomplete-result-list.v2": {
       "blocks": ["product-summary"]
-  },
-  "search-bar#header__mobile--search":{
-    "title": "Search header mobile",
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
-    }
   }
 }
