@@ -6,11 +6,28 @@
     margin-bottom: 20px;
 }
 .trigger--visible {
-    width: 100%
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+.trigger{
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    background-color: #f3f3f3;
+    cursor: pointer;
+
 }
 .content--visible {
     padding-left: 40px;
     padding-right: 96px;
     padding-bottom: 22px;
     margin-bottom: 20px;
+
+    /* width: 100%;
+    padding: 0 6rem 2rem 2.5rem;
+    margin-bottom: 1.25rem; */
+    background-color: #f3f3f3;
 }

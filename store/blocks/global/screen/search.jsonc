@@ -1,0 +1,46 @@
+{
+    "store.search": {
+      "title": "Search",
+      "blocks": ["search-result-layout"],
+      "props": {
+        "context": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
+        }
+      }
+    },
+    "store.search#subcategory": {
+      "title": "Subcategoria",
+      "blocks": ["search-result-layout"],
+      "props": {
+        "context": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
+        }
+      }
+    },
+    "store.search#brand": {
+      "title": "Marca",
+      "blocks": ["search-result-layout"],
+      "props": {
+        "context": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
+        }
+      }
+    },
+    "search-result-layout": {
+      "title": "Result Layout",
+      "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+    },
+    "search-result-layout.desktop": {
+      "title": "contenedor del resultado de busqueda desktop",
+      "children": ["rich-text#desktop-response"]
+    },
+    "rich-text#desktop-response": {
+      "title": "Texto del resultado de la busqueda",
+      "props": {
+        "text": "# Esta es una página department"
+      }
+    }
+  }

@@ -34,7 +34,7 @@
         }
       },
       "gallery#deparment": {
-        "title": "departtamento",
+        "title": "Departamento",
         "props": {
           "layouts": [
             {
@@ -47,7 +47,7 @@
               }
             }
           ],
-          "GeneralGrid": "product-summary.shelf#products__list--shelf",
+          "GeneralGrid": "product-summary.shelf",
           "blockClass": "deparment__products--gallery"
         }
       }
