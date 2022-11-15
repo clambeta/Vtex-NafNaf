@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#deparment__breadcrumb": {
+      "title": "Miga de pan del departamento",
+      "children": ["flex-layout.col#deparment__breadcrumb"]
+    },
+    "flex-layout.col#deparment__breadcrumb": {
+      "title": "Miga de pan del departamento",
+      "children": ["breadcrumb.search"]
+    },
+    "breadcrumb.search":{
+      "props": {
+        "showOnMobile": true
+      }
+    }
+  }

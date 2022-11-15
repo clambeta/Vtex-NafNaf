@@ -41,5 +41,8 @@
     
 }
 
+/* mobile */
 
-
+.flexRow--header-menu-drawer-content {
+    width: 100%;
+}
