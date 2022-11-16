@@ -1,0 +1,195 @@
+{
+  "search-result-layout#department": {
+    "title": "Departments",
+    "blocks": [
+      "search-result-layout.desktop#desktop__department",
+      "search-result-layout.mobile#mobile__department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#desktop__department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "responsive-layout.desktop#desktop__department"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "row-department__breadcrumb",
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "col-department__breadcrumb",
+    "children": ["breadcrumb.search", "flex-layout.row#gallery-layout-switcher-container"],
+    "props": {
+      "blockClass": "container__department__breadcrumb-and-switcher"
+    }
+  },
+  "search-result-layout.mobile#mobile__department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "responsive-layout.tablet#tablet__department",
+      "responsive-layout.phone#phone__department"
+    ]
+  },
+  "responsive-layout.tablet#tablet__department": {
+    "children": ["flex-layout.row#category__results"]
+  },
+  "responsive-layout.phone#phone__department": {
+    "children": ["flex-layout.row#category__results"]
+  },
+  "responsive-layout.desktop#desktop__department": {
+    "children": ["flex-layout.row#category__results"]
+  },
+  "flex-layout.row#category__results": {
+    "title": "category__results",
+    "children": [
+     
+      "flex-layout.col#category__results--content"
+    ],
+    "props": {
+      "blockClass": "category__results"
+    }
+  },
+  
+  "flex-layout.col#category__results--content": {
+    "title": "category__results--content",
+    "children": ["search-content#results__content--products"],
+    "props": {
+      "width": "75%",
+      "blockClass": "category__results--content"
+    }
+  },
+  "search-content#results__content--products": {
+    "blocks": ["gallery#department", "not-found"]
+  },
+  "gallery#department": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid-four",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+          }
+        },
+        {
+            "name": "grid-three",
+            "component": "ThreeGrid",
+            "itemsPerRow": {
+              "desktop": 2,
+              "tablet": 1,
+              "phone": 1
+        }
+    }
+      ],
+      "GeneralGrid": "product-summary.shelf",
+      "ThreeGrid": "product-summary.shelf#products__list--shelf"
+    }
+  },
+  "flex-layout.row#gallery-layout-switcher-container": {
+    "title": "row of gallery layout switcher",
+    "children": [
+        "drawer#search-filter-drawer",
+        "order-by.v2",
+        "rich-text#gallery-layout-switcher-text",
+        "gallery-layout-switcher"
+  ],
+  "props": {
+    "blockClass": "gallery-layout-switcher-container",
+    "horizontalAlign": "left",
+    "colSizing": "auto"
+  }
+
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      /*
+       * For accessbility to work properly,
+       * It's important to define the options in the same order as the layouts
+       */
+      
+       "gallery-layout-option#ThreeList",
+       "gallery-layout-option#FourList"
+    ]
+  },
+  
+  "drawer#search-filter-drawer": {
+    "blocks": ["drawer-trigger#search-filter-drawer-trigger"],
+    "children": ["filter-navigator.v3#search-filter-desktop-category-01"],
+    "props": {
+      "drawer-close-button": { "size": 35 },
+      "blockClass": ["search-filter-drawer"]
+    }
+  },
+  "drawer-trigger#search-filter-drawer-trigger": {
+    "blocks": [],
+    "children": ["rich-text#search-open-filter-drawer"],
+    "props": {}
+  },
+  "rich-text#search-open-filter-drawer": {
+    "blocks": [],
+    "children": [],
+    "props": {
+      "blockClass": ["search-filter-drawer-trigger-text"],
+      "text": "Filtros"
+    }
+  },
+  "filter-navigator.v3#search-filter-desktop-category-01": {
+    "blocks": [],
+    "children": [],
+    "props": {
+      "blockClass": ["plp-filter-desktop", "plp-filter-desktop-category-01"],
+      "layout": "responsive",
+      "initiallyCollapsed": true
+    }
+  },
+  "order-by.v2": {
+   
+    "props": { "hiddenOptions": ["OrderByNameASC", "OrderByNameDESC"] }
+  },
+  "rich-text#gallery-layout-switcher-text": {
+    "title": "text of gallery switcher",
+    "props": {
+        "blockClass": "gallery-layout-switcher-text",
+      "font": "t-body",
+      "text": "VER",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+ 
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "children": ["rich-text#option-grid"]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "children": ["rich-text#option-list"]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-    "search-result-layout.desktop#deparment__desktop": {
+   /*  "search-result-layout.desktop#deparment__desktop": {
       "title": "Diseño de resultados de búsqueda por departamento",
       "children": [
         "flex-layout.row#deparment__breadcrumb",
@@ -8,5 +8,5 @@
       "props": {
         "blockClass": "deparment__desktop"
       }
-    }
+    } */
   }

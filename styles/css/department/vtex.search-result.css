@@ -1,0 +1,14 @@
+
+
+.galleryLayoutOptionButton {
+    content: url(assets/img/plp-layout-four-row.svg);
+    color: black;
+    max-width: 62px;
+    
+}
+.galleryLayoutOptionButton--selected {
+    content: url(assets/img/plp-layout-three-row.svg);
+    color: black;
+    filter: invert(100%);
+    max-width: 62px;
+}
