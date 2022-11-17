@@ -5,69 +5,90 @@
       "search-result-layout.desktop#desktop__department",
       "search-result-layout.mobile#mobile__department",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "plp-results-desktop"
+    }
   },
   "search-result-layout.desktop#desktop__department": {
+    "title": "Search result del department desktop",
     "children": [
       "flex-layout.row#department__breadcrumb",
       "responsive-layout.desktop#desktop__department"
     ],
     "props": {
+      "blockClass": "results-desktop-department",
       "pagination": "show-more",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
     }
   },
   "flex-layout.row#department__breadcrumb": {
-    "title": "row-department__breadcrumb",
-    "children": ["flex-layout.col#department__breadcrumb"]
-  },
-  "flex-layout.col#department__breadcrumb": {
-    "title": "col-department__breadcrumb",
-    "children": ["breadcrumb.search", "flex-layout.row#gallery-layout-switcher-container"],
+    "title": "Breadcrumb desktop department",
+    "children": ["flex-layout.col#department__breadcrumb"],
     "props": {
-      "blockClass": "container__department__breadcrumb-and-switcher"
+      "blockClass": "row-department-breadcrumb"
     }
   },
-  "search-result-layout.mobile#mobile__department": {
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Columna del breadcrumb desktop department",
     "children": [
-      "flex-layout.row#department__breadcrumb",
-      "responsive-layout.tablet#tablet__department",
-      "responsive-layout.phone#phone__department"
-    ]
-  },
-  "responsive-layout.tablet#tablet__department": {
-    "children": ["flex-layout.row#category__results"]
-  },
-  "responsive-layout.phone#phone__department": {
-    "children": ["flex-layout.row#category__results"]
-  },
-  "responsive-layout.desktop#desktop__department": {
-    "children": ["flex-layout.row#category__results"]
-  },
-  "flex-layout.row#category__results": {
-    "title": "category__results",
-    "children": [
-     
-      "flex-layout.col#category__results--content"
+      "breadcrumb.search",
+      "flex-layout.row#searchinfo"
     ],
     "props": {
-      "blockClass": "category__results"
+      "blockClass": "col-department-breadcrumb",
+      "width": "grow", 
+      "preventVerticalStretch": true
     }
   },
   
+  "responsive-layout.tablet#tablet__department": {
+    "title": "Responsive tablet department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-tablet-department"
+    }
+  },
+  "responsive-layout.phone#phone__department": {
+    "title": "Responsive phone department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-phone-department"
+    }
+  },
+  "responsive-layout.desktop#desktop__department": {
+    "title": "Responsive desktop department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-desktop-department"
+    }
+  },
+  "flex-layout.row#category__results": {
+    "title": "Contenedor en fila de category",
+    "children": ["flex-layout.col#category__results--content"],
+    "props": {
+      "blockClass": "category-results-row"
+    }
+  },
   "flex-layout.col#category__results--content": {
-    "title": "category__results--content",
+    "title": "Contenedor en columna del contenido de category",
     "children": ["search-content#results__content--products"],
     "props": {
       "width": "75%",
-      "blockClass": "category__results--content"
+      "blockClass": "category-results-content"
     }
   },
   "search-content#results__content--products": {
-    "blocks": ["gallery#department", "not-found"]
+    "title": "Search content del contenidos de productos",
+    "blocks": ["gallery#department", "not-found"],
+    "props": {
+      "blockClass": "results__content--products"
+    }
   },
+  
   "gallery#department": {
+    "title": "Galleria de departamento",
     "props": {
       "layouts": [
         {
@@ -80,70 +101,57 @@
           }
         },
         {
-            "name": "grid-three",
-            "component": "ThreeGrid",
-            "itemsPerRow": {
-              "desktop": 2,
-              "tablet": 1,
-              "phone": 1
+          "name": "grid-three",
+          "component": "ThreeGrid",
+          "itemsPerRow": {
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
         }
-    }
       ],
       "GeneralGrid": "product-summary.shelf",
-      "ThreeGrid": "product-summary.shelf#products__list--shelf"
+      "ThreeGrid": "product-summary.shelf"
     }
   },
-  "flex-layout.row#gallery-layout-switcher-container": {
-    "title": "row of gallery layout switcher",
+  "flex-layout.row#searchinfo": {
+    "title": "Contenedor en fila del switcher",
     "children": [
-        "drawer#search-filter-drawer",
-        "order-by.v2",
-        "rich-text#gallery-layout-switcher-text",
-        "gallery-layout-switcher"
-  ],
-  "props": {
-    "blockClass": "gallery-layout-switcher-container",
+      "drawer#search-filter-drawer",
+      "order-by.v2",
+      "flex-layout.row#gallery-layout-switcher-container"
+    ],
+    "props": { "blockClass": "search-info", 
+    "preventHorizontalStretch": false ,
     "horizontalAlign": "left",
-    "colSizing": "auto"
+    "colSizing": "auto",
+    "colJustify": "around",
+    "colGap": 0
   }
-
   },
-  "gallery-layout-switcher": {
-    "children": [
-      /*
-       * For accessbility to work properly,
-       * It's important to define the options in the same order as the layouts
-       */
-      
-       "gallery-layout-option#ThreeList",
-       "gallery-layout-option#FourList"
-    ]
-  },
-  
   "drawer#search-filter-drawer": {
+    "title": "Drawer filtro",
     "blocks": ["drawer-trigger#search-filter-drawer-trigger"],
     "children": ["filter-navigator.v3#search-filter-desktop-category-01"],
     "props": {
       "drawer-close-button": { "size": 35 },
-      "blockClass": ["search-filter-drawer"]
+      "blockClass": "search-filter-drawer"
     }
   },
   "drawer-trigger#search-filter-drawer-trigger": {
-    "blocks": [],
+    "title": "Drawer trigger",
     "children": ["rich-text#search-open-filter-drawer"],
     "props": {}
   },
   "rich-text#search-open-filter-drawer": {
-    "blocks": [],
-    "children": [],
+    "title": "Texto del filtro",
     "props": {
-      "blockClass": ["search-filter-drawer-trigger-text"],
+      "blockClass": "search-filter-drawer-trigger-text",
       "text": "Filtros"
     }
   },
   "filter-navigator.v3#search-filter-desktop-category-01": {
-    "blocks": [],
-    "children": [],
+    "title": "Filtro",
     "props": {
       "blockClass": ["plp-filter-desktop", "plp-filter-desktop-category-01"],
       "layout": "responsive",
@@ -151,13 +159,28 @@
     }
   },
   "order-by.v2": {
-   
+    "title": "Ordenador",
     "props": { "hiddenOptions": ["OrderByNameASC", "OrderByNameDESC"] }
   },
+  "flex-layout.row#gallery-layout-switcher-container":{
+    "children": [
+      "rich-text#gallery-layout-switcher-text",
+    "gallery-layout-switcher"
+    ],
+    "props": { 
+      "blockClass": 
+        "gallery-layout-switcher-container",
+        "colSizing": "auto",
+        "colGap":0
+        
+       }
+     
+  },
+ 
   "rich-text#gallery-layout-switcher-text": {
-    "title": "text of gallery switcher",
+    "title": "Texto de la gallery switcher",
     "props": {
-        "blockClass": "gallery-layout-switcher-text",
+      "blockClass": "gallery-layout-switcher-text",
       "font": "t-body",
       "text": "VER",
       "textAlignment": "CENTER",
@@ -165,31 +188,8 @@
       "textPosition": "CENTER"
     }
   },
- 
-  "gallery-layout-option#list": {
-    "props": {
-      "name": "list"
-    },
-    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
-  },
-  "responsive-layout.desktop#textOptionGrid": {
-    "children": ["rich-text#option-grid"]
-  },
-  "responsive-layout.desktop#textOptionList": {
-    "children": ["rich-text#option-list"]
-  },
-  "rich-text#option-grid": {
-    "props": {
-      "text": "Grid",
-      "textColor": "c-auto",
-      "blockClass": "layout-option"
-    }
-  },
-  "rich-text#option-list": {
-    "props": {
-      "text": "List",
-      "textColor": "c-auto",
-      "blockClass": "layout-option"
-    }
+  "search-not-found-layout": {
+    "children": ["not-found"],
+    "props": { "fullWidth": true }
   }
 }

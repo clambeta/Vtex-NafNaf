@@ -1,9 +1,11 @@
 {
     "store.search": {
+      "title": "Store search",
       "blocks": [
         "search-result-layout#department"
       ],
       "props":{
+        "blockClass": "store-search",
         "context":{
           "skusFilter":"ALL",
           "simulationBehavior":"default"
@@ -11,46 +13,46 @@
       }
     },
     "gallery-layout-switcher":{
-      "title":"switcher",
+      "title":"Gallery switcher",
       "children":[
         "gallery-layout-option#ThreeList",
        "gallery-layout-option#FourList"
       ]
     },
     "gallery-layout-option#ThreeList": {
-      "title":"grid",
+      "title":"Grid",
       "props": {
         "name":  "grid-four"
       },
       "children": [
         "icon-grid",
-        "responsive-layout.desktop#textOptionGrid"
+        "responsive-layout.desktop#textOptionGridThreeList"
       ]
     },
     "gallery-layout-option#FourList": {
-      "title":"grid de tres",
+      "title":"Grid de tres",
       "props": {
         "name": "grid-three"
       },
       "children": [
         "icon-inline-grid",
-        "responsive-layout.desktop#textOptionList"
+        "responsive-layout.desktop#textOptionGridFourList"
       ]
     },
-    "responsive-layout.desktop#textOptionGrid": {
-      "title":"textOptionGrid",
+    "responsive-layout.desktop#textOptionGridThreeList": {
+      "title":"Responsive del contenedor texto de Grid Three",
       "children": [
         "rich-text#option-grid"
       ]
     },
-    "responsive-layout.desktop#textOptionList": {
-      "title":"textOptionList",
+    "responsive-layout.desktop#textOptionGridFourList": {
+      "title":"Responsive del contenedor texto de Grid Four",
       "children": [
         "rich-text#option-list"
       ]
     },
     "rich-text#option-grid": {
-      "title":"option-grid",
+      "title":"Opción grid three",
       "props": {
         "text": "Grid",
         "textColor": "c-auto",
@@ -58,7 +60,7 @@
       }
     },
     "rich-text#option-list": {
-      "title":"option-list",
+      "title":"Opción grid four",
       "props": {
         "text": "List",
         "textColor": "c-auto",
@@ -66,6 +68,7 @@
       }
     },
     "store.search#category":{
+      "title": "Categoria del store.search",
       "blocks": ["search-result-layout"],
       "props":{
         "context":{
@@ -75,6 +78,7 @@
       }
     },
     "store.search#subcategory":{
+      "title": "Subcategoria del store.search",
       "blocks": ["search-result-layout"],
       "props":{
         "context":{
@@ -84,6 +88,7 @@
       }
     },
     "store.search#brand":{
+      "title": "Marca del store.search",
       "blocks": ["search-result-layout"],
       "props":{
         "context":{
@@ -93,20 +98,34 @@
       }
     },
     "product-summary.shelf":{
+      "title": "Product summary de la plp",
         "children":[
-          "product-summary-image",
-          "add-to-list-btn",
-          "product-rating-inline",
+          "stack-layout#stackLayout-product-summary-shelf",
           "product-summary-name",
           "product-list-price",
           "product-selling-price",
           "product-summary-sku-selector",
-          "add-to-cart-button",
-          "modal-trigger#global__quick-view"
+          "add-to-cart-button" /*,
+          "modal-trigger#global__quick-view" */
         ],
         "props":{
           "blockClass": "search__container"
         }
+    },
+    "stack-layout#stackLayout-product-summary-shelf": {
+      "children": [
+      
+      "product-summary-image",
+      "add-to-list-btn"
+    ],
+      "props": {
+        "blockClass": "stackLayout-product-summary-shelf"
+      }
+    },
+    "add-to-list-btn":{
+      "props": {
+        "blockClass": "wishlist-icon"
+      }
     },
     "product-summary-name":{
         "props":{
@@ -119,25 +138,31 @@
     }
     },
     "modal-trigger#global__quick-view":{
+      "title": "Quick view del modal plp",
     "children":[
         "rich-text#global__quick-view--trigger",
         "modal-layout#global__quick-view--modal"
     ]
     },
     "rich-text#global__quick-view--trigger":{
-      "title":"view--trigger",
+      "title": "Texto de la vista rápida",
       "props":{
         "text":"Vista Rápida",
-        "blockClass":"quick-view--trigger"
+        "blockClass":"quick-view-trigger"
     }
     },
     "modal-layout#global__quick-view--modal":{
+      "title": "Modal layout que quick view",
       "children":[
           "modal-header#header__quick-view--modal",
           "flex-layout.row#quick-view__modal"
-            ]
+            ],
+      "props": {
+        "blockClass": "quick-view--modal"
+      }
     },
     "modal-header#header__quick-view--modal":{
+      "title": "Modal header de quick view",
         "props":{
             "showCloseButton": true,
             "iconCloseSize": 18,
@@ -145,7 +170,7 @@
         }
     },
     "flex-layout.row#quick-view__modal":{
-        "title":"quick-view__modal",
+      "title": "Contenedor en fila del quick view",
         "children":[
             "flex-layout.col#quick-view__modal--image",
             "flex-layout.col#quick-view__modal--info"
@@ -155,7 +180,7 @@
         }
     },
     "flex-layout.col#quick-view__modal--image":{
-        "title":"quick-view__modal--image",
+      "title": "Contenedor en columna del quick view",
         "children":[
             "product-images#quick-view__modal--image"
         ],
@@ -170,7 +195,7 @@
         }
     },
     "flex-layout.col#quick-view__modal--info":{
-        "title":"col-quick-view__modal--info",
+        "title":"Contenedor en columna del contenido del quick view",
         "children":[
             "product-summary-name#quick-view__modal--info-name",
             "product-summary-description",
@@ -179,10 +204,13 @@
             "product-summary-sku-selector",
             "product-quantity",
             "add-to-cart-button#quick-view__modal--info-price"
-        ]
+        ],
+        "props": {
+          "blockClass": "quick-view__modal--info"
+        }
     },
     "product-summary-name#quick-view__modal--info-name":{
-        "title": "summary-name-quick-view__modal",
+        "title": "Prodct summary name",
         "props":{
             "blockClass":"quick-view__modal--info-name"
         }

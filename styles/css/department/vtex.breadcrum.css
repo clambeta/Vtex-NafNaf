@@ -1,0 +1,25 @@
+
+
+.homeIcon {
+    content: "Home",
+
+}
+
+
+.link--1 :global(.vtex-breadcrumb-1-x-link) {
+    text-decoration: none;
+    color: black !important;
+}
+
+.link--1 {
+    text-decoration: none;
+    color: black !important;
+}
+.link :hover {
+    text-decoration: underline;
+    color: #979899;
+}
+.link :focus {
+    text-decoration: underline;
+    color: #979899;
+}
