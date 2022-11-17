@@ -1,0 +1,183 @@
+{
+  "flex-layout.row#product__breadcrumb": {
+    "title": "Breadcrumb del detalle del producto",
+    "children": ["flex-layout.col#product__breadcrumb"]
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "title": "Columna de Miga de pan del producto",
+    "children": ["breadcrumb"]
+  },
+  "breadcrumb":{
+    "title": "Breadcrumb",
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 20,
+      "caretIconSize": 8
+    }
+  },
+  "flex-layout.row#product__info": {
+    "title": "Información de la PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "product__info",
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Imágenes de producto",
+    "children": ["product-images#product__info--image"],
+    "props": {
+      "blockClass": "product__info--image"
+    }
+  },
+  "product-images#product__info--image": {
+    "title": "imágenes",
+    "props": {
+      "zoomMode": "open-modal",
+      "blockClass": "product__info--image"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Data de producto",
+    "children": [
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-rating-inline",
+      "product-price",
+      "product-quantity",
+      "rich-text#product__promo-info",
+      "product-description",
+      "shipping-simulator",
+      "availability-subscriber",
+      "add-to-cart-button",
+      "modal-trigger#add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "product__info--data"
+    }
+  },
+  "rich-text#product__promo-info": {
+    "title": "texto adicional de producto",
+    "props": {
+      "text": " ",
+      "blockClass": "product__promo-info"
+    }
+  },
+  "modal-trigger#add-to-cart-button": {
+    "title": "modal de agregar al carrito",
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart",
+      "blockClass": "trigger--add-to-cart-button"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "title": "informacion del carrito",
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-button"],
+    "props":{
+      "blockClass": "modal--add-to-cart-button"
+    }
+  },
+  "modal-header#add-to-cart-info": {
+    "title": "icono de cerrar modal",
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
+  "flex-layout.row#product__tabs": {
+    "title": "Información adicional",
+    "children": ["tab-layout#product__tabs"],
+    "props": {
+      "blockClass": "product__tabs"
+    }
+  },
+  "tab-layout#product__tabs": {
+    "title": "Contenedor de info adicional",
+    "children": [
+      "tab-list#product__tabs--list",
+      "tab-content#product__tabs--content"
+    ],
+    "props": {
+      "blockClass": "product__tabs--container"
+    }
+  },
+  "tab-list#product__tabs--list": {
+    "title": "Lista info adicional",
+    "children": [
+      "tab-list.item#tabs__list--reviews-and-ratings",
+      "tab-list.item#tabs__list--product-specification",
+      "tab-list.item#tabs__list--questions"
+    ],
+    "props": {
+      "blockClass": "product__tabs--list"
+    }
+  },
+  "tab-list.item#tabs__list--reviews-and-ratings": {
+    "title": "Revisiones y calificaciones",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Revisiones y calificaciones",
+      "defaultActiveTab": true,
+      "blockClass": "tabs__list--reviews-and-ratings"
+    }
+  },
+  "tab-list.item#tabs__list--product-specification": {
+    "title": "Especificaciones de productos",
+    "props": {
+      "tabId": "product-specification",
+      "label": "Especificaciones de productos",
+      "defaultActiveTab": false,
+      "blockClass": "tabs__list--product-specification"
+    }
+  },
+  "tab-list.item#tabs__list--questions": {
+    "title": "Preguntas y respuestas",
+    "props": {
+      "tabId": "questions",
+      "label": "Preguntas y respuestas",
+      "defaultActiveTab": false,
+      "blockClass": "tabs__list--questions"
+    }
+  },
+  "tab-content#product__tabs--content": {
+    "title": "Contenedor de tabs items",
+    "children": [
+      "tab-content.item#tabs__list--reviews-and-ratings",
+      "tab-content.item#tabs__list--product-specification",
+      "tab-content.item#tabs__list--questions"
+    ],
+    "props": {
+      "blockClass": "product__tabs--content"
+    }
+  },
+  "tab-content.item#tabs__list--reviews-and-ratings": {
+    "title": "Tab Item Revisiones y calificaciones ",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "blockClass": "reviews-and-ratings"
+    },
+    "children": ["product-reviews"]
+  },
+  "tab-content.item#tabs__list--product-specification": {
+    "title": "Tab Item Especificaciones de productos",
+    "props": {
+      "tabId": "product-specification",
+      "blockClass": "product-specification"
+    },
+    "children": ["product-specifications"]
+  },
+  "tab-content.item#tabs__list--questions": {
+    "title": "Tab Item Preguntas y respuestas",
+    "props": {
+      "tabId": "questions",
+      "blockClass": "questions"
+    },
+    "children": ["product-questions-and-answers"]
+  }
+
+}
+

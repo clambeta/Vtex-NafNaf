@@ -7,6 +7,7 @@
 .wrapper--search-filter-drawer-trigger-text{
     max-height: 42px;
     width: 250px;
+    max-width: 30vw;
 }
 .paragraph--search-filter-drawer-trigger-text{
     margin: 0 auto;

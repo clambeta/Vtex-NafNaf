@@ -1,0 +1,13 @@
+{
+"store.product": {
+    "title": "Página de detalle de producto",
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info",
+      "flex-layout.row#product__tabs"
+    ],
+    "props": {
+      "blockClass": "pdp-store"
+    }
+  } 
+}
