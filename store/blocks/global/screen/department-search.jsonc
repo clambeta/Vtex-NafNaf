@@ -1,0 +1,14 @@
+{
+    "store.search#department":{
+      "title": "Store search del departamento",
+        "blocks": [
+          "search-result-layout#department"
+        ],
+        "props":{
+          "context":{
+            "skusFilter":"FIRST_AVAILABLE",
+            "simulationBehavior":"default"
+          }
+        }
+      }
+  }

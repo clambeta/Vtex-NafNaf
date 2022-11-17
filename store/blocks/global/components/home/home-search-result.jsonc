@@ -72,7 +72,7 @@
       "showBadge": true,
       "badgeText": "NEW",
       "height": 380,
-      "showCollections": true
+      "showCollections": false
     }
   },
   "product-summary-name": {

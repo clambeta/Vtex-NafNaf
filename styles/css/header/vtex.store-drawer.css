@@ -1,0 +1,23 @@
+/*   mobile   */
+
+.opened--drawer-menu-mobile {
+    width: 100%;
+    min-width: 280px;
+    max-width: 100vW;
+    pointer-events: auto;
+    transform: translate3d(0%, 0px, 0px);
+    color: black;
+}
+
+.closeIconContainer--drawer-menu-mobile{
+    justify-content: flex-end;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.childrenContainer--drawer-menu-mobile {
+    width: 100%;
+}

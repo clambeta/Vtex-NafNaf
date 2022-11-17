@@ -61,3 +61,17 @@
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+@media (max-width: 1024px) {
+
+    .logoImage--logo-header {
+        min-width: unset;
+        max-width: 24vW;
+    }
+    .logoContainer--logo-header {
+        padding-left: .5rem;
+        padding-bottom: 0.75rem;
+        padding-right: 1.5rem;
+        padding-top: 0.75rem;
+    }
+}

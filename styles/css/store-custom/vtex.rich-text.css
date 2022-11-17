@@ -46,3 +46,11 @@
     text-transform: uppercase;
     letter-spacing: .28rem;
 }
+
+.heading-level-3{
+  font-size: 1.25rem;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 0;
+}

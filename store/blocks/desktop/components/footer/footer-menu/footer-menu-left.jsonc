@@ -299,7 +299,7 @@
 "rich-text#dia-sin-iva-desk": {
   "title": "Text de Día sin Iva",
   "props": {
-    "text": "[Día sin Iva](https://www.nafnaf.com.co/servicios/dia-sin-iva)",
+    "text": "[Día sin Iva](https://storenafnaf--itgloberspartnercl.myvtex.com/dia-sin-iva)",
     "blockClass": "rich-text__submenu"
   }
 },
