@@ -42,11 +42,13 @@
       "flex-layout.row#gallery-layout-switcher-container"
     ],
     "props": { "blockClass": "search-info-mobile", 
+    "fullWidth": true,
     "preventHorizontalStretch": true ,
-    "horizontalAlign": "left",
+    "horizontalAlign": "center",
     "colSizing": "auto",
     "colJustify": "around",
-    "colGap": 0
+    "colGap": 0,
+    "preserveLayoutOnMobile": true
   }
   }
  

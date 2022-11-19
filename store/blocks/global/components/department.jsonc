@@ -171,7 +171,8 @@
       "blockClass": 
         "gallery-layout-switcher-container",
         "colSizing": "auto",
-        "colGap":0
+        "colGap":0,
+        "preserveLayoutOnMobile": true
         
        }
      

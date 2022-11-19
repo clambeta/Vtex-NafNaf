@@ -1,0 +1,393 @@
+{
+  "product-price#product-details": {
+    "title": "Detalles del producto",
+    "props": {
+        "blockClass": "product-details",
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.col#disclosure-layout-product": {
+    "title": "Contenedor de la columna de la descripción y las especificaciones",
+    "children": [
+        "disclosure-layout-group#product"
+    ],
+    "props": {
+        "blockClass": "disclosure-pdp"
+    }
+},
+"disclosure-layout-group#product": {
+    "title": "Contenedor de descripción y especificaciones",
+    "children": [
+        "disclosure-layout#description",
+        "disclosure-layout#specifications"
+    ],
+    "props": {
+        "bloclClass": "product-disclosure-group"
+    }
+},
+"disclosure-layout#description": {
+    "title": "Disclosure de la descripción",
+    "children": [
+        "disclosure-trigger#description",
+        "disclosure-content#description"
+    ],
+    "props": {
+        "blockClass": "disclosure-layout-product"
+    }
+},
+"disclosure-content#description": {
+    "title": "Contenido de descripción",
+    "children": [
+        "product-description"
+    ],
+    "props": {
+        "blockClass": "content-description"
+    }
+},
+"disclosure-trigger#description": {
+    "title": "Disparador de descripción",
+    "children": [
+        "rich-text#description"
+    ],
+    "props": {
+        "blockClass": "trigger-product"
+    }
+},
+"rich-text#description": {
+    "title": "Texto descripción",
+    "props": {
+        "text": "Descripción",
+        "blockClass": "trigger-product-text"
+    }
+},
+"disclosure-layout#specifications": {
+    "title": "Disclosure de las especificaciones",
+    "children": [
+        "disclosure-trigger#specifications",
+        "disclosure-content#specifications"
+    ],
+    "props": {
+        "blockClass": "disclosure-layout-product"
+    }
+},
+"disclosure-content#specifications": {
+    "title": "Contenido de descripción",
+    "children": [
+        "product-specification-group#table"
+    ],
+    "props": {
+        "blockClass": "content-description"
+    }
+},
+"product-specification-group#table": {
+    "title": "Especificaciones del producto",
+    "children": [
+        "flex-layout.row#spec-group"
+    ],
+    "props": {
+        "blockClass": "table-product-specification"
+    }
+},
+"flex-layout.row#spec-group": {
+    "title": "Contenedor en fila del grupo de especificaciones",
+    "children": [
+        "flex-layout.col#spec-group"
+    ],
+    "props": {
+        "blockClass": "product-specification-group"
+    }
+},
+"flex-layout.col#spec-group": {
+    "title": "Contenedor en columna del grupo de especificaciones",
+    "children": [
+        "flex-layout.row#spec-group-name",
+        "product-specification"
+    ],
+    "props": {
+        "blockClass": "spec-group"
+    }
+},
+"flex-layout.row#spec-group-name": {
+    "title": "Contenedor en fila de las especificaciones del producto",
+    "children": [
+        "product-specification-text#group"
+    ],
+    "props": {
+        "blockClass": "product-specification-group-name"
+    }
+},
+"product-specification-text#group": {
+    "props": {
+        "message": "{groupName}"
+    }
+},
+"product-specification": {
+    "children": [
+        "flex-layout.row#spec-item"
+    ]
+},
+"flex-layout.row#spec-item": {
+    "title": "Contenedor en fila del contenido de las especificaciones ",
+    "children": [
+        "flex-layout.col#spec-name",
+        "flex-layout.col#spec-value"
+    ],
+    "props": {
+        "blockClass": "product-pecification"
+    }
+},
+"flex-layout.col#spec-name": {
+    "title": "Contenedor en columna del nombre de la especificación",
+    "children": [
+        "product-specification-text#specification"
+    ],
+    "props": {
+        "blockClass": "product-specification-name",
+        "width": {
+            "mobile": "50%",
+            "desktop": "25%"
+        }
+    }
+},
+"product-specification-text#specification": {
+    "props": {
+        "message": "{specificationName}"
+    }
+},
+"flex-layout.col#spec-value": {
+    "title": "Contenedor en columna del valor de las especificaciones",
+    "children": [
+        "product-specification-values"
+    ],
+    "props": {
+        "blockClass": "product-specification-value"
+    }
+},
+"product-specification-values": {
+    "children": [
+        "product-specification-text#value"
+    ]
+},
+"product-specification-text#value": {
+    "props": {
+        "message": "{specificationValue}"
+    }
+},
+"disclosure-trigger#specifications": {
+    "title": "Disparador de las especificaciones",
+    "children": [
+        "rich-text#especificaciones"
+    ],
+    "props": {
+        "blockClass": "trigger-product"
+    }
+},
+"rich-text#especificaciones": {
+    "title": "Texto especificaciones",
+    "props": {
+        "text": "Especificaciones",
+        "blockClass": "trigger-product-text"
+    }
+},
+"flex-layout.row#buy-button": {
+    "title": "Contenedor en fila del botón comprar",
+  "children": [
+      "product-quantity",
+      "add-to-cart-button#pdp"
+  ],
+  "props": {
+      "marginTop": 3,
+      "marginBottom": 4,
+      "blockClass": "btn-comprar"
+  }
+},
+"add-to-cart-button#pdp": {
+  "props": {
+      "text": "COMPRAR"
+  }
+},
+"product-quantity": {
+  "props": {
+      "warningQuantityThreshold": 0,
+      "showUnit": true
+  }
+},
+"flex-layout.row#tallas-cambios": {
+    "title": "Contenedor en fila de tallas",
+  "children": [
+      "modal-trigger#pdp-guia-de-tallas-modal",
+      "link#cambios"
+  ],
+  "props": {
+      "blockClass": "container-tallas-cambios",
+      "marginTop": 6,
+      "colSizing": "equal"
+  }
+},
+"link#cambios": {
+  "props": {
+      "href": "/servicios/entrega-devoluciones",
+      "label": "POLÍTICAS DE CAMBIOS Y DEVOLUCIÓN",
+      "blockClass": "cambios-btn"
+  }
+},
+"modal-trigger#pdp-guia-de-tallas-modal": {
+    "title": "Modal del disparador de las tallas",
+  "children": [
+      "flex-layout.col#pdp-guia-tallas-container",
+      "modal-layout#guia-de-tallas-modal"
+  ],
+  "props": {
+    "blockClass": "pdp-guia-de-tallas-modal"
+  }
+},
+"flex-layout.col#pdp-guia-tallas-container": {
+    "title": "Contenedor en columna de las tallas",
+  "children": [
+      "rich-text#pdp-guia-tallas-text"
+  ],
+  "props": {
+      "blockClass": [
+          "icon-text-pdp-container",
+          "icon-text-pdp-guia-tallas"
+      ]
+  }
+},
+"rich-text#pdp-guia-tallas-text": {
+    "title": "Texto de guía de tallas",
+  "props": {
+      "text": "[GUÍA DE TALLAS](assets/img/guia-tallas.png)",
+      "textColor": "c-on-base",
+      "blockClass": "tallas-btn"
+  }
+},
+"modal-trigger#suInstallmentsList": {
+    
+  "children": [
+      "rich-text#openInstallmentsModal",
+      "modal-layout#installmentsModal"
+  ],
+  "props": {
+      "blockClass": "installments-modal-trigger"
+  }
+},
+"modal-layout#installmentsModal": {
+  "children": [
+      "modal-header#installmentsModalHeader",
+      "modal-content#installmentsModalContent"
+  ],
+  "props": {
+      "blockClass": "installments-modal-layout"
+  }
+},
+"modal-content#installmentsModalContent": {
+  "children": [
+      "image#paymentLogo",
+      "link#paymentLink"
+  ]
+},
+"image#paymentLogo": {
+  "props": {
+      "src": "assets/img/sumas.png",
+      "title": "",
+      "analyticsProperties": "none"
+  }
+},
+"link#paymentLink": {
+  "props": {
+      "href": "https://www.mundosumas.com/sumaspay/",
+      "label": "Saber más",
+      "target": "_blank"
+  }
+},
+"modal-header#installmentsModalHeader": {
+  "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 20
+  }
+},
+"rich-text#openInstallmentsModal": {
+    "title": "Texto de ver cuotas",
+  "props": {
+    "blockClass": "modal-installments",
+      "text": "Ver cuotas ..."
+     
+  }
+},
+"modal-layout#guia-de-tallas-modal": {
+    "title": "Modal guía de tallas",
+  "children": [
+      "image#guia-de-tallas-modal-content",
+      "modal-actions.close#guia-de-tallas-close-button"
+  ],
+  "props": {
+      "blockClass": "guia-de-tallas-modal"
+  }
+},
+"image#guia-de-tallas-modal-content": {
+  "props": {
+      "src": "assets/img/guia-tallas.png",
+      "title": "",
+      "analyticsProperties": "none"
+  }
+},
+"modal-actions.close#guia-de-tallas-close-button": {
+  "props": {
+      "label": "X",
+      "blockClass": [
+          "modal-close-newsletter",
+          "modal-close-guia-tallas"
+      ]
+  }
+},
+"rich-text#related-title": {
+    "title": "}texto recomendados",
+    "blocks": [],
+    "children": [],
+    "props": {
+        "blockClass": "related-title",
+        "text": "## RECOMENDADOS",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+    }
+},
+"flex-layout.row#productReviewsContainer":{
+    "title": "Información adicional",
+    "children": ["tab-layout#product__tabs"],
+    "props": {
+      "blockClass": "product__tabs"
+    }
+  },
+  "tab-layout#product__tabs": {
+    "title": "Contenedor de info adicional",
+    "children": [ 
+        
+        "tab-content#product__tabs--content"
+    ],
+    "props": {
+      "blockClass": "product__tabs"
+    }
+  },
+
+  "tab-content#product__tabs--content": {
+    "title": "Contenedor de tabs items",
+    "children": [
+      "tab-content.item#tabs__list--reviews-and-ratings"
+    ],
+    "props": {
+      "blockClass": "product__tabs--content"
+    }
+  },
+  "tab-content.item#tabs__list--reviews-and-ratings": {
+    "title": "Tab Item Revisiones y calificaciones ",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "blockClass": "reviews-and-ratings"
+    },
+    "children": ["product-reviews"]
+  }
+
+
+}
+

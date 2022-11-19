@@ -62,5 +62,15 @@
         margin: 0 auto;
         width: 50%!important;
     }
-   
+    .flexRowContent--gallery-layout-switcher-container{
+        max-width: 25vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
 }
