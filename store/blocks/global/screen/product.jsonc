@@ -3,7 +3,10 @@
     "title": "Página de detalle de producto",
     "children": [
       "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info"
+      "flex-layout.row#product__info",
+      "rich-text#related-title",
+      "list-context.product-list#home__results--search-desktop",
+      "flex-layout.row#productReviewsContainer"
     ],
     "props": {
       "blockClass": "pdp-store"

@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#product__breadcrumb": {
+        "title": "Miga de pan del detalle del producto",
+        "children": ["flex-layout.col#product__breadcrumb"],
+        "props": {
+            "blockClass": "product__breadcrumb"
+        }
+      },
+      "flex-layout.col#product__breadcrumb": {
+        "title": "Columna de Miga de pan del producto",
+        "children": ["breadcrumb"],
+        "props": {
+            "blockClass":"product__breadcrumb-col"
+        }
+      },
+      "breadcrumb":{
+        "title": "Breadcrumb",
+        "props": {
+            "showOnMobile": true,
+            "homeIconSize": 20,
+            "caretIconSize": 8
+        }
+      }
+}

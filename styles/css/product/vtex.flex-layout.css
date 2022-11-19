@@ -1,0 +1,9 @@
+.stretchChildrenWidth   {
+    width: 60%;
+}
+.flexCol--pdp-right-col  {
+    padding-right: 48px;
+}
+.flexColChild--pdp-right-col {
+    height: auto;
+}
