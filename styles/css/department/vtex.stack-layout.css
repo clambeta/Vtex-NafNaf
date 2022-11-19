@@ -1,0 +1,21 @@
+
+
+.stackItem--wishlist-icon  {
+    bottom: 3% !important;
+    right: -1% !important;
+    left: unset !important;
+    top: unset !important
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .stackItem--wishlist-icon {
+        bottom: 12% !important;
+        right: -3% !important;
+        left: unset !important;
+        top: unset !important
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "search-result-layout.mobile#mobile__department": {
+    "title": "Search result del department mobile",
+    "children": [
+      "flex-layout.row#department__breadcrumb-mobile",
+      "responsive-layout.tablet#tablet__department",
+      "responsive-layout.phone#phone__department"
+    ],
+    "props": {
+      "blockClass": "results-mobile-department"
+    }
+  },
+  "flex-layout.row#department__breadcrumb-mobile": {
+    "title": "Breadcrumb desktop department",
+    "children": ["flex-layout.col#department__breadcrumb-mobile"],
+    "props": {
+      "blockClass": "row-department-breadcrumb-mobile"
+    }
+  },
+  "flex-layout.col#department__breadcrumb-mobile": {
+    "title": "Columna del breadcrumb desktop department",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#searchinfo_mobile"
+    ],
+    "props": {
+      "blockClass": "col-department-breadcrumb-mobile",
+      "width": "grow", 
+      "preventVerticalStretch": true
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#searchinfo_mobile": {
+    "title": "Contenedor en fila del switcher",
+    "children": [
+      "drawer#search-filter-drawer",
+      "order-by.v2",
+      "flex-layout.row#gallery-layout-switcher-container"
+    ],
+    "props": { "blockClass": "search-info-mobile", 
+    "fullWidth": true,
+    "preventHorizontalStretch": true ,
+    "horizontalAlign": "center",
+    "colSizing": "auto",
+    "colJustify": "around",
+    "colGap": 0,
+    "preserveLayoutOnMobile": true
+  }
+  }
+ 
+}

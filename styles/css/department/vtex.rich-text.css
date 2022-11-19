@@ -1,0 +1,28 @@
+.container--search-filter-drawer-trigger-text{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.wrapper--search-filter-drawer-trigger-text{
+    max-height: 42px;
+    width: 250px;
+    max-width: 30vw;
+}
+.paragraph--search-filter-drawer-trigger-text{
+    margin: 0 auto;
+    padding: .75rem 3rem;
+    font-size: .875rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+.paragraph--gallery-layout-switcher-text{
+    margin: 0 1rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}

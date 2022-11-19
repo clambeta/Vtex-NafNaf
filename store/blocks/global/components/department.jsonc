@@ -1,0 +1,196 @@
+{
+  "search-result-layout#department": {
+    "title": "Departments",
+    "blocks": [
+      "search-result-layout.desktop#desktop__department",
+      "search-result-layout.mobile#mobile__department",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "blockClass": "plp-results-desktop"
+    }
+  },
+  "search-result-layout.desktop#desktop__department": {
+    "title": "Search result del department desktop",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "responsive-layout.desktop#desktop__department"
+    ],
+    "props": {
+      "blockClass": "results-desktop-department",
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "Breadcrumb desktop department",
+    "children": ["flex-layout.col#department__breadcrumb"],
+    "props": {
+      "blockClass": "row-department-breadcrumb"
+    }
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Columna del breadcrumb desktop department",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#searchinfo"
+    ],
+    "props": {
+      "blockClass": "col-department-breadcrumb",
+      "width": "grow", 
+      "preventVerticalStretch": true
+    }
+  },
+  
+  "responsive-layout.tablet#tablet__department": {
+    "title": "Responsive tablet department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-tablet-department"
+    }
+  },
+  "responsive-layout.phone#phone__department": {
+    "title": "Responsive phone department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-phone-department"
+    }
+  },
+  "responsive-layout.desktop#desktop__department": {
+    "title": "Responsive desktop department",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "blockClass": "responsive-desktop-department"
+    }
+  },
+  "flex-layout.row#category__results": {
+    "title": "Contenedor en fila de category",
+    "children": ["flex-layout.col#category__results--content"],
+    "props": {
+      "blockClass": "category-results-row"
+    }
+  },
+  "flex-layout.col#category__results--content": {
+    "title": "Contenedor en columna del contenido de category",
+    "children": ["search-content#results__content--products"],
+    "props": {
+      "width": "75%",
+      "blockClass": "category-results-content"
+    }
+  },
+  "search-content#results__content--products": {
+    "title": "Search content del contenidos de productos",
+    "blocks": ["gallery#department", "not-found"],
+    "props": {
+      "blockClass": "results__content--products"
+    }
+  },
+  
+  "gallery#department": {
+    "title": "Galleria de departamento",
+    "props": {
+      "layouts": [
+        {
+          "name": "grid-four",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+          }
+        },
+        {
+          "name": "grid-three",
+          "component": "ThreeGrid",
+          "itemsPerRow": {
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf",
+      "ThreeGrid": "product-summary.shelf"
+    }
+  },
+  "flex-layout.row#searchinfo": {
+    "title": "Contenedor en fila del switcher",
+    "children": [
+      "drawer#search-filter-drawer",
+      "order-by.v2",
+      "flex-layout.row#gallery-layout-switcher-container"
+    ],
+    "props": { "blockClass": "search-info", 
+    "preventHorizontalStretch": false ,
+    "horizontalAlign": "left",
+    "colSizing": "auto",
+    "colJustify": "around",
+    "colGap": 0
+  }
+  },
+  "drawer#search-filter-drawer": {
+    "title": "Drawer filtro",
+    "blocks": ["drawer-trigger#search-filter-drawer-trigger"],
+    "children": ["filter-navigator.v3#search-filter-desktop-category-01"],
+    "props": {
+      "drawer-close-button": { "size": 35 },
+      "blockClass": "search-filter-drawer"
+    }
+  },
+  "drawer-trigger#search-filter-drawer-trigger": {
+    "title": "Drawer trigger",
+    "children": ["rich-text#search-open-filter-drawer"],
+    "props": {}
+  },
+  "rich-text#search-open-filter-drawer": {
+    "title": "Texto del filtro",
+    "props": {
+      "blockClass": "search-filter-drawer-trigger-text",
+      "text": "Filtros"
+    }
+  },
+  "filter-navigator.v3#search-filter-desktop-category-01": {
+    "title": "Filtro",
+    "props": {
+      "blockClass": ["plp-filter-desktop", "plp-filter-desktop-category-01"],
+      "layout": "responsive",
+      "initiallyCollapsed": true
+    }
+  },
+  "order-by.v2": {
+    "title": "Ordenador",
+    "props": { "hiddenOptions": ["OrderByNameASC", "OrderByNameDESC"] }
+  },
+  "flex-layout.row#gallery-layout-switcher-container":{
+    "children": [
+      "rich-text#gallery-layout-switcher-text",
+    "gallery-layout-switcher"
+    ],
+    "props": { 
+      "blockClass": 
+        "gallery-layout-switcher-container",
+        "colSizing": "auto",
+        "colGap":0,
+        "preserveLayoutOnMobile": true
+        
+       }
+     
+  },
+ 
+  "rich-text#gallery-layout-switcher-text": {
+    "title": "Texto de la gallery switcher",
+    "props": {
+      "blockClass": "gallery-layout-switcher-text",
+      "font": "t-body",
+      "text": "VER",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "search-not-found-layout": {
+    "children": ["not-found"],
+    "props": { "fullWidth": true }
+  }
+}

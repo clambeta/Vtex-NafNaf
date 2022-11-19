@@ -48,8 +48,7 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "add-to-cart-button",
-      "product-summary-sku-selector"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "products__list--shelf"
@@ -73,7 +72,7 @@
       "showBadge": true,
       "badgeText": "NEW",
       "height": 380,
-      "showCollections": true
+      "showCollections": false
     }
   },
   "product-summary-name": {

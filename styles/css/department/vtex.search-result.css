@@ -1,0 +1,90 @@
+
+
+.galleryLayoutOptionButton {
+    content: url(assets/img/plp-layout-four-row.svg);
+    color: black;
+    max-width: 62px;
+    
+}
+.galleryLayoutOptionButton--selected {
+    content: url(assets/img/plp-layout-three-row.svg);
+    color: black;
+    filter: invert(100%);
+    max-width: 62px;
+}
+
+.orderByDropdown{
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.orderByButton{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+.filterPopupTitle{
+    height: 25px;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    line-height: 120%;
+    text-transform: none;
+    color: #000;
+    border: 1px solid #000;
+}
+.orderByText{
+    color: #000;
+    font-size: .875rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.orderByText::after{
+    content: ": ";
+    margin-right: 1rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400; 
+}
+.filterPopupArrowIcon{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-left: none;
+    height: 25px;
+    padding: .5rem; 
+}
+.orderByOptionsContainer{
+    top: 42px;
+    z-index: 10;
+}
+.galleryLayoutSwitcher{
+    width: 100%;
+}
+
+
+@media  (max-width: 640px){
+    .galleryLayoutOptionButton {
+        content: url(assets/img/plp-layout-one-row.svg);
+        color: black;
+        width: 5vw;
+        max-width: 62px;
+        
+    }
+    .galleryLayoutOptionButton--selected {
+        content: url(assets/img/plp-layout-two-row.svg);
+        color: black;
+        filter: invert(100%);
+        width: 5vw;
+        max-width: 62px;
+    }
+}

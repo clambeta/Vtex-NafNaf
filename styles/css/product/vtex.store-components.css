@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.productImagesContainer--list{
+    text-align: center;
+}
+.productNameContainer{
+    display: flex;
+    flex-direction: column;
+}
+.productBrand{
+    font-family: Roboto,sans-serif;
+    font-size: 1.125rem;
+}
+.productBrandContainer{
+    color: grey;
+    font-size: .8125rem;
+    font-family: Roboto,sans-serif;
+}
+.price_sellingPrice--product-details{
+    font-family: Roboto,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.price_installmentContainer--product-details{
+    font-family: Futura Medium,sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000;
+}
+.price_installmentContainer--product-details{
+    font-family: Futura Medium,sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000;
+}
+.price_installment--product-details{
+    font-family: Futura Medium,sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000;
+}

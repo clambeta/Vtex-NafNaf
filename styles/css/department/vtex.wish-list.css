@@ -1,0 +1,44 @@
+.iconSize {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.wishlistIconContainer--wishlist-icon :global(.vtex-button) {
+    background-color: transparent !important;
+}
+.wishlistIconContainer--wishlist-icon :global(.vtex-button) :hover {
+    background-color: transparent !important;
+}
+
+
+.wishlistIcon--wishlist-icon {
+    /* content: url("assets/img/icon-heart-wishlist-link-empty.svg"); */
+    background-image: url("assets/img/icon-heart-wishlist-link-empty.svg");
+    background: url("assets/img/icon-heart-wishlist-link-empty.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.wishlistIcon--wishlist-icon :hover {
+    /* content: url("assets/img/icon-heart-wishlist-link-filled.svg"); */
+    background: url("assets/img/icon-heart-wishlist-link-filled.svg");
+    background-image: url("assets/img/icon-heart-wishlist-link-filled.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.outline {
+    /* content: url("assets/img/icon-heart-wishlist-link-empty.svg"); */
+    background-image: url("assets/img/icon-heart-wishlist-link-empty.svg");
+    background: url("assets/img/icon-heart-wishlist-link-empty.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.outline :hover {
+    /* content: url("assets/img/icon-heart-wishlist-link-filled.svg"); */
+    background: url("assets/img/icon-heart-wishlist-link-filled.svg");
+    background-image: url("assets/img/icon-heart-wishlist-link-filled.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}

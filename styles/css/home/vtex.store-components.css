@@ -220,8 +220,6 @@
     }
     .infoCardContainer--mobile-info-card-bottom--banner-two{
       height: 70vw;
-     
-    
     }
     .infoCardContainer--mobile-info-card-bottom--banner-three{
       height: 70vw;
@@ -231,19 +229,13 @@
 
   @media only screen and (max-width: 600px) {
     .infoCardCallActionContainer--info-card-mid--banner :global(.vtex-button){
-
-     
- 
       width: 80px;
       height: 18px;
       font-weight: 400;
       text-transform: none;
       font-size: 1rem;
       letter-spacing: 0;
-
-    
     }
-  
   
   .infoCardCallActionContainer--info-card--home__slider--media  :global(.vtex-button):hover  {
     font-weight: 500;
@@ -252,9 +244,7 @@
     letter-spacing: 0;
     }
 
-
     .imageElement--mobile-banner-slider-img{
-
       width: unset;
       max-width: 100%;
       max-height: 200px;

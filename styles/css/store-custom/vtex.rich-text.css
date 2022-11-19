@@ -1,0 +1,56 @@
+.paragraph--custom-breadcrumb-path {
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  .link--custom-breadcrumb-path{
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #acacac;
+    font-size: 15px;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all .3s linear;
+    cursor: pointer;
+  }
+
+  .paragraph--custom-breadcrumb-term{
+    color: #000;
+    font-size: 15px;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  .container--custom-breadcrumb-path{
+    width: auto;
+  }
+  .flexCol--custom-breadcrumb-content {
+    margin-left: 16px;
+ }
+
+ .container--rich-text-answer {
+    width: 100% 
+ }
+
+ 
+ .headingLevel1--title-terms-conditions{
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-size: 1.875rem;
+    line-height: 120%;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .28rem;
+}
+
+.heading-level-3{
+  font-size: 1.25rem;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 0;
+}
