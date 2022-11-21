@@ -1,0 +1,13 @@
+
+
+.btn-comprar__ad-to-cart-button :global(.vtex-buton){
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-comprar__ad-to-cart-button .vtex-buton{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}

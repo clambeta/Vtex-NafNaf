@@ -84,7 +84,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-01": {
       "title": "Disclosure-content 01",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-01"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-01"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-01": {
       "title": "Texto del contenido de qué es el día sin iva",
@@ -95,7 +98,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-01": {
       "title": "Disclosure-trigger 01",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-01"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-01"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-01": {
       "title": "Trigger row 01",
@@ -160,7 +166,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-02": {
       "title": "Disclosure-content 02",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-02"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-02"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-02": {
       "title": "Texto del contenido de productos exención",
@@ -171,7 +180,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-02": {
       "title": "Disclosure-trigger 02",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-02"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-02"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-02": {
       "title": "Disclosure-trigger 02",
@@ -220,7 +232,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-03": {
       "title": "Disclosure-content 03",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-03"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-03"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-03": {
       "title": "Texto del contenido fechas día sin iva",
@@ -231,7 +246,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-03": {
       "title": "Disclosure-trigger 03",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-03"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-03"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-03": {
       "title": "Disclosure-trigger 03",
@@ -281,7 +299,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-04": {
       "title": "Disclosure-content 04",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-04"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-04"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-04": {
       "title": "Texto del contenido de cuántas prendas",
@@ -292,7 +313,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-04": {
       "title": "Disclosure-trigger 04",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-04"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-04"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-04": {
       "title": "Disclosure-trigger 04",
@@ -342,7 +366,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-05": {
       "title": "Disclosure-content 05",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-05"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-05"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-05": {
       "title": "Texto del contenido de medios de pago",
@@ -353,7 +380,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-05": {
       "title": "Disclosure-trigger 05",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-05"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-05"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-05": {
       "title": "Disclosure-trigger 05",
@@ -403,7 +433,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-06": {
       "title": "Disclosure-content 06",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-06"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-06"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-06": {
       "title": "Texto del contenido quiénes pueden comprar",
@@ -414,7 +447,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-06": {
       "title": "Disclosure-trigger 06",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-06"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-06"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-06": {
       "title": "Disclosure-trigger 06",
@@ -464,7 +500,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-07": {
       "title": "Disclosure-content 07",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-07"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-07"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-07": {
       "title": "Texto del contenido de cómo aplica exención",
@@ -475,7 +514,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-07": {
       "title": "Disclosure-trigger 07",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-07"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-07"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-07": {
       "title": "Disclosure-trigger 07",
@@ -525,7 +567,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-08": {
       "title": "Disclosure-content 08",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-08"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-08"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-08": {
       "title": "Texto del contenido cambios",
@@ -536,7 +581,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-08": {
       "title": "Disclosure-trigger 08",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-08"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-08"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-08": {
       "title": "Disclosure-trigger 08",
@@ -586,7 +634,10 @@
     },
     "disclosure-content#dia-sin-iva-disclosure-09": {
       "title": "Disclosure-content 09",
-      "children": ["rich-text#answer-dia-sin-iva-disclosure-09"]
+      "children": ["rich-text#answer-dia-sin-iva-disclosure-09"],
+      "props" :{
+        "blockClass": "disclosure-content-diaSinIva"
+      }
     },
     "rich-text#answer-dia-sin-iva-disclosure-09": {
       "title": "Texto del contenido de cuándo recibiré",
@@ -597,7 +648,10 @@
     },
     "disclosure-trigger#dia-sin-iva-disclosure-09": {
       "title": "Disclosure-trigger 09",
-      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-09"]
+      "children": ["flex-layout.row#trigger-row-dia-sin-iva-disclosure-09"],
+      "props" :{
+        "blockClass": "disclosure-trigger-diaSinIva"
+      }
     },
     "flex-layout.row#trigger-row-dia-sin-iva-disclosure-09": {
       "title": "Disclosure-trigger 09",

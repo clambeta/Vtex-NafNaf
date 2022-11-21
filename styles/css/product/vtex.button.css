@@ -1,0 +1,12 @@
+.flexRowContent--btn-comprar :global(.vtex-buton){
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.flexRowContent--btn-comprar .vtex-button {
+    height: 3rem;
+    width: 95%;
+    margin: 2rem 0 auto auto;
+    background-color: black;
+}
