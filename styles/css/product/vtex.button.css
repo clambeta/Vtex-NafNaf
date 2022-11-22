@@ -9,4 +9,13 @@
     width: 95%;
     margin: 2rem 0 auto auto;
     background-color: black;
+ 
+}  
+@media (max-width:768px){
+    .flexRowContent--btn-comprar :global(.vtex-buton){
+     padding-top: 10px;
+    padding-bottom: 5px;   
+    }
+    
 }
+

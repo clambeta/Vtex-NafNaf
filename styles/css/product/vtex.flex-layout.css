@@ -79,7 +79,7 @@
     .flexRow--reviews-container :global(.vtex-reviews-and-ratings-3-x-container)  {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
-        grid-template-areas: "comments-title" "stars-rating" "rating-graph" "filter-comments" "detailed-comments" "detailed-comments" "detailed-comments" "write-comments"
+        grid-template-areas: "comments-title" "stars-rating" "rating-graph" "filter-comments" "detailed-comments" "detailed-comments" "detailed-comments" "write-comments";
     }
 }
 @media screen and (max-width:1024px) {
