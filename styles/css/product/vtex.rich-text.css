@@ -2,3 +2,46 @@
     font-size: .8rem;
     color: #3f3f40;
 }
+.paragraph--trigger-product-text {
+    background-color: white;
+    font-size: .875rem;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
+
+.container--trigger-product-text {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .container--trigger-product-text  ::after {
+    content: "";
+    color: #000;
+    background-image: url(assets/img/mas.png)!important;
+    background-size: 100%;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+} */
+.headingLevel2--related-title {
+    font-size: 1.5rem;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-top: .7rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
