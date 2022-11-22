@@ -1,0 +1,30 @@
+.trigger--trigger-product{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 1px 6 px;
+}
+.trigger--trigger-product--hidden {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 1px 6 px;
+}
+
+
+
+
+.content {
+    padding: 0px;
+    background-color: white;
+}
+.content--visible {
+    padding: 0px;
+    background-color: white;
+}
+.content--content-description--visible {
+    padding: 0px;
+    background-color: white;
+}

@@ -204,7 +204,8 @@
 },
 "add-to-cart-button#pdp": {
   "props": {
-      "text": "COMPRAR"
+      "text": "COMPRAR",
+      "blockClass": "btn-comprar__ad-to-cart"
   }
 },
 "product-quantity": {
@@ -217,7 +218,7 @@
     "title": "Contenedor en fila de tallas",
   "children": [
       "modal-trigger#pdp-guia-de-tallas-modal",
-      "link#cambios"
+      "rich-text#pdp-cambios"
   ],
   "props": {
       "blockClass": "container-tallas-cambios",
@@ -225,11 +226,12 @@
       "colSizing": "equal"
   }
 },
-"link#cambios": {
+"rich-text#pdp-cambios": {
+    "title": "Texto de política de cambios y devoluciones",
   "props": {
-      "href": "/servicios/entrega-devoluciones",
-      "label": "POLÍTICAS DE CAMBIOS Y DEVOLUCIÓN",
-      "blockClass": "cambios-btn"
+      "text": "![POLÍTICAS DE CAMBIOS Y DEVOLUCIÓN](assets/img/cambios.png)POLÍTICAS DE CAMBIOS Y DEVOLUCIÓN",
+      "textColor": "c-on-base",
+      "blockClass": "rich-text__boton"
   }
 },
 "modal-trigger#pdp-guia-de-tallas-modal": {
@@ -257,9 +259,9 @@
 "rich-text#pdp-guia-tallas-text": {
     "title": "Texto de guía de tallas",
   "props": {
-      "text": "[GUÍA DE TALLAS](assets/img/guia-tallas.png)",
+      "text": "![GUÍA DE TALLAS](assets/img/tallas.png)GUÍA DE TALLAS",
       "textColor": "c-on-base",
-      "blockClass": "tallas-btn"
+      "blockClass": "rich-text__boton"
   }
 },
 "modal-trigger#suInstallmentsList": {
@@ -312,7 +314,6 @@
   "props": {
     "blockClass": "modal-installments",
       "text": "Ver cuotas ..."
-     
   }
 },
 "modal-layout#guia-de-tallas-modal": {
@@ -352,42 +353,15 @@
         "textPosition": "CENTER"
     }
 },
-"flex-layout.row#productReviewsContainer":{
-    "title": "Información adicional",
-    "children": ["tab-layout#product__tabs"],
+  "flex-layout.row#productReviewsContainer": {
+    "blocks": [],
+    "children": ["product-reviews"],
     "props": {
-      "blockClass": "product__tabs"
+      "marginTop": 6,
+      "marginBottom": 6,
+      "blockClass": "reviews-container",
+      "fullWidth": true
     }
-  },
-  "tab-layout#product__tabs": {
-    "title": "Contenedor de info adicional",
-    "children": [ 
-        
-        "tab-content#product__tabs--content"
-    ],
-    "props": {
-      "blockClass": "product__tabs"
-    }
-  },
-
-  "tab-content#product__tabs--content": {
-    "title": "Contenedor de tabs items",
-    "children": [
-      "tab-content.item#tabs__list--reviews-and-ratings"
-    ],
-    "props": {
-      "blockClass": "product__tabs--content"
-    }
-  },
-  "tab-content.item#tabs__list--reviews-and-ratings": {
-    "title": "Tab Item Revisiones y calificaciones ",
-    "props": {
-      "tabId": "reviews-and-ratings",
-      "blockClass": "reviews-and-ratings"
-    },
-    "children": ["product-reviews"]
   }
-
-
 }
 

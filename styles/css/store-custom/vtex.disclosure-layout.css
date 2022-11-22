@@ -1,18 +1,18 @@
-.trigger--hidden {
+.trigger--disclosure-trigger-diaSinIva--hidden {
     width: 100%;
 
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 20px;
 }
-.trigger--visible {
+.trigger--disclosure-trigger-diaSinIva--visible {
     width: 100%;
     padding: 1rem 0;
     border: none;
     background-color: #f3f3f3;
     cursor: pointer;
 }
-.trigger{
+.trigger--disclosure-trigger-diaSinIva{
     width: 100%;
     padding: 1rem 0;
     border: none;
@@ -20,7 +20,7 @@
     cursor: pointer;
 
 }
-.content--visible {
+.content--disclosure-content-diaSinIva--visible {
     padding-left: 40px;
     padding-right: 96px;
     padding-bottom: 22px;

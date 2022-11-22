@@ -1,0 +1,39 @@
+.quantitySelectorTitle{
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-size: .875rem;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 4.234px;
+}
+.numeric-stepper-container{
+    align-self: flex-start;
+}
+.numeric-stepper__input {
+    margin-top: 0.5rem;
+    width: 100%!important;
+    height: 3rem;
+    font-family: Roboto,sans-serif!important;
+    font-size: 1rem!important;
+}
+.quantitySelectorContainer{
+    width: 100%!important;
+    height: 3rem;
+    margin-top: .5rem;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #000;
+}
+.vtex-numeric-stepper__minus-button{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 3em;
+    transition: opacity 150ms ease 0s;
+    width: 100%!important;
+    height: 3rem;
+    margin-top: .5rem;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #000;
+}

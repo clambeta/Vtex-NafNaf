@@ -10,8 +10,30 @@
       "flex-layout.row#home__bottom--banner-content",
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom",
-      "search-result-layout.customQuery#home__search" 
+      "search-result-layout.customQuery#home__search",
+      "list-context.bullet-group", 
+      "whatsapp-button"
       
     ]
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/img/whatsapp.svg",
+      "phone": "25566879751",
+      "message": "¡Hola! estoy interesada en las siguientes prendas por WhatsApp."
+    }
+  },
+   "list-context.bullet-group":{
+    "props":{
+      "bullets": [
+        {
+        "image": "miimagen.png",
+        "titleBullet": "Computadores",
+        "link":{
+        "url": "/"    
+        }        
+      }
+    ]
+    }
   }
 }
