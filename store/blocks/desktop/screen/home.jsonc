@@ -11,7 +11,7 @@
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom",
       "search-result-layout.customQuery#home__search",
-      "list-context.bullet-group", 
+     "list-context.bullet-group",
       "whatsapp-button"
       
     ]
@@ -24,13 +24,21 @@
     }
   },
    "list-context.bullet-group":{
+    "title": "Contexto de lista de Bullets",
     "props":{
       "bullets": [
         {
-        "image": "miimagen.png",
+        "image": "assets/img/tejido-zigzag.png",
         "titleBullet": "Computadores",
         "link":{
-        "url": "/"    
+          "url": "/"    
+        }        
+      },
+      {
+        "image":  "assets/img/tejido-zigzag.png",
+        "titleBullet": "Ropa",
+        "link":{
+         "url": "/"    
         }        
       }
     ]
