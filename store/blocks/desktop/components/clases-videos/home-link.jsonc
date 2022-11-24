@@ -1,5 +1,5 @@
 {
-    "link#home__link--ancla":{
+    /* "link#home__link--ancla":{
         "props":{
             "href":"/",
             "label":"Click aquí",
@@ -39,5 +39,5 @@
         "props":{
             "id":"hpa-cart"
         }
-    }
+    } */
 }
