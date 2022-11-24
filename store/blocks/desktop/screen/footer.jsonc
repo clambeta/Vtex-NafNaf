@@ -6,7 +6,7 @@
       "flex-layout.row#footer__menu--desktop-container-mid",
       "flex-layout.row#footer__menu--desktop-container",
       "flex-layout.row#footer__menu--desktop-container-bottom" 
-    ],
+    ], 
     "props": {
       "blockClass": "footer-desktop",
       "colSizing":"equal",

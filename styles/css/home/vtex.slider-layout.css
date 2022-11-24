@@ -49,6 +49,28 @@
 .caretIcon--home__slider{
    color: black;
 }
+.bullet__item--image--mid--banner-slider-content-cardexternalClass{
+   width: 600px;
+   height: 600px;
+   object-fit: cover;
+   max-width: 22vw;
+}
+.bullet__item--link--mid--banner-slider-content-card{
+   text-decoration: none;
+}
+
+.bullet__item--title{
+   margin: .5rem 0 0;
+   font-size: 0.7rem;
+   font-family: Roboto,sans-serif;
+   font-weight: 600;
+   line-height: 1.5rem;
+   text-transform: uppercase;
+   color: var(--primary-link-text);
+   text-align: center;
+  
+}
+
 
 @media only screen and (max-width: 600px) {
 .sliderArrows {
@@ -56,6 +78,12 @@
    padding: 12px 14px;
    border-radius: 50%;
    transform: translateY(-50%);
+}
+.bullet__item--image--mid--banner-slider-content-cardexternalClass{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   max-width: 50vw;
 }
 }
 
