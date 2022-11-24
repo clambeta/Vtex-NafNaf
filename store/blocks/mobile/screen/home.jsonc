@@ -2,7 +2,7 @@
     "responsive-layout.mobile":{
       "title": "Home mobile",
       "children":[ 
-      "slider-layout#home__slider--media",
+       "slider-layout#home__slider--media",
         "rich-text#home__container--text",
         "slider-layout#home__slider--children",
         "flex-layout.row#mobile__home--mid-banner-content",
@@ -11,9 +11,29 @@
         "rich-text#home__container--text-dos",
         "slider-layout#home__slider--children-bottom",
         "search-result-layout.customQuery#home__search",
-        "list-context.bullet-group", 
-        "whatsapp-button"
+        "rich-text#home__container--text-tres",
+        "list-context.bullet-group",        
+        "whatsapp-button" 
   
       ]
+    },
+
+    
+  
+    "slider-layout#bullet-group":{
+      "title": "Slider del list-contex custom",
+      "props":{
+        "blockClass": "mid--banner-slider-content-card",
+        "itemsPerPage":{
+          "desktop": 4,
+          "tablet": 2,
+          "phone": 2
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "centerMode": "disabled",
+        "centerModeSlidesGap": 5
+      }
     }
+  
   }

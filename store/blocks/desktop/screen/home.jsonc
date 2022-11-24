@@ -2,7 +2,7 @@
   "responsive-layout.desktop": {
     "title": "Home Desktop",
     "children": [
-      "slider-layout#home__slider--media",
+    "slider-layout#home__slider--media",
       "rich-text#home__container--text",
       "slider-layout#home__slider--children",
       "flex-layout.row#home__mid--banner-content",
@@ -11,8 +11,11 @@
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom",
       "search-result-layout.customQuery#home__search",
-      "list-context.bullet-group", 
+      "rich-text#home__container--text-tres",
+      "list-context.bullet-group",
+  
       "whatsapp-button"
+
       
     ]
   },
@@ -23,17 +26,73 @@
       "message": "¡Hola! estoy interesada en las siguientes prendas por WhatsApp."
     }
   },
+
    "list-context.bullet-group":{
+    "title": "Mi contexto de lista de Bullets",
+    "children": ["slider-layout#bullet-group"],
     "props":{
       "bullets": [
         {
-        "image": "miimagen.png",
-        "titleBullet": "Computadores",
+        "image": "assets/img/vestidos-custom.png",
+        "titleBullet": "VESTIDOS",
         "link":{
-        "url": "/"    
-        }        
-      }
-    ]
+          "url": "https://www.nafnaf.com.co/new-arrivals/vestidos"    
+          }        
+        },
+        {
+          "image": "assets/img/camisas_custom.png",
+          "titleBullet": "CAMISAS",
+          "link":{
+            "url": "https://www.nafnaf.com.co/new-arrivals/camisas"  
+          }        
+        },
+        {
+          "image": "assets/img/tejidos_custom.png",
+          "titleBullet": "TEJIDOS",
+          "link":{
+            "url": "https://www.nafnaf.com.co/new-arrivals/tejidos"    
+          }        
+        },
+        {
+          "image": "assets/img/chaquetas_custom.png",
+          "titleBullet": "CHAQUETAS",
+          "link":{
+            "url": "https://www.nafnaf.com.co/new-arrivals/chaquetas"    
+            }        
+          },
+          {
+            "image": "assets/img/jeans_custom.png",
+            "titleBullet": "JEANS",
+            "link":{
+              "url": "https://www.nafnaf.com.co/new-arrivals/jeans"    
+            }        
+          }
+      ]
+    }
+  },
+  "rich-text#home__container--text-tres": {
+    "props": {
+      "blockClass": "texto_dos",
+      "text": "NAF NAF TAKES PARIS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "Roboto,sans-serif"
+    }
+  },
+  "slider-layout#bullet-group":{
+    "title": "Slider del list-contex custom",
+    "props":{
+      "blockClass": "mid--banner-slider-content-card",
+      "itemsPerPage":{
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "centerMode": "disabled",
+      "centerModeSlidesGap": 5
     }
   }
+
 }

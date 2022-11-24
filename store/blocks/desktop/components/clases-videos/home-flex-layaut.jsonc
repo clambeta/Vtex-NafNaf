@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#home__section--one": {
+    /* "flex-layout.row#home__section--one": {
         "title": "Sección Uno",
         "children": [
           "flex-layout.col#section__one--image",
@@ -86,5 +86,5 @@
         "props":{
           "text": "Texto de prueba segunda parte"
         }
-      }
+      } */
 }

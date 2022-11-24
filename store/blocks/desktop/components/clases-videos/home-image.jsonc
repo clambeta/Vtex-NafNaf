@@ -1,5 +1,5 @@
 {
-    "image#home__image": {
+    /* "image#home__image": {
         "title": "Imagen de Home",
         "props":{
             "src": "assets/img/botswana.png",
@@ -12,5 +12,5 @@
             }
 
         }
-    }
+    } */
 }
