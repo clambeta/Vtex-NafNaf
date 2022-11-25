@@ -97,7 +97,8 @@
           "sku-selector",
           "flex-layout.row#buy-button",
           "flex-layout.col#disclosure-layout-product",
-          "flex-layout.row#tallas-cambios"
+          "flex-layout.row#tallas-cambios",
+          "add-to-cart-info"
         ],
         "props": {
           "blockClass": "pdp-right-col",
