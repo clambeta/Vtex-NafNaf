@@ -11,10 +11,9 @@
       "rich-text#home__container--text-dos",
       "slider-layout#home__slider--children-bottom",
       "search-result-layout.customQuery#home__search",
-      "rich-text#home__container--text-tres",
+      "rich-text#home__container--text-tres" ,
       "list-context.bullet-group",
-  
-      "whatsapp-button"
+      "whatsapp-button" 
 
       
     ]
