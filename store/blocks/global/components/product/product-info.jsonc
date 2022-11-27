@@ -97,7 +97,8 @@
           "sku-selector",
           "flex-layout.row#buy-button",
           "flex-layout.col#disclosure-layout-product",
-          "flex-layout.row#tallas-cambios"
+          "flex-layout.row#tallas-cambios",
+          "modal-trigger#add-to-cart-info"
         ],
         "props": {
           "blockClass": "pdp-right-col",
@@ -106,6 +107,32 @@
           "paddingLeft": 0,
           "paddingRight": 8
          
+        }
+      },
+      "modal-trigger#add-to-cart-info":{
+        "title": "Modal trigger del add to cart info",
+        "children": [
+          "modal-layout#add-to-cart-info"
+      
+        ],
+        "props": {
+          "blockClass": "modal-add-to-cart-info",
+          "customPixelEventName": "addToCart"
+
+        }
+      },
+      "modal-layout#add-to-cart-info":{
+        "title": "Modal layout del add tu cart info",
+        "children": [
+          "modal-header#add-to-cart-info",
+          "add-to-cart-info"
+        ]
+      },
+      "modal-header#add-to-cart-info":{
+        "title": "Modal header del add tu cart info",
+        "props": {
+          "showClloseButton": true,
+          "iconCloseSize": 24
         }
       }
 }
