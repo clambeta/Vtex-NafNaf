@@ -70,7 +70,9 @@
    text-align: center;
   
 }
-
+.slide--products__list--shelf-slider {
+   padding: 1vw;
+}
 
 @media only screen and (max-width: 600px) {
 .sliderArrows {

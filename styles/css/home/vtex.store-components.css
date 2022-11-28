@@ -28,6 +28,7 @@
 }
 .infoCardCallActionContainer :global(.vtex-button) {
     width: 250px;
+    max-width: 20vw;
     height: 45px;
     background-color: transparent;
     border: 1px solid var(--primary-button-infoCard);
@@ -48,6 +49,7 @@
 
   .infoCardCallActionContainer :global(.vtex-button):hover {
     width: 250px;
+    max-width: 20vw;
     height: 45px;
     color: var( --text-slider-button);
     background-color: var(--secondary-button-infoCard);
