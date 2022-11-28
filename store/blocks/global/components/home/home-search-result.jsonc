@@ -88,9 +88,10 @@
 
   "product-summary-price": {
     "props": {
-      "showListPrice": true,
+      "showListPrice": false,
       "showInstallments": false,
-      "showLabels": false
+      "showLabels": false,
+      "showDiscountValue":false
     }
   },
   "add-to-cart-button":{

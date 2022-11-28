@@ -1,6 +1,13 @@
+.logoContainer--logo-header {
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
 .logoImage--logo-header {
-    min-width: 145px;
-    max-width: 245px;
+    max-width: 10vw;
+    min-width: 100px;
+    padding-right: 1vw;
+    
 }
 
 .imageElement--img-card-submenu{
@@ -20,7 +27,9 @@
     max-width: 17px;
     max-height: 17px;
 }
+
 .searchBarContainer {
+    max-width: 20vw;
     width: 100%;
     border: none;
     border-bottom: 1px solid #dedede;
@@ -65,7 +74,6 @@
 @media (max-width: 1024px) {
 
     .logoImage--logo-header {
-        min-width: unset;
         max-width: 24vW;
     }
     .logoContainer--logo-header {
