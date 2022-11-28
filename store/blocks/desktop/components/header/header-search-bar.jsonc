@@ -4,6 +4,7 @@
         "children": [
             "modal-trigger#search-box-modal", 
             "login",
+          
             "minicart.v2"
         ],
         "props": {
@@ -46,7 +47,8 @@
     "modal-content#search":{
         "title":"Modal content search",
         "children":[
-            "search-bar"
+            "search-bar",
+            "department-search"
         ],
         "props":{
             "blockClass": "modal-content-search"

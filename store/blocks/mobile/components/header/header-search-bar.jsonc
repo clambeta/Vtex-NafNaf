@@ -4,6 +4,7 @@
         "children": [
             "modal-trigger#search-box-modal", 
             "login",
+            "department-search",
             "minicart.v2"
         ],
         "props": {
