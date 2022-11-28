@@ -47,6 +47,9 @@
     justify-content: center;
     border: none;
 }
+.styledLinkContainer--menu-item-desktop{
+    margin: 0 1vw;
+}
 .styledLinkContent--menu-item-desktop{
     color: #000;
     position: relative;

@@ -7,9 +7,10 @@
       "rich-text#related-title",
       "list-context.product-list#home__results--search-desktop",
       "flex-layout.row#productReviewsContainer"
+
     ],
     "props": {
       "blockClass": "pdp-store"
     }
-  }  
+  } 
 }
