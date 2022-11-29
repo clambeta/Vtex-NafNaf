@@ -13,8 +13,9 @@
         "search-result-layout.customQuery#home__search",
         "rich-text#home__container--text-tres",
         "list-context.bullet-group", 
+        "quick-order", 
         "rich-text#home__container--text-cuatro",
-        "pdf-reader",      
+        "pdf-reader",
         "whatsapp-button"  
   
       ]
